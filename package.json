@@ -1,7 +1,13 @@
 {
   "name": "interactive-map",
   "version": "0.1.0",
+  "license": "MIT",
+  "description": "Interactive map application for the Norman Sicily Project",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-norman-sicily-project/interactive-map.git"
+  },
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
