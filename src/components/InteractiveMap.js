@@ -12,7 +12,7 @@ class InteractiveMap extends Component {
     this.state = {
       center: [37.73, 14.2],
       zoom: 8,
-      maxZoom: 18
+      maxZoom: 18,
     };
   }
   onEachFeature = (feature, layer) => {
@@ -21,7 +21,11 @@ class InteractiveMap extends Component {
   render() {
     return (
       <div>
-        <Map center={this.state.center} zoom={this.state.zoom} maxZoom={this.state.maxZoom}>
+        <Map
+          center={this.state.center}
+          zoom={this.state.zoom}
+          maxZoom={this.state.maxZoom}
+        >
           <TileLayer
             url="http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg"
             attribution="Map tiles by <a href=&quot;http://stamen.com&quot;>Stamen Design</a>, under <a href=&quot;http://creativecommons.org/licenses/by/3.0&quot;>CC BY 3.0</a>. Data by <a href=&quot;http://openstreetmap.org&quot;>OpenStreetMap</a>, under <a href=&quot;http://www.openstreetmap.org/copyright&quot;>ODbL</a>."

@@ -5,12 +5,17 @@ export const geojson = {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.9573575, 38.4667512]
+        coordinates: [14.9573575, 38.4667512],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.464_14.953.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.464_14.953.html',
+        ],
         children: null,
-        alternate_location_names: ['Garirat-Libara (unknown)', 'Lipara (unknown)'],
+        alternate_location_names: [
+          'Garirat-Libara (unknown)',
+          'Lipara (unknown)',
+        ],
         elevation: 21.0,
         rank_at_foundation: 'Abbey',
         parent:
@@ -22,7 +27,7 @@ export const geojson = {
         earliest_attestation_max_year: '1088',
         english_place_name: 'Saint Bartholomew of Lipari',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 77-100'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 77-100',
         ],
         founders: ['Duke Robert Guiscard (Male)'],
         italian_place_name: 'San Bartolomeo di Lipari',
@@ -41,17 +46,19 @@ export const geojson = {
         earliest_attestation_min_year: '1088',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.964094, 38.139876]
+        coordinates: [14.964094, 38.139876],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.147_14.97.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.147_14.97.html',
+        ],
         children: null,
         alternate_location_names: ['Baqt.s (unknown)', 'Pactes (unknown)'],
         elevation: 0.0,
@@ -65,7 +72,7 @@ export const geojson = {
         earliest_attestation_max_year: '1094',
         english_place_name: 'Christ the Savior of Patti',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 77-100'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 77-100',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santissimo Salvatore di Patti',
@@ -84,24 +91,26 @@ export const geojson = {
         earliest_attestation_min_year: '1094',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.663505, 37.936117]
+        coordinates: [13.663505, 37.936117],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.933_13.665.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.933_13.665.html',
+        ],
         children: null,
         alternate_location_names: [
           'Caccabo (unknown)',
           'K.k.b.sc (unknown)',
           'Qaqabus (unknown)',
           'Calces (unknown)',
-          'Caccabum (unknown)'
+          'Caccabum (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -113,7 +122,7 @@ export const geojson = {
         earliest_attestation_max_year: '1098',
         english_place_name: 'Saint Mary of Caccamo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 100'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 100',
         ],
         founders: ['Count Robert Mandaguerra (Male)'],
         italian_place_name: 'Santa Maria di Caccamo',
@@ -131,24 +140,26 @@ export const geojson = {
         earliest_attestation_min_year: '1098',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8512177, 37.1270741]
+        coordinates: [14.8512177, 37.1270741],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.125_14.85.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.125_14.85.html',
+        ],
         children: null,
         alternate_location_names: [
           'Baccaratum (unknown)',
           'Broccatus (unknown)',
           'Manzil-Bukìr (unknown)',
           'Buccherie (unknown)',
-          'Castrum Buccherii (unknown)'
+          'Castrum Buccherii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -160,7 +171,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Holy Cross of Buccheri',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 101'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 101',
         ],
         founders: [],
         italian_place_name: 'Santa Croce di Buccheri',
@@ -178,17 +189,19 @@ export const geojson = {
         earliest_attestation_min_year: '1134',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.753695, 37.162151]
+        coordinates: [14.753695, 37.162151],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.161_14.75.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.161_14.75.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bizinus (unknown)',
@@ -196,7 +209,7 @@ export const geojson = {
           'Bidis (unknown)',
           'Bizînî (unknown)',
           'Bizinas (unknown)',
-          'Turris Bizini (unknown)'
+          'Turris Bizini (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -208,7 +221,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Saint John of Vizzini',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 101'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 101',
         ],
         founders: [],
         italian_place_name: 'San Giovanni di Vizzini',
@@ -226,24 +239,26 @@ export const geojson = {
         earliest_attestation_min_year: '1134',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.571007, 37.825702]
+        coordinates: [13.571007, 37.825702],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.824_13.566.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.824_13.566.html',
+        ],
         children: null,
         alternate_location_names: [
           'Biccari (unknown)',
           'Bikû (unknown)',
           'Boico (unknown)',
           'Biccarum (unknown)',
-          'Castrum Biccari (unknown)'
+          'Castrum Biccari (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -256,7 +271,7 @@ export const geojson = {
         english_place_name: 'Saint Sophia of Vicari',
         place_references: [
           'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 4',
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 101-102'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 101-102',
         ],
         founders: ['Robert of Milia (Male)'],
         italian_place_name: 'Santa Sophia di Vicari',
@@ -274,23 +289,25 @@ export const geojson = {
         earliest_attestation_min_year: '1120',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.2360416, 37.9832076]
+        coordinates: [14.2360416, 37.9832076],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.984_14.236.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.984_14.236.html',
+        ],
         children: null,
         alternate_location_names: [
           'Tusia (unknown)',
           "Tuz'ah (unknown)",
           'Tosa (unknown)',
-          'Castrum Maritimae Tusae (unknown)'
+          'Castrum Maritimae Tusae (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -302,7 +319,7 @@ export const geojson = {
         earliest_attestation_max_year: '1123',
         english_place_name: 'Saint Mary of Tusa',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 102-103'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 102-103',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Tusa',
@@ -321,23 +338,25 @@ export const geojson = {
         earliest_attestation_min_year: '1123',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.213745, 37.304803]
+        coordinates: [14.213745, 37.304803],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.304_14.214.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.304_14.214.html',
+        ],
         children: null,
         alternate_location_names: [
           'Mazaranu (unknown)',
           'Mazareno (unknown)',
           'Casale Mazarini (unknown)',
-          'Mazareni (unknown)'
+          'Mazareni (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -349,7 +368,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Saint Mary of Mazzarino',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 103-104'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 103-104',
         ],
         founders: [],
         italian_place_name: 'Santa Maria a Mazzarino',
@@ -367,17 +386,19 @@ export const geojson = {
         earliest_attestation_min_year: '1134',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Caltanissetta'
-      }
+        province: 'Caltanissetta',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.1845535, 37.1875953]
+        coordinates: [14.1845535, 37.1875953],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.191_14.184.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.191_14.184.html',
+        ],
         children: null,
         alternate_location_names: ['Butheria (unknown)', 'Buthìr (unknown)'],
         elevation: 0.0,
@@ -390,7 +411,7 @@ export const geojson = {
         earliest_attestation_max_year: '1125',
         english_place_name: 'Saint Mary of Butera',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 103'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 103',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Butera',
@@ -408,17 +429,19 @@ export const geojson = {
         earliest_attestation_min_year: '1125',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Caltanissetta'
-      }
+        province: 'Caltanissetta',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.362704, 37.92746]
+        coordinates: [14.362704, 37.92746],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.927_14.357.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.927_14.357.html',
+        ],
         children: null,
         alternate_location_names: ['Mistrecta (unknown)'],
         elevation: 0.0,
@@ -432,7 +455,7 @@ export const geojson = {
         english_place_name: 'Saint Anastasia in Mistretta',
         place_references: [
           'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 413',
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: ['Matthew of Creun (Male)'],
         italian_place_name: "Sant'Anastasia di Mistretta",
@@ -450,24 +473,26 @@ export const geojson = {
         earliest_attestation_min_year: '1122',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.35814, 38.098661]
+        coordinates: [13.35814, 38.098661],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -479,7 +504,7 @@ export const geojson = {
         earliest_attestation_max_year: '1187',
         english_place_name: 'Saint Andrew of Bebene',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: "Sant'Andrea di Bebene",
@@ -497,17 +522,19 @@ export const geojson = {
         earliest_attestation_min_year: '1187',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5533274, 38.1808393]
+        coordinates: [15.5533274, 38.1808393],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -521,7 +548,7 @@ export const geojson = {
         english_place_name: 'Saint Anne of Messina',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 88-89, 166-167",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: ['Ola Grafeos'],
         italian_place_name: "Sant'Anna di Messina",
@@ -539,22 +566,24 @@ export const geojson = {
         earliest_attestation_min_year: '1178',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.273087, 37.389294]
+        coordinates: [13.273087, 37.389294],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.383_13.267.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.383_13.267.html',
+        ],
         children: null,
         alternate_location_names: [
           "Anf 'an Nahr (unknown)",
           'Capobianco (unknown)',
-          'Monforte (unknown)'
+          'Monforte (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -566,7 +595,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Anne of Monteforte',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: "Sant'Anna di Monforte",
@@ -585,23 +614,25 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Agrigento?'
-      }
+        province: 'Agrigento?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.887604, 38.110529]
+        coordinates: [14.887604, 38.110529],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.155_14.83.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.155_14.83.html',
+        ],
         children: null,
         alternate_location_names: [
           'Voah (unknown)',
           'Voab (unknown)',
           'Vohab (unknown)',
-          'Marsâ Dalîah (unknown)'
+          'Marsâ Dalîah (unknown)',
         ],
         elevation: 411.0,
         rank_at_foundation: 'Abbey',
@@ -614,7 +645,7 @@ export const geojson = {
         english_place_name: 'Saint Michael Archangel of Brolo',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 1-7",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Michele Arcangelo di Brolo',
@@ -632,24 +663,26 @@ export const geojson = {
         earliest_attestation_min_year: '1084',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.7005667, 38.0728323]
+        coordinates: [14.7005667, 38.0728323],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.072_14.701.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.072_14.701.html',
+        ],
         children: null,
         alternate_location_names: [
           "l'Agathyrnum (unknown)",
           "l'Agathinon (unknown)",
           "Qal'at-Sciant-Marku (unknown)",
           'Castrum Sancti Mauri (unknown)',
-          'Castrum Marci (unknown)'
+          'Castrum Marci (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -661,7 +694,7 @@ export const geojson = {
         earliest_attestation_max_year: '1109',
         english_place_name: 'Saint Barbarus of San Marco',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Barbaro di San Marco',
@@ -679,17 +712,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.78688, 38.1222117]
+        coordinates: [14.78688, 38.1222117],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.123_14.787.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.123_14.787.html',
+        ],
         children: null,
         alternate_location_names: ['Nasa (unknown)', 'Nasus (unknown)'],
         elevation: 0.0,
@@ -702,7 +737,7 @@ export const geojson = {
         earliest_attestation_max_year: '1080',
         english_place_name: 'Saint Basil of Naso',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Basilio di Naso',
@@ -720,17 +755,19 @@ export const geojson = {
         earliest_attestation_min_year: '1080',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.5993704, 37.782591]
+        coordinates: [14.5993704, 37.782591],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.785_14.598.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.785_14.598.html',
+        ],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -739,7 +776,7 @@ export const geojson = {
           'Castrum Troinae (unknown)',
           'Castrum Trainae (unknown)',
           'Draginat (unknown)',
-          'Targinis (unknown)'
+          'Targinis (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -751,7 +788,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Basil of Troina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Basilio di Troina',
@@ -769,17 +806,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8627627, 37.8286412]
+        coordinates: [14.8627627, 37.8286412],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.83_14.862.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.83_14.862.html',
+        ],
         children: null,
         alternate_location_names: ['Castrum Malecti (unknown)'],
         elevation: 0.0,
@@ -792,7 +831,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Constantine of Malet',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Costantino di Malet',
@@ -810,23 +849,25 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.081389, 37.885556]
+        coordinates: [14.081389, 37.885556],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.932_14.089.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.932_14.089.html',
+        ],
         children: null,
         alternate_location_names: [
           'Ypsigro (unknown)',
           'Ruqqah Basili (unknown)',
           'Castri Boni (unknown)',
-          'Gonato (unknown)'
+          'Gonato (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -838,14 +879,15 @@ export const geojson = {
         earliest_attestation_max_year: '1143',
         english_place_name: 'Saint Cosmas of Gonata',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Cosma a Castelbuono',
         place_type: 'monastery',
         comune: 'Castelbuono',
         place_category: 'abbey',
-        notes: 'The assumption is that this was Gonato. Near the Masseria Rocca di Gonato.',
+        notes:
+          'The assumption is that this was Gonato. Near the Masseria Rocca di Gonato.',
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label: 'Reign of King Roger II',
@@ -856,17 +898,19 @@ export const geojson = {
         earliest_attestation_min_year: '1142',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.5986194, 37.7844819]
+        coordinates: [14.5986194, 37.7844819],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.785_14.598.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.785_14.598.html',
+        ],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -877,7 +921,7 @@ export const geojson = {
           'Draginat (unknown)',
           'Targinis (unknown)',
           'Ambula (unknown)',
-          'Ambola (unknown)'
+          'Ambola (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -889,7 +933,7 @@ export const geojson = {
         earliest_attestation_max_year: '1094',
         english_place_name: 'Saint Elias of Embula',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: "Sant'Elia d'Embula",
@@ -907,17 +951,19 @@ export const geojson = {
         earliest_attestation_min_year: '1094',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.0594847, 38.1242857]
+        coordinates: [15.0594847, 38.1242857],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.126_15.063.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.126_15.063.html',
+        ],
         children: null,
         alternate_location_names: [
           'Marsa L.biri (unknown)',
@@ -925,7 +971,7 @@ export const geojson = {
           'Libiri (unknown)',
           'Limiri (unknown)',
           'Lu Liveri (unknown)',
-          'Castrum Oliverii (unknown)'
+          'Castrum Oliverii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -937,7 +983,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Elias of Scala Oliverii',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: "Sant'Elia di Scala Oliveri",
@@ -955,24 +1001,26 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.6997621, 38.072883]
+        coordinates: [14.6997621, 38.072883],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.072_14.701.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.072_14.701.html',
+        ],
         children: null,
         alternate_location_names: [
           "l'Agathyrnum (unknown)",
           "l'Agathinon (unknown)",
           "Qal'at-Sciant-Marku (unknown)",
           'Castrum Sancti Mauri (unknown)',
-          'Castrum Marci (unknown)'
+          'Castrum Marci (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -984,7 +1032,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Felix of San Marco',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Felice di San Marco',
@@ -1002,24 +1050,26 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3544897, 38.1099097]
+        coordinates: [13.3544897, 38.1099097],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 24.0,
         rank_at_foundation: 'Abbey',
@@ -1031,7 +1081,7 @@ export const geojson = {
         earliest_attestation_max_year: '1148',
         english_place_name: 'Saint George of the Kemonia',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Giorgio in Kemonia',
@@ -1049,17 +1099,19 @@ export const geojson = {
         earliest_attestation_min_year: '1148',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.2177298, 37.5738513]
+        coordinates: [13.2177298, 37.5738513],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.577_13.217.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.577_13.217.html',
+        ],
         children: null,
         alternate_location_names: ['Troccolum (unknown)'],
         elevation: 0.0,
@@ -1072,7 +1124,7 @@ export const geojson = {
         earliest_attestation_max_year: '1098',
         english_place_name: 'Saint George of Triocala',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Giorgio di Triocala',
@@ -1090,17 +1142,19 @@ export const geojson = {
         earliest_attestation_min_year: '1098',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Agrigento'
-      }
+        province: 'Agrigento',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.5771576, 37.3114325]
+        coordinates: [13.5771576, 37.3114325],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.45_13.5.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.45_13.5.html',
+        ],
         children: null,
         alternate_location_names: ['Girgenti (unknown)'],
         elevation: 0.0,
@@ -1113,7 +1167,7 @@ export const geojson = {
         earliest_attestation_max_year: '1154',
         english_place_name: 'Saint George of Agrigento',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Giorgio di Agrigento',
@@ -1131,17 +1185,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Adrano'
-      }
+        province: 'Adrano',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.4674759, 38.2357134]
+        coordinates: [15.4674759, 38.2357134],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.235_15.469.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.235_15.469.html',
+        ],
         children: null,
         alternate_location_names: [
           'Gibiso (unknown)',
@@ -1149,7 +1205,7 @@ export const geojson = {
           'Ibiso (unknown)',
           'Gysa (unknown)',
           'Gypsus (unknown)',
-          'Ysa (unknown)'
+          'Ysa (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -1161,7 +1217,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Gregory of Gypso',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'San Gregorio di Gypso',
@@ -1180,22 +1236,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina?'
-      }
+        province: 'Messina?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.32228, 37.957175]
+        coordinates: [15.32228, 37.957175],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.958_15.323.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.958_15.323.html',
+        ],
         children: null,
         alternate_location_names: [
           'Palachorion (unknown)',
           'Calatabiet (unknown)',
-          'Calatabieth (unknown)'
+          'Calatabieth (unknown)',
         ],
         elevation: 411.0,
         rank_at_foundation: 'Abbey',
@@ -1207,7 +1265,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Onufrius of Calatabiet',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: "Sant'Onofrio di Calatabiet",
@@ -1226,17 +1284,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.1319995, 38.016335]
+        coordinates: [15.1319995, 38.016335],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.016_15.132.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.016_15.132.html',
+        ],
         children: null,
         alternate_location_names: [
           'Noara (unknown)',
@@ -1244,7 +1304,7 @@ export const geojson = {
           'Nouah (unknown)',
           'Nugaria (unknown)',
           'Nohara (unknown)',
-          'Castrum Nucariae (unknown)'
+          'Castrum Nucariae (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -1256,7 +1316,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint James of Calò',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Giacomo di Calò',
@@ -1274,17 +1334,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5533274, 38.1908266]
+        coordinates: [15.5533274, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -1297,7 +1359,7 @@ export const geojson = {
         earliest_attestation_max_year: '1094',
         english_place_name: 'Saint John of the Greeks',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Giovanni dei Greci',
@@ -1315,17 +1377,19 @@ export const geojson = {
         earliest_attestation_min_year: '1093',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.014426, 37.889053]
+        coordinates: [15.014426, 37.889053],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.876_14.95.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.876_14.95.html',
+        ],
         children: null,
         alternate_location_names: [
           'Psicro (unknown)',
@@ -1333,13 +1397,13 @@ export const geojson = {
           'Sicro (unknown)',
           'Fiumefreddo (unknown)',
           'Randâg (unknown)',
-          'Randatium (unknown)'
+          'Randatium (unknown)',
         ],
         elevation: 590.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/il-monastero-di-san-giovanni-psicro-presso-randazzo/'
+          'http://www.medioevosicilia.eu/markIII/il-monastero-di-san-giovanni-psicro-presso-randazzo/',
         ],
         dedication: 'Saint John',
         location_category: 'representative',
@@ -1347,7 +1411,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint John of Psichro',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Giovanni di Psichro',
@@ -1366,17 +1430,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5210473, 38.1908266]
+        coordinates: [15.5210473, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -1389,7 +1455,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Leo of Messina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Leone di Messina',
@@ -1407,8 +1473,8 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
@@ -1427,7 +1493,7 @@ export const geojson = {
         earliest_attestation_max_year: '1101',
         english_place_name: 'Saint Mary of Ambuto',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santa Maria di Ambuto',
@@ -1445,19 +1511,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.612731, 37.651731]
+        coordinates: [12.612731, 37.651731],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.655_12.59.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.655_12.59.html',
+        ],
         children: null,
-        alternate_location_names: ['Mâzar (unknown)', 'Castrum Maczarie (unknown)'],
+        alternate_location_names: [
+          'Mâzar (unknown)',
+          'Castrum Maczarie (unknown)',
+        ],
         elevation: 27.0,
         rank_at_foundation: 'Abbey',
         parent: null,
@@ -1468,7 +1539,7 @@ export const geojson = {
         earliest_attestation_max_year: '1144',
         english_place_name: 'Saint Mary de Alto de Jummariis',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'Santa Maria delle Giummare',
@@ -1487,17 +1558,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Trapani'
-      }
+        province: 'Trapani',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5135857, 38.1754338]
+        coordinates: [15.5135857, 38.1754338],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.183_15.517.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.183_15.517.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 0.0,
@@ -1511,7 +1584,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of Bordonaro',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 88-89",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Ola Grafeos'],
         italian_place_name: 'Santa Maria di Bordonaro',
@@ -1529,17 +1602,19 @@ export const geojson = {
         earliest_attestation_min_year: '1174',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.5638698, 38.0373274]
+        coordinates: [13.5638698, 38.0373274],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.038_13.548.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.038_13.548.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 0.0,
@@ -1552,7 +1627,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Saint Mary of Campogrosso',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Campogrosso',
@@ -1570,24 +1645,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.361046, 38.113141]
+        coordinates: [13.361046, 38.113141],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.132_13.336.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.132_13.336.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 77.0,
         rank_at_foundation: 'Abbey',
@@ -1599,7 +1676,7 @@ export const geojson = {
         earliest_attestation_max_year: '1081',
         english_place_name: 'Saint Mary of the Crypt',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'Santa Maria de Crypta',
@@ -1617,17 +1694,19 @@ export const geojson = {
         earliest_attestation_min_year: '1063',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.233962, 38.119878]
+        coordinates: [15.233962, 38.119878],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.148_15.21.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.148_15.21.html',
+        ],
         children: null,
         alternate_location_names: ['Galath (unknown)'],
         elevation: 260.0,
@@ -1641,7 +1720,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of Gala',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 19-20",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Countess and Regent Adelasia (Female)'],
         italian_place_name: 'Santa Maria di Gala',
@@ -1659,23 +1738,25 @@ export const geojson = {
         earliest_attestation_min_year: '1105',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8055513, 38.0837188]
+        coordinates: [14.8055513, 38.0837188],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.085_14.807.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.085_14.807.html',
+        ],
         children: null,
         alternate_location_names: [
           'Mallimaco (unknown)',
           'Castania (unknown)',
           'Quastania (unknown)',
-          'Castaniae (unknown)'
+          'Castaniae (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -1687,7 +1768,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Mary of Mallimachi',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Mallimachi',
@@ -1706,23 +1787,25 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone?',
         archaeological_remains: 'unknown',
-        province: 'Messina?'
-      }
+        province: 'Messina?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.33537, 37.995241]
+        coordinates: [15.33537, 37.995241],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.004_15.317.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.004_15.317.html',
+        ],
         children: null,
         alternate_location_names: [
           'Mandanichium (unknown)',
           'Mashjmonli (unknown)',
           'Mandanich (unknown)',
-          'Mandanichi (unknown)'
+          'Mandanichi (unknown)',
         ],
         elevation: 319.0,
         rank_at_foundation: 'Abbey',
@@ -1734,7 +1817,7 @@ export const geojson = {
         earliest_attestation_max_year: '1100',
         english_place_name: 'Saint Mary of Mandanici',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santa Maria di Mandinici',
@@ -1752,19 +1835,24 @@ export const geojson = {
         earliest_attestation_min_year: '1100',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.4424612, 37.799186]
+        coordinates: [12.4424612, 37.799186],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.804_12.438.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.804_12.438.html',
+        ],
         children: null,
-        alternate_location_names: ['Marsa-Ali (unknown)', 'Marsa-Allah (unknown)'],
+        alternate_location_names: [
+          'Marsa-Ali (unknown)',
+          'Marsa-Allah (unknown)',
+        ],
         elevation: 53.0,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Santa Maria della Crypta',
@@ -1776,7 +1864,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of the Grotto',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 21-24, 42-44, 195-196",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Admiral? Christodoulos? (Male)'],
         italian_place_name: 'Santa Maria della Grotta',
@@ -1795,17 +1883,19 @@ export const geojson = {
         earliest_attestation_min_year: '1145',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Trapani'
-      }
+        province: 'Trapani',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5368073, 38.2749769]
+        coordinates: [15.5368073, 38.2749769],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.274_15.537.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.274_15.537.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 0.0,
@@ -1818,7 +1908,7 @@ export const geojson = {
         earliest_attestation_max_year: '1114',
         english_place_name: 'Saint Mary of Massa',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Nicholas Grafeos (Male)'],
         italian_place_name: 'Santa Maria di Massa',
@@ -1836,24 +1926,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.490884, 38.124229]
+        coordinates: [15.490884, 38.124229],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.126_15.489.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.126_15.489.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 167.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-di-santa-maria-di-mili-presso-messina/'
+          'http://www.medioevosicilia.eu/markIII/monastero-di-santa-maria-di-mili-presso-messina/',
         ],
         dedication: 'the Virgin Mary',
         location_category: 'representative',
@@ -1861,7 +1953,7 @@ export const geojson = {
         earliest_attestation_max_year: '1090',
         english_place_name: 'Saint Mary of Mili',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santa Maria di Mili',
@@ -1879,24 +1971,26 @@ export const geojson = {
         earliest_attestation_min_year: '1090',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.362868, 38.114766]
+        coordinates: [13.362868, 38.114766],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 15.0,
         rank_at_foundation: 'Abbey',
@@ -1909,7 +2003,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of the Admiral',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 209-210",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42, 127n.4, 161, 289'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42, 127n.4, 161, 289',
         ],
         founders: ['Admiral George of Antioch (Male)'],
         italian_place_name: "Santa Maria dell'Ammiraglio",
@@ -1928,22 +2022,24 @@ export const geojson = {
         earliest_attestation_min_year: '1140',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.9212254, 37.5617072]
+        coordinates: [14.9212254, 37.5617072],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.571_14.903.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.571_14.903.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bâtarnû (unknown)',
           'Paternio (unknown)',
-          'Castrum Paternionis (unknown)'
+          'Castrum Paternionis (unknown)',
         ],
         elevation: 300.0,
         rank_at_foundation: 'Abbey',
@@ -1956,7 +2052,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of Scala',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 124-126",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Hermit Steven (Male)'],
         italian_place_name: 'Santa Maria di Scala',
@@ -1967,7 +2063,8 @@ export const geojson = {
           'The ruins are located in Contrada Giaconia. Visited the site in July 2016. It is behind a padlocked fence, apparently on private property.  The images reflect how difficult it is to access it.',
         attestation_types: 'documentary, archaeological',
         record_status: 'draft',
-        reign_of_earliest_attestation_label: 'Regency of Queen Margaret of Navarre',
+        reign_of_earliest_attestation_label:
+          'Regency of Queen Margaret of Navarre',
         order: 'Basilian',
         positional_accuracy_assesment: 'generic_handheld_gps',
         seismic_class_id: 2,
@@ -1975,24 +2072,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.571007, 37.825702]
+        coordinates: [13.571007, 37.825702],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.824_13.566.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.824_13.566.html',
+        ],
         children: null,
         alternate_location_names: [
           'Biccari (unknown)',
           'Bikû (unknown)',
           'Boico (unknown)',
           'Biccarum (unknown)',
-          'Castrum Biccari (unknown)'
+          'Castrum Biccari (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -2005,7 +2104,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of Vicari',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 126-127",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santa Maria di Vicari',
@@ -2023,17 +2122,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.60082, 37.78525]
+        coordinates: [14.60082, 37.78525],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.785_14.598.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.785_14.598.html',
+        ],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -2042,7 +2143,7 @@ export const geojson = {
           'Castrum Troinae (unknown)',
           'Castrum Trainae (unknown)',
           'Draginat (unknown)',
-          'Targinis (unknown)'
+          'Targinis (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -2054,7 +2155,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Mercurius of Troina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Mercurio di Troina',
@@ -2072,19 +2173,24 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.590779, 37.653498]
+        coordinates: [12.590779, 37.653498],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.655_12.59.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.655_12.59.html',
+        ],
         children: null,
-        alternate_location_names: ['Mâzar (unknown)', 'Castrum Maczarie (unknown)'],
+        alternate_location_names: [
+          'Mâzar (unknown)',
+          'Castrum Maczarie (unknown)',
+        ],
         elevation: 12.0,
         rank_at_foundation: 'Abbey',
         parent: null,
@@ -2095,7 +2201,7 @@ export const geojson = {
         earliest_attestation_max_year: '1124',
         english_place_name: 'Saint Michael of Mazara',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Admiral George of Antioch (Male)'],
         italian_place_name: 'San Michele di Mazara',
@@ -2113,17 +2219,19 @@ export const geojson = {
         earliest_attestation_min_year: '1124',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Trapani'
-      }
+        province: 'Trapani',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5210473, 38.1908266]
+        coordinates: [15.5210473, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -2137,7 +2245,7 @@ export const geojson = {
         english_place_name: 'Christ the Savior in Messina',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 168",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'Santissimo Salvatore di Messina',
@@ -2155,29 +2263,31 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8274471, 38.1104051]
+        coordinates: [14.8274471, 38.1104051],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.109_14.829.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.109_14.829.html',
+        ],
         children: null,
         alternate_location_names: [
           'Ficcara (unknown)',
           'Fulgerino (unknown)',
           'Filarino (unknown)',
-          'Ficarie (unknown)'
+          'Ficarie (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-del-san-michele-al-fulgerino-presso-piedimonte-etneo/'
+          'http://www.medioevosicilia.eu/markIII/monastero-del-san-michele-al-fulgerino-presso-piedimonte-etneo/',
         ],
         dedication: 'Saint Michael the Archangel',
         location_category: 'associated_modern',
@@ -2185,7 +2295,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Michael of Ficarra',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Michele di Ficarra',
@@ -2203,17 +2313,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.6071177, 37.7732506]
+        coordinates: [14.6071177, 37.7732506],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.785_14.598.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.785_14.598.html',
+        ],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -2222,13 +2334,13 @@ export const geojson = {
           'Castrum Troinae (unknown)',
           'Castrum Trainae (unknown)',
           'Draginat (unknown)',
-          'Targinis (unknown)'
+          'Targinis (unknown)',
         ],
         elevation: 853.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/san-michele-arcangelo-di-troina/'
+          'http://www.medioevosicilia.eu/markIII/san-michele-arcangelo-di-troina/',
         ],
         dedication: 'Saint Michael the Archangel',
         location_category: 'representative',
@@ -2236,7 +2348,7 @@ export const geojson = {
         earliest_attestation_max_year: '1081',
         english_place_name: 'Saint Michael of Troina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Michele di Troina',
@@ -2255,17 +2367,19 @@ export const geojson = {
         earliest_attestation_min_year: '1081',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.554167, 38.216111]
+        coordinates: [15.554167, 38.216111],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -2278,7 +2392,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Nicander of Messina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Nicandro di Messina',
@@ -2296,17 +2410,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.4367602, 38.050838]
+        coordinates: [15.4367602, 38.050838],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.051_15.438.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.051_15.438.html',
+        ],
         children: null,
         alternate_location_names: ['Gitala (unknown)'],
         elevation: 0.0,
@@ -2319,7 +2435,7 @@ export const geojson = {
         earliest_attestation_max_year: '1093',
         english_place_name: 'Saint Nicander of San Nicone',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Nicandro di San Nicone',
@@ -2338,17 +2454,19 @@ export const geojson = {
         earliest_attestation_min_year: '1093',
         historical_province: 'Val Demone?',
         archaeological_remains: 'unknown',
-        province: 'Messina?'
-      }
+        province: 'Messina?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.1845535, 37.1875953]
+        coordinates: [14.1845535, 37.1875953],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.191_14.184.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.191_14.184.html',
+        ],
         children: null,
         alternate_location_names: ['Butheria (unknown)', 'Buthìr (unknown)'],
         elevation: 0.0,
@@ -2361,7 +2479,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Nicholas of Canneto',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Nicola di Canneto',
@@ -2379,17 +2497,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Caltanissetta'
-      }
+        province: 'Caltanissetta',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.916375, 38.0462583]
+        coordinates: [14.916375, 38.0462583],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.055_14.91.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.055_14.91.html',
+        ],
         children: null,
         alternate_location_names: [
           'Racuja (unknown)',
@@ -2397,7 +2517,7 @@ export const geojson = {
           'Rahl kudyah (unknown)',
           'Racudia (unknown)',
           'Raccudia (unknown)',
-          'Castrum Raccuiae (unknown)'
+          'Castrum Raccuiae (unknown)',
         ],
         elevation: 665.0,
         rank_at_foundation: 'Abbey',
@@ -2409,7 +2529,7 @@ export const geojson = {
         earliest_attestation_max_year: '1101',
         english_place_name: 'Saint Nicholas of Fico',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Nicolò di Fico',
@@ -2427,22 +2547,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3336542, 38.0787177]
+        coordinates: [13.3336542, 38.0787177],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.083_13.333.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.083_13.333.html',
+        ],
         children: null,
         alternate_location_names: [
           'Churchuro (unknown)',
           'Churkaru (unknown)',
-          "Ci'irchuro (unknown)"
+          "Ci'irchuro (unknown)",
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -2454,7 +2576,7 @@ export const geojson = {
         earliest_attestation_max_year: '1141',
         english_place_name: 'Saint Nicholas of Gurguro',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Theodore of Antioch (Male)'],
         italian_place_name: 'San Nicola lo Gurguro',
@@ -2472,22 +2594,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.896241, 37.56779]
+        coordinates: [14.896241, 37.56779],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.571_14.903.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.571_14.903.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bâtarnû (unknown)',
           'Paternio (unknown)',
-          'Castrum Paternionis (unknown)'
+          'Castrum Paternionis (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -2499,7 +2623,7 @@ export const geojson = {
         earliest_attestation_max_year: '1174',
         english_place_name: 'Saint Nicholas of Paternò',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Geoffrey Secretus (Male)'],
         italian_place_name: 'San Nicolò of Paternò',
@@ -2517,19 +2641,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.010865, 37.933354]
+        coordinates: [15.010865, 37.933354],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.933_15.01.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.933_15.01.html',
+        ],
         children: null,
-        alternate_location_names: ['Castrum Aurichelle (unknown)', 'Castrum Roccellae (unknown)'],
+        alternate_location_names: [
+          'Castrum Aurichelle (unknown)',
+          'Castrum Roccellae (unknown)',
+        ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
         parent: null,
@@ -2540,7 +2669,7 @@ export const geojson = {
         earliest_attestation_max_year: '1112',
         english_place_name: 'Saint Nicholas of Pellera',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Countess and Regent Adelasia (Female)'],
         italian_place_name: 'San Nicola di Pellera',
@@ -2558,19 +2687,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.586792, 37.6537615]
+        coordinates: [12.586792, 37.6537615],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.655_12.59.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.655_12.59.html',
+        ],
         children: null,
-        alternate_location_names: ['Mâzar (unknown)', 'Castrum Maczarie (unknown)'],
+        alternate_location_names: [
+          'Mâzar (unknown)',
+          'Castrum Maczarie (unknown)',
+        ],
         elevation: 2.0,
         rank_at_foundation: 'Abbey',
         parent: null,
@@ -2581,7 +2715,7 @@ export const geojson = {
         earliest_attestation_max_year: '1109',
         english_place_name: 'Saint Nicholas Regale',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Nicolò Regale',
@@ -2599,17 +2733,19 @@ export const geojson = {
         earliest_attestation_min_year: '1091',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Trapani'
-      }
+        province: 'Trapani',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.4688599, 38.2348833]
+        coordinates: [15.4688599, 38.2348833],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.235_15.469.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.235_15.469.html',
+        ],
         children: null,
         alternate_location_names: [
           'Gibiso (unknown)',
@@ -2617,7 +2753,7 @@ export const geojson = {
           'Ibiso (unknown)',
           'Gysa (unknown)',
           'Gypsus (unknown)',
-          'Gypso (unknown)'
+          'Gypso (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -2629,7 +2765,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Nicholas of Ysa',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Nicola di Ysa',
@@ -2648,17 +2784,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone?',
         archaeological_remains: 'unknown',
-        province: 'Messina?'
-      }
+        province: 'Messina?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.5972855386231, 38.0328919780564]
+        coordinates: [14.5972855386231, 38.0328919780564],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.017_14.598.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.017_14.598.html',
+        ],
         children: null,
         alternate_location_names: [
           'San Filadelfo (unknown)',
@@ -2672,7 +2810,7 @@ export const geojson = {
           'Philatellus (unknown)',
           'Filadellus (unknown)',
           'Fradellus (unknown)',
-          'Tre Santi (unknown)'
+          'Tre Santi (unknown)',
         ],
         elevation: 703.0,
         rank_at_foundation: 'Abbey',
@@ -2684,7 +2822,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Pancras of San Fratello',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Pancrazio di San Fratello',
@@ -2702,17 +2840,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.4681852, 37.8676528]
+        coordinates: [12.4681852, 37.8676528],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.865_12.468.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.865_12.468.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 0.0,
@@ -2725,7 +2865,7 @@ export const geojson = {
         earliest_attestation_max_year: '1098',
         english_place_name: 'Saint Pantaleon of the Presbyter Scholarios',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Scholarios (Male)'],
         italian_place_name: 'San Pantaleone del Presbitero Scholarios',
@@ -2744,24 +2884,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara?',
         archaeological_remains: 'unknown',
-        province: 'Trapani?'
-      }
+        province: 'Trapani?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.686714, 38.085164]
+        coordinates: [14.686714, 38.085164],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.094_14.68.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.094_14.68.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 88.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-di-san-pietro-di-deca/'
+          'http://www.medioevosicilia.eu/markIII/monastero-di-san-pietro-di-deca/',
         ],
         dedication: 'Saint Peter',
         location_category: 'representative',
@@ -2769,7 +2911,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Peter of Deca',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Pietro di Deca',
@@ -2787,17 +2929,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.6040968, 37.6798925]
+        coordinates: [13.6040968, 37.6798925],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.679_13.603.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.679_13.603.html',
+        ],
         children: null,
         alternate_location_names: [
           'Qaṣr Nubut (unknown)',
@@ -2805,7 +2949,7 @@ export const geojson = {
           'Castrum Castrinovi (unknown)',
           'Qasr al-Gadid (unknown)',
           'Qasr al Jadid (unknown)',
-          'Castrum Novum (unknown)'
+          'Castrum Novum (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -2817,7 +2961,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Peter of Largo Flumine',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Pietro di Largo Fiumine',
@@ -2835,28 +2979,30 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val di Mazara?',
         archaeological_remains: 'unknown',
-        province: 'Palermo?'
-      }
+        province: 'Palermo?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.3084088, 37.9470811]
+        coordinates: [15.3084088, 37.9470811],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.958_15.323.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.958_15.323.html',
+        ],
         children: null,
         alternate_location_names: [
           'Palachorion (unknown)',
           'Calatabiet (unknown)',
-          'Calatabieth (unknown)'
+          'Calatabieth (unknown)',
         ],
         elevation: 142.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-dei-ss-pietro-e-paolo-presso-casalvecchio-siculo/'
+          'http://www.medioevosicilia.eu/markIII/monastero-dei-ss-pietro-e-paolo-presso-casalvecchio-siculo/',
         ],
         dedication: 'Saint Peter, Saint Paul',
         location_category: 'representative',
@@ -2864,7 +3010,7 @@ export const geojson = {
         earliest_attestation_max_year: '1115',
         english_place_name: 'Saints Peter and Paul of Agrò',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Count Roger II (Male)'],
         italian_place_name: "Santi Pietro e Paolo d'Agrò",
@@ -2883,24 +3029,26 @@ export const geojson = {
         earliest_attestation_min_year: '1115',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.440424, 38.046484]
+        coordinates: [15.440424, 38.046484],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.051_15.438.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.051_15.438.html',
+        ],
         children: null,
         alternate_location_names: ['Gitala (unknown)'],
         elevation: 237.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-dei-ss-pietro-e-paolo-di-itala/'
+          'http://www.medioevosicilia.eu/markIII/monastero-dei-ss-pietro-e-paolo-di-itala/',
         ],
         dedication: 'Saint Peter, Saint Paul',
         location_category: 'representative',
@@ -2908,7 +3056,7 @@ export const geojson = {
         earliest_attestation_max_year: '1092',
         english_place_name: 'Saints Peter and Paul of Italà',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santi Pietro e Paolo di Italà',
@@ -2926,24 +3074,30 @@ export const geojson = {
         earliest_attestation_min_year: '1092',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.741713, 38.0705092]
+        coordinates: [14.741713, 38.0705092],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.073_14.742.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.073_14.742.html',
+        ],
         children: null,
-        alternate_location_names: ['Frasano (unknown)', 'Flacianò (unknown)', 'Frasino (unknown)'],
+        alternate_location_names: [
+          'Frasano (unknown)',
+          'Flacianò (unknown)',
+          'Frasino (unknown)',
+        ],
         elevation: 523.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-di-san-filippo-di-demenna/'
+          'http://www.medioevosicilia.eu/markIII/monastero-di-san-filippo-di-demenna/',
         ],
         dedication: 'Saint Philip',
         location_category: 'representative',
@@ -2952,7 +3106,7 @@ export const geojson = {
         english_place_name: 'Saint Philip of Fragalà',
         place_references: [
           'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 389',
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Filippo di Fragalà',
@@ -2971,17 +3125,19 @@ export const geojson = {
         earliest_attestation_min_year: '1090',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5003272, 38.1654608]
+        coordinates: [15.5003272, 38.1654608],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.165_15.501.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.165_15.501.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 0.0,
@@ -2994,7 +3150,7 @@ export const geojson = {
         earliest_attestation_max_year: '1100',
         english_place_name: 'Saint Philip the Great',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Filippo Magno',
@@ -3013,22 +3169,24 @@ export const geojson = {
         earliest_attestation_min_year: '1100',
         historical_province: 'Val Demone?',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.2730725, 38.1697389]
+        coordinates: [15.2730725, 38.1697389],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.144_15.281.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.144_15.281.html',
+        ],
         children: null,
         alternate_location_names: [
           'Santa Lucia del Mela (unknown)',
           'Castrum Maccaruni (unknown)',
-          'Castrum Sanctae Luciae (unknown)'
+          'Castrum Sanctae Luciae (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -3040,7 +3198,7 @@ export const geojson = {
         earliest_attestation_max_year: '1101',
         english_place_name: 'Saint Philip',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'San Filippo di Santa Lucia',
@@ -3058,24 +3216,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.562538, 38.196592]
+        coordinates: [15.562538, 38.196592],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/fortezza-del-san-salvatore-di-messinafortezza-del-san-salvatore-di-messina/'
+          'http://www.medioevosicilia.eu/markIII/fortezza-del-san-salvatore-di-messinafortezza-del-san-salvatore-di-messina/',
         ],
         dedication: 'Christ',
         location_category: 'associated_modern',
@@ -3083,7 +3243,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Christ the Savior in Lingua Phari',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['King Roger II (Male)'],
         italian_place_name: 'Santissimo Salvatore in Lingua Phari',
@@ -3102,8 +3262,8 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
@@ -3122,7 +3282,7 @@ export const geojson = {
         earliest_attestation_max_year: '1080',
         english_place_name: 'Saint Nicholas of Butana',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
         italian_place_name: 'San Nicola Butana',
@@ -3140,24 +3300,26 @@ export const geojson = {
         earliest_attestation_min_year: '1080',
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3586443, 38.1143913]
+        coordinates: [13.3586443, 38.1143913],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 55.0,
         rank_at_foundation: 'Abbey',
@@ -3169,7 +3331,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Christ the Savior in Palermo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'Santissimo Salvatore di Palermo',
@@ -3187,24 +3349,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.1010408, 37.9153099]
+        coordinates: [15.1010408, 37.9153099],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.902_15.137.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.902_15.137.html',
+        ],
         children: null,
         alternate_location_names: [],
         elevation: 495.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-di-san-salvatore-della-placa-presso-francavilla-di-sicilia/'
+          'http://www.medioevosicilia.eu/markIII/monastero-di-san-salvatore-della-placa-presso-francavilla-di-sicilia/',
         ],
         dedication: 'Christ',
         location_category: 'representative',
@@ -3213,7 +3377,7 @@ export const geojson = {
         english_place_name: 'Christ the Savior of Placa',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 7",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'Santissimo Salvatore della Placa',
@@ -3232,24 +3396,30 @@ export const geojson = {
         earliest_attestation_min_year: '1092',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.478462, 38.100772]
+        coordinates: [15.478462, 38.100772],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
-        alternate_location_names: ['Massîni (unknown)', 'Briga (unknown)', 'Briculo (unknown)'],
+        alternate_location_names: [
+          'Massîni (unknown)',
+          'Briga (unknown)',
+          'Briculo (unknown)',
+        ],
         elevation: 144.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-di-santo-stefano-briga-o-briculo/'
+          'http://www.medioevosicilia.eu/markIII/monastero-di-santo-stefano-briga-o-briculo/',
         ],
         dedication: 'Saint Steven',
         location_category: 'representative',
@@ -3257,7 +3427,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Saint Steven of Messina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'Santo Stefano di Messina',
@@ -3275,22 +3445,24 @@ export const geojson = {
         earliest_attestation_min_year: '1134',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.268428, 38.187244]
+        coordinates: [15.268428, 38.187244],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.221_15.238.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.221_15.238.html',
+        ],
         children: null,
         alternate_location_names: [
           'Milâs (unknown)',
           'Milatium (unknown)',
-          'Castrum Melacii (unknown)'
+          'Castrum Melacii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -3302,7 +3474,7 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Theodore of Milazzo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Teodoro di Milazzo',
@@ -3320,17 +3492,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.7496803, 38.0847065]
+        coordinates: [14.7496803, 38.0847065],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.085_14.751.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.085_14.751.html',
+        ],
         children: null,
         alternate_location_names: ['Mertu (unknown)'],
         elevation: 0.0,
@@ -3343,7 +3517,7 @@ export const geojson = {
         earliest_attestation_max_year: '1130',
         english_place_name: 'Saint Theodore of Mirto',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'San Teodoro di Mirto',
@@ -3361,17 +3535,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.7541969, 37.6858036]
+        coordinates: [12.7541969, 37.6858036],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.683_12.792.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.683_12.792.html',
+        ],
         children: null,
         alternate_location_names: [
           'Qaṣr Ibn Mankud (unknown)',
@@ -3379,7 +3555,7 @@ export const geojson = {
           'Palazzo Pignatelli (unknown)',
           'Bellumvider Castle (unknown)',
           'Castrum Vitranum (unknown)',
-          'Handag al daliyah (unknown)'
+          'Handag al daliyah (unknown)',
         ],
         elevation: 149.0,
         rank_at_foundation: 'Abbey',
@@ -3391,7 +3567,7 @@ export const geojson = {
         earliest_attestation_max_year: '1392',
         english_place_name: 'Holy Trinity of Delia',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'Santissima Trinità di Delia',
@@ -3410,17 +3586,19 @@ export const geojson = {
         earliest_attestation_min_year: '1392',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Trapani'
-      }
+        province: 'Trapani',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.2167096, 38.0440563]
+        coordinates: [15.2167096, 38.0440563],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.074_15.205.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.074_15.205.html',
+        ],
         children: null,
         alternate_location_names: ['Baffia (unknown)', 'Vanellu (unknown)'],
         elevation: 0.0,
@@ -3433,14 +3611,15 @@ export const geojson = {
         earliest_attestation_max_year: '1131',
         english_place_name: 'Saint Venera of Vanella',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: [],
         italian_place_name: 'Santa Venera di Vanella',
         place_type: 'monastery',
         comune: 'Castroreale',
         place_category: 'abbey',
-        notes: 'This may survive in some form. It was likely flooded in late nineteenth century.',
+        notes:
+          'This may survive in some form. It was likely flooded in late nineteenth century.',
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label: 'Reign of King Roger II',
@@ -3451,24 +3630,26 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.092612, 37.518963]
+        coordinates: [15.092612, 37.518963],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.472_14.847.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.472_14.847.html',
+        ],
         children: 'Abbey of Saint Euphemia, Calabria',
         alternate_location_names: [
           'Cathania (unknown)',
           'Qataniah (unknown)',
           'Balad-al-Fil (unknown)',
           'Qatâna (unknown)',
-          'Castello Ursino (unknown)'
+          'Castello Ursino (unknown)',
         ],
         elevation: 66.0,
         rank_at_foundation: 'Abbey',
@@ -3481,7 +3662,7 @@ export const geojson = {
         earliest_attestation_max_year: '1091',
         english_place_name: 'Saint Agatha of Catania',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 105-117'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 105-117',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: "Sant'Agata di Catania",
@@ -3499,17 +3680,19 @@ export const geojson = {
         earliest_attestation_min_year: '1091',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.9936716, 37.7511407]
+        coordinates: [14.9936716, 37.7511407],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.616_15.025.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.616_15.025.html',
+        ],
         children: null,
         alternate_location_names: ['Pennachio (unknown)'],
         elevation: 0.0,
@@ -3522,7 +3705,7 @@ export const geojson = {
         earliest_attestation_max_year: '1137',
         english_place_name: 'Saint Leo of Pannachio',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 117-120'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 117-120',
         ],
         founders: ['Count of Paternò and Policastro Henry (Male)'],
         italian_place_name: 'San Leone di Pannachio',
@@ -3540,8 +3723,8 @@ export const geojson = {
         earliest_attestation_min_year: '1137',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
@@ -3560,7 +3743,7 @@ export const geojson = {
         earliest_attestation_max_year: '1156',
         english_place_name: 'Saint Nicholas de Arena',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 117-120'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 117-120',
         ],
         founders: ['Count of Butera and Policastro Simon (Male)'],
         italian_place_name: "San Nicolò l'Arena",
@@ -3578,17 +3761,19 @@ export const geojson = {
         earliest_attestation_min_year: '1156',
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8580471, 37.6484169]
+        coordinates: [14.8580471, 37.6484169],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.662_14.835.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.662_14.835.html',
+        ],
         children: null,
         alternate_location_names: ['Adernò (unknown)'],
         elevation: 0.0,
@@ -3601,7 +3786,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Saint Mary of Robore Grosso',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 120-121'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 120-121',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Robore Grosso',
@@ -3619,17 +3804,19 @@ export const geojson = {
         earliest_attestation_min_year: '1134',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.83369, 37.662844]
+        coordinates: [14.83369, 37.662844],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.662_14.835.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.662_14.835.html',
+        ],
         children: null,
         alternate_location_names: ['Adernò (unknown)'],
         elevation: 558.0,
@@ -3642,9 +3829,11 @@ export const geojson = {
         earliest_attestation_max_year: '1158',
         english_place_name: 'Saint Lucy of Adernò',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157-158'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157-158',
         ],
-        founders: ['Countess Adelasia (Granddaughter of Count Roger I) (Female)'],
+        founders: [
+          'Countess Adelasia (Granddaughter of Count Roger I) (Female)',
+        ],
         italian_place_name: 'Santa Lucia di Adernò',
         place_type: 'monastery',
         comune: 'Adrano',
@@ -3660,17 +3849,19 @@ export const geojson = {
         earliest_attestation_min_year: '1158',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.887793, 37.616163]
+        coordinates: [14.887793, 37.616163],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.615_14.891.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.615_14.891.html',
+        ],
         children: 'Abbey of Saint Agatha of Catania',
         alternate_location_names: [],
         elevation: 446.0,
@@ -3684,11 +3875,11 @@ export const geojson = {
         english_place_name: 'Saint Mary of Licodia',
         place_references: [
           'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 558',
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 121-122'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 121-122',
         ],
         founders: [
           'Count of Butera and Policastro Simon (Male)',
-          'Countess of Butera and Policastro Thomasia (Female)'
+          'Countess of Butera and Policastro Thomasia (Female)',
         ],
         italian_place_name: 'Santa Maria di Licodia',
         place_type: 'monastery',
@@ -3706,24 +3897,26 @@ export const geojson = {
         earliest_attestation_min_year: '1143',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3547141, 38.1097357]
+        coordinates: [13.3547141, 38.1097357],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: 'Abbey of Santa Maria of Montevergine, Campania',
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 24.0,
         rank_at_foundation: 'Abbey',
@@ -3735,7 +3928,7 @@ export const geojson = {
         earliest_attestation_max_year: '1148',
         english_place_name: 'Saint John of the Hermits',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 123-130'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 123-130',
         ],
         founders: ['King Roger II (Male)'],
         italian_place_name: 'San Giovanni degli Eremiti',
@@ -3753,23 +3946,25 @@ export const geojson = {
         earliest_attestation_min_year: '1148',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3328134, 37.6455443]
+        coordinates: [13.3328134, 37.6455443],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.681_13.379.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.681_13.379.html',
+        ],
         children: 'Abbey of Saint John of the Hermits',
         alternate_location_names: [
           'Adrianum (unknown)',
           'Villa Adriana (unknown)',
           'Palacium Triane (unknown)',
-          'Castrum Palacii Adriani (unknown)'
+          'Castrum Palacii Adriani (unknown)',
         ],
         elevation: 733.0,
         rank_at_foundation: 'Priory',
@@ -3781,7 +3976,7 @@ export const geojson = {
         earliest_attestation_max_year: '1157',
         english_place_name: 'Saint Mary of Adriano',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 130-131'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 130-131',
         ],
         founders: ['King William I (Male)'],
         italian_place_name: 'Santa Maria di Adriano',
@@ -3800,17 +3995,19 @@ export const geojson = {
         earliest_attestation_min_year: '1157',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.2918855, 38.0782587]
+        coordinates: [13.2918855, 38.0782587],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.08_13.289.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.08_13.289.html',
+        ],
         children: 'Abbey of the Holy Trinity at La Cava, Campania',
         alternate_location_names: ['Munt Rival (unknown)'],
         elevation: 256.0,
@@ -3824,7 +4021,7 @@ export const geojson = {
         english_place_name: 'Saint Mary Nuova',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 169-170, 171-173, 175-183, 183-186, 192-194, 204-206, 210-213, 221-222, 223-224",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 132-145'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 132-145',
         ],
         founders: ['King William II (Male)'],
         italian_place_name: 'Santa Maria La Nuova',
@@ -3843,14 +4040,14 @@ export const geojson = {
         earliest_attestation_min_year: '1174',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.831383, 37.858033]
+        coordinates: [14.831383, 37.858033],
       },
       properties: {
         location_see_also_uris: null,
@@ -3860,7 +4057,7 @@ export const geojson = {
         rank_at_foundation: 'Abbey',
         parent: 'Cathedral of Santa Maria Nuova, Monreale',
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-di-santa-maria-di-maniace/'
+          'http://www.medioevosicilia.eu/markIII/monastero-di-santa-maria-di-maniace/',
         ],
         dedication: 'the Virgin Mary',
         location_category: 'representative',
@@ -3868,7 +4065,7 @@ export const geojson = {
         earliest_attestation_max_year: '1105',
         english_place_name: 'Saint Mary of Maniace',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 145-148'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 145-148',
         ],
         founders: ['Count Roger I (Male)', 'Countess Adelasia (Female)'],
         italian_place_name: 'Santa Maria di Maniaci',
@@ -3887,17 +4084,19 @@ export const geojson = {
         earliest_attestation_min_year: '1105',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.08785, 37.507266]
+        coordinates: [13.08785, 37.507266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.508_13.088.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.508_13.088.html',
+        ],
         children: null,
         alternate_location_names: [
           'Valverde (unknown)',
@@ -3907,7 +4106,7 @@ export const geojson = {
           'Kronio (unknown)',
           'Castrum Saccae (unknown)',
           'Castrum Novum Saccae (unknown)',
-          'Xiaxia (unknown)'
+          'Xiaxia (unknown)',
         ],
         elevation: 73.0,
         rank_at_foundation: 'Priory',
@@ -3919,14 +4118,15 @@ export const geojson = {
         earliest_attestation_max_year: '1136',
         english_place_name: 'Saint Mary of Jummarriis',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 149-151'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 149-151',
         ],
         founders: ['Countess Juliet (Female)'],
         italian_place_name: 'Santa Maria de Giummare',
         place_type: 'monastery',
         comune: 'Sciacca',
         place_category: 'priory',
-        notes: 'This church was located next to the church of San Nicolò Latina.',
+        notes:
+          'This church was located next to the church of San Nicolò Latina.',
         attestation_types: 'documentary, archaeological',
         record_status: 'draft',
         reign_of_earliest_attestation_label: null,
@@ -3937,23 +4137,25 @@ export const geojson = {
         earliest_attestation_min_year: '1100',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Agrigento'
-      }
+        province: 'Agrigento',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8978519, 37.0931777]
+        coordinates: [14.8978519, 37.0931777],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.087_14.884.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.087_14.884.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bussema (unknown)',
           'Requisenz (unknown)',
           'Buyssem (unknown)',
-          'Buxeme (unknown)'
+          'Buxeme (unknown)',
         ],
         elevation: 623.0,
         rank_at_foundation: 'Priory',
@@ -3965,20 +4167,22 @@ export const geojson = {
         earliest_attestation_max_year: '1192',
         english_place_name: 'Holy Spirit of Buscemi',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 152'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 152',
         ],
         founders: [
           'Count of Ragusa William of Marsico (Male)',
-          'Countess of Ragusa Alphana (Female)'
+          'Countess of Ragusa Alphana (Female)',
         ],
         italian_place_name: 'Santo Spirito di Buscemi',
         place_type: 'monastery',
         comune: 'Buscemi',
         place_category: 'priory',
-        notes: 'This would be a first thing in the morning trip and somewhat strenuous.',
+        notes:
+          'This would be a first thing in the morning trip and somewhat strenuous.',
         attestation_types: 'documentary, archaeological',
         record_status: 'draft',
-        reign_of_earliest_attestation_label: 'Joint Rule of Kings Tancred and Roger III',
+        reign_of_earliest_attestation_label:
+          'Joint Rule of Kings Tancred and Roger III',
         order: 'Benedictine',
         positional_accuracy_assesment: 'google_earth',
         seismic_class_id: 2,
@@ -3986,19 +4190,24 @@ export const geojson = {
         earliest_attestation_min_year: '1192',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.168807, 38.703677]
+        coordinates: [13.168807, 38.703677],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.711_13.192.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.711_13.192.html',
+        ],
         children: null,
-        alternate_location_names: ['Ghazîrat-Osctika (unknown)', 'Hostica (unknown)'],
+        alternate_location_names: [
+          'Ghazîrat-Osctika (unknown)',
+          'Hostica (unknown)',
+        ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
         parent: 'Bishopric of Agrigento',
@@ -4009,7 +4218,7 @@ export const geojson = {
         earliest_attestation_max_year: '1194',
         english_place_name: 'Saint Mary of Ustica',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 152'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 152',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Ustica',
@@ -4027,17 +4236,19 @@ export const geojson = {
         earliest_attestation_min_year: '1194',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.514933, 38.213066]
+        coordinates: [15.514933, 38.213066],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: 'Abbey of Saint Euplus, Calabria',
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 278.0,
@@ -4051,7 +4262,7 @@ export const geojson = {
         english_place_name: 'Saint Mary della Scala',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 15-16, 101-102",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 153-157'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 153-157',
         ],
         founders: ['Count Roger I (Male)', 'Countess Adelasia (Female)'],
         italian_place_name: 'Santa Maria de Scalis',
@@ -4069,17 +4280,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.281103, 37.069723]
+        coordinates: [15.281103, 37.069723],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.088_15.279.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.088_15.279.html',
+        ],
         children: null,
         alternate_location_names: ['Sarakûsa (unknown)'],
         elevation: 0.0,
@@ -4092,7 +4305,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Mary de Monialibus',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157',
         ],
         founders: [],
         italian_place_name: 'Santa Maria de Monialibus',
@@ -4110,23 +4323,25 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.2995746, 37.8135067]
+        coordinates: [13.2995746, 37.8135067],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.299.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.299.html',
+        ],
         children: null,
         alternate_location_names: [
           'Qorliûn (unknown)',
           'Coiroillionis (unknown)',
           'Corilionis (unknown)',
-          'Coniglione (unknown)'
+          'Coniglione (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -4138,7 +4353,7 @@ export const geojson = {
         earliest_attestation_max_year: '1151',
         english_place_name: 'Saint Mary Magdalene of Corleone',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 158-159'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 158-159',
         ],
         founders: [],
         italian_place_name: 'Santa Maria Maddalena di Corleone',
@@ -4157,24 +4372,26 @@ export const geojson = {
         earliest_attestation_min_year: '1151',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3683437, 38.1131978]
+        coordinates: [13.3683437, 38.1131978],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 12.0,
         rank_at_foundation: 'Abbey',
@@ -4184,9 +4401,10 @@ export const geojson = {
         location_category: 'representative',
         earliest_attestation_label: 'c. 1191',
         earliest_attestation_max_year: '1200',
-        english_place_name: 'Abbey of the Holy Trinity of the Chancellor in Palermo',
+        english_place_name:
+          'Abbey of the Holy Trinity of the Chancellor in Palermo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 180-181'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 180-181',
         ],
         founders: ['Royal Vice-Chancellor Matthew of Agello (Male)'],
         italian_place_name: 'Santissima Trinità del Cancelliere',
@@ -4205,24 +4423,26 @@ export const geojson = {
         earliest_attestation_min_year: '1182',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3620184, 38.1148252]
+        coordinates: [13.3620184, 38.1148252],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 16.0,
         rank_at_foundation: 'Abbey',
@@ -4234,9 +4454,12 @@ export const geojson = {
         earliest_attestation_max_year: '1193',
         english_place_name: 'Saint Mary Martorana',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157n.6, 161-162, 289'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157n.6, 161-162, 289',
         ],
-        founders: ['Geoffrey of Martirano (Male)', 'Aloysa of Martirano (Female)'],
+        founders: [
+          'Geoffrey of Martirano (Male)',
+          'Aloysa of Martirano (Female)',
+        ],
         italian_place_name: 'Santa Maria Martorana',
         place_type: 'monastery',
         comune: 'Palermo',
@@ -4245,7 +4468,8 @@ export const geojson = {
           'Writing around 1938, Lynn White (_Latin Monasticism in Norman Sicily_, 161, n. 4) noted that part of this foundation (a section of the cortile), established in a house of Geoffrey of Martirano and his wife, Aloysa, survived as "the only surviving bit of Norman domestic architecture." It was destroyed soon after, during World War II. It had at one time been owned by Countess Adelicia of Collesano.',
         attestation_types: 'documentary',
         record_status: 'draft',
-        reign_of_earliest_attestation_label: 'Joint Rule of Kings Tancred and Roger III',
+        reign_of_earliest_attestation_label:
+          'Joint Rule of Kings Tancred and Roger III',
         order: 'Benedictine',
         positional_accuracy_assesment: 'unknown',
         seismic_class_id: 2,
@@ -4253,24 +4477,26 @@ export const geojson = {
         earliest_attestation_min_year: '1193',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.4333844, 37.7208839]
+        coordinates: [13.4333844, 37.7208839],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.721_13.433.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.721_13.433.html',
+        ],
         children: 'Abbey of Saint Mary Magdalene, Tripoli, Syria',
         alternate_location_names: [
           'B.r.zzu (unknown)',
           'Prizi (unknown)',
           'Perizium (unknown)',
           'Perici (unknown)',
-          'Castrum Piricii (unknown)'
+          'Castrum Piricii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Abbey',
@@ -4282,7 +4508,7 @@ export const geojson = {
         earliest_attestation_max_year: '1159',
         english_place_name: 'Saint Angelo of Prizzi',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 166'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 166',
         ],
         founders: ['Matthew Bonell (Male)'],
         italian_place_name: "Sant'Angelo di Prizzi",
@@ -4301,24 +4527,26 @@ export const geojson = {
         earliest_attestation_min_year: '1151',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.4333844, 37.7208839]
+        coordinates: [13.4333844, 37.7208839],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.721_13.433.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.721_13.433.html',
+        ],
         children: null,
         alternate_location_names: [
           'B.r.zzu (unknown)',
           'Prizi (unknown)',
           'Perizium (unknown)',
           'Perici (unknown)',
-          'Castrum Piricii (unknown)'
+          'Castrum Piricii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -4330,7 +4558,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Christopher of Prizzi',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 167'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 167',
         ],
         founders: ['Matthew Bonell (Male)'],
         italian_place_name: 'San Cristoforo di Prizzi',
@@ -4348,24 +4576,26 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.362695, 38.0998181]
+        coordinates: [13.362695, 38.0998181],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: 'Abbey of Sambucina, Calabria',
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 34.0,
         rank_at_foundation: 'Abbey',
@@ -4377,7 +4607,7 @@ export const geojson = {
         earliest_attestation_max_year: '1186',
         english_place_name: 'Holy Spirit of Palermo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 168-171'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 168-171',
         ],
         founders: ['Archbishop of Palermo Walter Offamil (Male)'],
         italian_place_name: 'Santissima Trinità di Palermo',
@@ -4395,24 +4625,26 @@ export const geojson = {
         earliest_attestation_min_year: '1168',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.343851, 37.608188]
+        coordinates: [13.343851, 37.608188],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.599_13.29.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.599_13.29.html',
+        ],
         children: null,
         alternate_location_names: [
           'Villanova (unknown)',
           'Burgimill (unknown)',
           'Burgimillus (unknown)',
           'Burgi de Cristiani (unknown)',
-          'Borgetto (unknown)'
+          'Borgetto (unknown)',
         ],
         elevation: 806.0,
         rank_at_foundation: 'Abbey',
@@ -4424,7 +4656,7 @@ export const geojson = {
         earliest_attestation_max_year: '1179',
         english_place_name: 'Holy Trinity of Refesio',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 172-177'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 172-177',
         ],
         founders: ['Castellan Ansaldus (Male)'],
         italian_place_name: 'Santissima Trinità di Refesio',
@@ -4443,17 +4675,19 @@ export const geojson = {
         earliest_attestation_min_year: '1061',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Agrigento'
-      }
+        province: 'Agrigento',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.9154348, 37.6571737]
+        coordinates: [14.9154348, 37.6571737],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.615_14.891.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.615_14.891.html',
+        ],
         children: 'Abbey of Saint Agatha of Catania',
         alternate_location_names: [],
         elevation: 847.0,
@@ -4466,11 +4700,11 @@ export const geojson = {
         earliest_attestation_max_year: '1143',
         english_place_name: 'Saint Mary of Licodia (Summer Abbey)',
         place_references: [
-          'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 558'
+          'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 558',
         ],
         founders: [
           'Count of Butera and Policastro Simon (Male)',
-          'Countess of Butera and Policastro Thomasia (Female)'
+          'Countess of Butera and Policastro Thomasia (Female)',
         ],
         italian_place_name: 'Santa Maria di Licodia',
         place_type: 'monastery',
@@ -4488,24 +4722,26 @@ export const geojson = {
         earliest_attestation_min_year: '1143',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3606459, 38.1168651]
+        coordinates: [13.3606459, 38.1168651],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 12.0,
         rank_at_foundation: 'Abbey',
@@ -4518,7 +4754,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of the Chancellor or of the Latins',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. , 109-111, 115-118, 129-137, 137-146, 155-161, 209-210",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 159-161'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 159-161',
         ],
         founders: ['Royal Vice-Chancellor Matthew of Agello (Male)'],
         italian_place_name: 'Santissima Maria del Cancelliere o dei Latini',
@@ -4529,7 +4765,8 @@ export const geojson = {
           "\"The nunnery contained at least two chapels: That of St. Eustachius, where it had two Latin priests, and that of St. Paul, served by a Greek priest. One is tempted to believe that the monastery was also connected with a preexisting church of St. Mary of the Latins, to which, in April 6673 (1165), ind. 13, the widow Filiberta willed two taris. This would seem to be identical with the 'ecclesia S. Marie de Cancellario' to which on the 16 March 1186, ind. 4, regni 22, Theocritus Mairosini of Chioggia left three taris. A church of Santa Maria del Cancelliere still exists in Palermo, near the Quattro Canti, but if anything of the Norman structure still exists it is completely obscured by baroque 'improvements' of the late sixteenth century.\"   White, Latin Monasticism, pp. 160-61. An uncorroborated postscript is offered by the Italian-language Wikipedia article, \"Chiesa di Santa Maria del Cancelliere,\": \"1943, Nella notte tra il 29 e il 30 giugno è effettuato l'ultimo disastroso bombardamento aereo su Palermo, la chiesa è distrutta insieme al monastero. Restano pochi brandelli dell'antica magnificenza, sull'area occupata dal primitivo aggregato sorge un discutibile edificio scolastico. Grazie alla lungimiranza di monsignore Pottino direttore del Museo diocesano, preventivamente sono salvate molte delle opere, ma la struttura e gli affreschi, sono perduti per sempre.\" [https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_del_Cancelliere, February 5, 2018]  ",
         attestation_types: 'documentary',
         record_status: 'draft',
-        reign_of_earliest_attestation_label: 'Regency of Queen Margaret of Navarre',
+        reign_of_earliest_attestation_label:
+          'Regency of Queen Margaret of Navarre',
         order: 'Benedictine',
         positional_accuracy_assesment: 'unknown',
         seismic_class_id: 2,
@@ -4537,28 +4774,31 @@ export const geojson = {
         earliest_attestation_min_year: '1169',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.855695, 37.82149]
+        coordinates: [13.855695, 37.82149],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.822_13.855.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.822_13.855.html',
+        ],
         children: null,
         alternate_location_names: [
           'Isqlafiah (unknown)',
           'Schafa (unknown)',
           'Sclafa (unknown)',
           'Cluse (unknown)',
-          'Chiuse (unknown)'
+          'Chiuse (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Peter',
         location_category: 'associated_modern',
@@ -4566,7 +4806,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Peter of Sclafani',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Pietro di Sclafani',
@@ -4584,17 +4824,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.104299, 37.999851]
+        coordinates: [15.104299, 37.999851],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.016_15.132.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.016_15.132.html',
+        ],
         children: 'Abbey of Sambucina, Calabria',
         alternate_location_names: [
           'Noara (unknown)',
@@ -4602,13 +4844,13 @@ export const geojson = {
           'Nouah (unknown)',
           'Nugaria (unknown)',
           'Nohara (unknown)',
-          'Castrum Nucariae (unknown)'
+          'Castrum Nucariae (unknown)',
         ],
         elevation: 533.0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-cistercense-di-santa-maria-di-novara-di-sicilia/'
+          'http://www.medioevosicilia.eu/markIII/monastero-cistercense-di-santa-maria-di-novara-di-sicilia/',
         ],
         dedication: 'the Virgin Mary',
         location_category: 'representative',
@@ -4616,7 +4858,7 @@ export const geojson = {
         earliest_attestation_max_year: '1171',
         english_place_name: 'Saint Mary of Novara',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 182'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 182',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Novara',
@@ -4627,7 +4869,8 @@ export const geojson = {
           'G.A. Loud says founded as a Cistercian house in 1195 (_Latin Church in Norman Italy_ (Cambridge, UK, 2007), 533 (Appendix 5)). When we visited in July 2016, a gentleman from the town said that there was a tunnel that ddated from the Muslim domination that connected the castle and this monastery.',
         attestation_types: 'documentary, archaeological',
         record_status: 'draft',
-        reign_of_earliest_attestation_label: 'Regency of Queen Margaret of Navarre',
+        reign_of_earliest_attestation_label:
+          'Regency of Queen Margaret of Navarre',
         order: 'Cistercian',
         positional_accuracy_assesment: 'generic_handheld_gps',
         seismic_class_id: 2,
@@ -4635,24 +4878,26 @@ export const geojson = {
         earliest_attestation_min_year: '1171',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.523231, 38.140598]
+        coordinates: [15.523231, 38.140598],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: 'Abbey of Saint Mary of Novara',
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 27.0,
         rank_at_foundation: 'Abbey',
         parent: 'Archbishopric of Messina-Troina',
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/monastero-cistercense-di-santa-maria-di-roccamadore-presso-messina/'
+          'http://www.medioevosicilia.eu/markIII/monastero-cistercense-di-santa-maria-di-roccamadore-presso-messina/',
         ],
         dedication: 'the Virgin Mary',
         location_category: 'representative',
@@ -4660,7 +4905,7 @@ export const geojson = {
         earliest_attestation_max_year: '1194',
         english_place_name: 'Saint Mary of Roccamadore',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 183'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 183',
         ],
         founders: ['Count of Paternò Bartholomew of Luci (Male)'],
         italian_place_name: 'Santa Maria di Roccamadore',
@@ -4678,27 +4923,30 @@ export const geojson = {
         earliest_attestation_min_year: '1194',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.068383, 36.889834]
+        coordinates: [15.068383, 36.889834],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_36.89_15.069.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_36.89_15.069.html',
+        ],
         children: null,
         alternate_location_names: [
           'Notus (unknown)',
           'Notosc (unknown)',
           'Nutus (unknown)',
-          'Nota (unknown)'
+          'Nota (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Lucy',
         location_category: 'associated_modern',
@@ -4706,7 +4954,7 @@ export const geojson = {
         earliest_attestation_max_year: '1103',
         english_place_name: 'Saint Lucy of Noto',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 184-188'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 184-188',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santa Lucia di Noto',
@@ -4724,28 +4972,31 @@ export const geojson = {
         earliest_attestation_min_year: '1103',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3569992, 38.117699]
+        coordinates: [13.3569992, 38.117699],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Peter',
         location_category: 'associated_modern',
@@ -4753,7 +5004,7 @@ export const geojson = {
         earliest_attestation_max_year: '1116',
         english_place_name: 'Saint Peter in Palermo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186',
         ],
         founders: [],
         italian_place_name: 'San Pietro di Palermo',
@@ -4771,24 +5022,26 @@ export const geojson = {
         earliest_attestation_min_year: '1116',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.116553, 38.045107]
+        coordinates: [13.116553, 38.045107],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.044_13.12.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.044_13.12.html',
+        ],
         children: null,
         alternate_location_names: [
           'B.rt.niq (unknown)',
           'Bartinîq (unknown)',
           'Battinîq (unknown)',
           'Partenich (unknown)',
-          'Castrum Sale Parthenici (unknown)'
+          'Castrum Sale Parthenici (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
@@ -4800,7 +5053,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint James in Partinico',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186',
         ],
         founders: [],
         italian_place_name: 'San Giacomo di Partinico',
@@ -4818,17 +5071,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.6017081, 37.679698]
+        coordinates: [13.6017081, 37.679698],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.679_13.603.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.679_13.603.html',
+        ],
         children: null,
         alternate_location_names: [
           'Qaṣr Nubut (unknown)',
@@ -4836,11 +5091,12 @@ export const geojson = {
           'Castrum Castrinovi (unknown)',
           'Qasr al-Gadid (unknown)',
           'Qasr al Jadid (unknown)',
-          'Castrum Novum (unknown)'
+          'Castrum Novum (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Steven',
         location_category: 'associated_modern',
@@ -4848,7 +5104,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Stephan of Castronuovo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
         italian_place_name: 'Santo Stefano di Castronuovo',
@@ -4867,17 +5123,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara?',
         archaeological_remains: 'unknown',
-        province: 'Palermo?'
-      }
+        province: 'Palermo?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.602676, 37.678159]
+        coordinates: [13.602676, 37.678159],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.679_13.603.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.679_13.603.html',
+        ],
         children: null,
         alternate_location_names: [
           'Qaṣr Nubut (unknown)',
@@ -4885,11 +5143,12 @@ export const geojson = {
           'Castrum Castrinovi (unknown)',
           'Qasr al-Gadid (unknown)',
           'Qasr al Jadid (unknown)',
-          'Castrum Novum (unknown)'
+          'Castrum Novum (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'the Virgin Mary',
         location_category: 'associated_modern',
@@ -4897,7 +5156,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Mary of Castronovo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Castronovo',
@@ -4916,22 +5175,25 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara?',
         archaeological_remains: 'unknown',
-        province: 'Palermo?'
-      }
+        province: 'Palermo?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5210473, 38.1908266]
+        coordinates: [15.5210473, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Matthew',
         location_category: 'associated_modern',
@@ -4939,7 +5201,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Matthew of Messina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Matteo di Messina',
@@ -4957,27 +5219,30 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.2333918, 37.8230309]
+        coordinates: [15.2333918, 37.8230309],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.821_15.228.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.821_15.228.html',
+        ],
         children: null,
         alternate_location_names: [
           "Qal'at al-Bian (unknown)",
           "Qal'at al-Bayan (unknown)",
           'Calatabien (unknown)',
-          'Castrum Calatabiani (unknown)'
+          'Castrum Calatabiani (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Onufrius',
         location_category: 'associated_modern',
@@ -4985,7 +5250,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Eunufrius of Calatabiano',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: "Sant'Eunufrio di Calatabiano",
@@ -5004,23 +5269,25 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.996815, 37.288121]
+        coordinates: [14.996815, 37.288121],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.285_15.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.285_15.html',
+        ],
         children: null,
         alternate_location_names: [
           'Lentina (unknown)',
           'Leontini (unknown)',
           'Wâdî Lentini (unknown)',
-          'Palude Salata (unknown)'
+          'Palude Salata (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
@@ -5032,7 +5299,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint George of Lentini',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Giorgio di Lentini',
@@ -5050,17 +5317,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.068268, 36.889968]
+        coordinates: [15.068268, 36.889968],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_36.89_15.069.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_36.89_15.069.html',
+        ],
         children: null,
         alternate_location_names: [
           'Larbiato (unknown)',
@@ -5070,11 +5339,12 @@ export const geojson = {
           'Nota (unknown)',
           'Ralbiceo (unknown)',
           'Rahalbiati (unknown)',
-          'Ralbiatum (unknown)'
+          'Ralbiatum (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Lucy',
         location_category: 'associated_modern',
@@ -5082,7 +5352,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Lucy of Rahalbiato',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'Santa Lucia di Rahalbiato',
@@ -5100,8 +5370,8 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
@@ -5112,7 +5382,8 @@ export const geojson = {
         alternate_location_names: [],
         elevation: null,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calab',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calab',
         place_see_also_uris: null,
         dedication: 'Saint George',
         location_category: null,
@@ -5120,7 +5391,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint George of Hares',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Giorgio di Hares',
@@ -5138,27 +5409,30 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.2995746, 37.8135067]
+        coordinates: [13.2995746, 37.8135067],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.299.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.299.html',
+        ],
         children: null,
         alternate_location_names: [
           'Qorliûn (unknown)',
           'Coiroillionis (unknown)',
           'Corilionis (unknown)',
-          'Coniglione (unknown)'
+          'Coniglione (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Nicholas',
         location_category: 'associated_modern',
@@ -5166,7 +5440,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Nicholas of Corleone',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Nicola di Corleone',
@@ -5184,26 +5458,29 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.2433448, 38.2183065]
+        coordinates: [15.2433448, 38.2183065],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.221_15.238.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.221_15.238.html',
+        ],
         children: null,
         alternate_location_names: [
           'Milâs (unknown)',
           'Milatium (unknown)',
-          'Castrum Melacii (unknown)'
+          'Castrum Melacii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
-        parent: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        parent:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
         dedication: 'Saint Peter',
         location_category: 'associated_modern',
@@ -5211,7 +5488,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Peter of Milazzo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Pietro di Milazzo',
@@ -5229,8 +5506,8 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
@@ -5249,7 +5526,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Cataldo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 187',
         ],
         founders: [],
         italian_place_name: 'San Cataldo',
@@ -5267,18 +5544,21 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.0233794, 38.0399685]
+        coordinates: [14.0233794, 38.0399685],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.032_14.01.html'],
-        children: 'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.032_14.01.html',
+        ],
+        children:
+          'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         alternate_location_names: ['Gafludi (unknown)', 'Cephaludi (unknown)'],
         elevation: 47.0,
         rank_at_foundation: 'Abbey',
@@ -5288,12 +5568,14 @@ export const geojson = {
         location_category: 'representative',
         earliest_attestation_label: '1131',
         earliest_attestation_max_year: '1131',
-        english_place_name: 'Christ the Savior and Saints Peter and Paul of Cefalù',
+        english_place_name:
+          'Christ the Savior and Saints Peter and Paul of Cefalù',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 189-201'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 189-201',
         ],
         founders: ['King Roger II (Male)'],
-        italian_place_name: 'Santissimo Salvatore e Santi Pietro e Paolo Cefalù',
+        italian_place_name:
+          'Santissimo Salvatore e Santi Pietro e Paolo Cefalù',
         place_type: 'monastery',
         comune: 'Cefalù',
         place_category: 'abbey',
@@ -5309,17 +5591,19 @@ export const geojson = {
         earliest_attestation_min_year: '1131',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.281103, 37.069723]
+        coordinates: [15.281103, 37.069723],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.088_15.279.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.088_15.279.html',
+        ],
         children: null,
         alternate_location_names: ['Sarakûsa (unknown)'],
         elevation: 0.0,
@@ -5332,7 +5616,7 @@ export const geojson = {
         earliest_attestation_max_year: '1140',
         english_place_name: 'Saint Lucy',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 202-204'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 202-204',
         ],
         founders: [],
         italian_place_name: 'Santa Lucia',
@@ -5350,17 +5634,19 @@ export const geojson = {
         earliest_attestation_min_year: '1140',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.963844, 37.952862]
+        coordinates: [13.963844, 37.952862],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.966_13.972.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.966_13.972.html',
+        ],
         children: null,
         alternate_location_names: ['Q.ratiris (unknown)'],
         elevation: 665.0,
@@ -5373,7 +5659,7 @@ export const geojson = {
         earliest_attestation_max_year: '1155',
         english_place_name: 'Saint George of Gratteri',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 205-206'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 205-206',
         ],
         founders: ['Duke of Apulia Roger (Male)'],
         italian_place_name: 'San Giorgio a Gratteri',
@@ -5391,17 +5677,19 @@ export const geojson = {
         earliest_attestation_min_year: '1155',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.3, 38.07]
+        coordinates: [15.3, 38.07],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.148_15.21.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.148_15.21.html',
+        ],
         children: null,
         alternate_location_names: ['Galath (unknown)'],
         elevation: 0.0,
@@ -5414,7 +5702,7 @@ export const geojson = {
         earliest_attestation_max_year: '1123',
         english_place_name: 'Saint Anne of Gala',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 209-210'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 209-210',
         ],
         founders: ['Countess Adelasia (Female)'],
         italian_place_name: "Sant'Anna di Gala",
@@ -5432,23 +5720,25 @@ export const geojson = {
         earliest_attestation_min_year: '1123',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8946395, 37.5657758]
+        coordinates: [14.8946395, 37.5657758],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.571_14.903.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.571_14.903.html',
+        ],
         children: null,
         alternate_location_names: [
           'Gancia (unknown)',
           'Bâtarnû (unknown)',
           'Paternio (unknown)',
-          'Castrum Paternionis (unknown)'
+          'Castrum Paternionis (unknown)',
         ],
         elevation: 256.0,
         rank_at_foundation: 'Priory',
@@ -5461,7 +5751,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of Jehosaphat',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 45-49, 200-202",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 210-211'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 210-211',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Giosafat',
@@ -5480,19 +5770,24 @@ export const geojson = {
         earliest_attestation_min_year: '1140',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.292174, 38.043722]
+        coordinates: [15.292174, 38.043722],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
-        alternate_location_names: ['San Placido di Calonerò (unknown)', 'Massîni (unknown)'],
+        alternate_location_names: [
+          'San Placido di Calonerò (unknown)',
+          'Massîni (unknown)',
+        ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary in the Valley of Jehosaphat, Palestine',
@@ -5504,7 +5799,7 @@ export const geojson = {
         english_place_name: 'Saint Mary Magdalene of Jehosaphat',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 36-38, 66-67, 67-72",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 210-213'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 210-213',
         ],
         founders: [],
         italian_place_name: 'Santa Maria Maddalena Giosafat',
@@ -5522,23 +5817,25 @@ export const geojson = {
         earliest_attestation_min_year: '1140',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [12.880417, 38.02643]
+        coordinates: [12.880417, 38.02643],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.019_12.886.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.019_12.886.html',
+        ],
         children: null,
         alternate_location_names: [
           'Hisn-al-Madrig (unknown)',
           'Calatamet (unknown)',
           "Qal'at al hammah (unknown)",
-          'Castrum Calatameti (unknown)'
+          'Castrum Calatameti (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -5550,7 +5847,7 @@ export const geojson = {
         earliest_attestation_max_year: '1100',
         english_place_name: 'Saint Mary of Calatahameth',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 213-214'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 213-214',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Calatahameth',
@@ -5568,23 +5865,25 @@ export const geojson = {
         earliest_attestation_min_year: '1100',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Trapani'
-      }
+        province: 'Trapani',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.5184819, 37.6569322]
+        coordinates: [14.5184819, 37.6569322],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.656_14.522.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.656_14.522.html',
+        ],
         children: null,
         alternate_location_names: [
           'Agirò (unknown)',
           'Agoron (unknown)',
           'Mons Argirium (unknown)',
-          'Argirione (unknown)'
+          'Argirione (unknown)',
         ],
         elevation: 608.0,
         rank_at_foundation: 'Priory',
@@ -5597,7 +5896,7 @@ export const geojson = {
         english_place_name: 'Saint Philip of Agira',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 118-120, 120-122",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 214-224'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 214-224',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: "San Filippo d'Agira",
@@ -5616,23 +5915,25 @@ export const geojson = {
         earliest_attestation_min_year: '1094',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.99922, 37.811967]
+        coordinates: [13.99922, 37.811967],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.812_14.003.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.812_14.003.html',
+        ],
         children: null,
         alternate_location_names: [
           'Hisn-Bûlis (unknown)',
           'Castrum Policii (unknown)',
           'Politium (unknown)',
-          'Casrum Policii (unknown)'
+          'Casrum Policii (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -5644,7 +5945,7 @@ export const geojson = {
         earliest_attestation_max_year: '1151',
         english_place_name: 'Saint Mary of the Latins at Polizzi',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 224-225'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 224-225',
         ],
         founders: [],
         italian_place_name: 'Santa Maria Latina di Polizzi',
@@ -5662,19 +5963,25 @@ export const geojson = {
         earliest_attestation_min_year: '1151',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.47828, 37.848816]
+        coordinates: [14.47828, 37.848816],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.848_14.478.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.848_14.478.html',
+        ],
         children: null,
-        alternate_location_names: ['Capicio (unknown)', 'Qaysî (unknown)', 'Capitio (unknown)'],
+        alternate_location_names: [
+          'Capicio (unknown)',
+          'Qaysî (unknown)',
+          'Capitio (unknown)',
+        ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary of the Latins, Jerusalem',
@@ -5685,7 +5992,7 @@ export const geojson = {
         earliest_attestation_max_year: '1151',
         english_place_name: 'Saint Philip of Capizzi',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 225-226'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 225-226',
         ],
         founders: [],
         italian_place_name: 'San Filippo di Capizzi',
@@ -5703,17 +6010,19 @@ export const geojson = {
         earliest_attestation_min_year: '1151',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.524197, 36.828956]
+        coordinates: [14.524197, 36.828956],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_36.926_14.724.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_36.926_14.724.html',
+        ],
         children: null,
         alternate_location_names: [
           'Kamerina (unknown)',
@@ -5721,7 +6030,7 @@ export const geojson = {
           'Ragusia (unknown)',
           'Ragûs (unknown)',
           'Castrum Ragusiae (unknown)',
-          'Racusiam (unknown)'
+          'Racusiam (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Priory',
@@ -5733,7 +6042,7 @@ export const geojson = {
         earliest_attestation_max_year: '1151',
         english_place_name: 'Holy Cross of Rasacambri',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 226'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 226',
         ],
         founders: ['Count of Ragusa Silvester of Marsico (Male)'],
         italian_place_name: 'Santa Croce di Rascambri',
@@ -5752,17 +6061,19 @@ export const geojson = {
         earliest_attestation_min_year: '1151',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Ragusa'
-      }
+        province: 'Ragusa',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5210473, 38.1908266]
+        coordinates: [15.5210473, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -5776,7 +6087,7 @@ export const geojson = {
         english_place_name: 'Saint Mary of the Latins',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 163-164",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 227-228'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 227-228',
         ],
         founders: [],
         italian_place_name: 'Santa Maria Latina',
@@ -5786,7 +6097,8 @@ export const geojson = {
         notes: null,
         attestation_types: 'documentary',
         record_status: 'draft',
-        reign_of_earliest_attestation_label: 'Regency of Queen Margaret of Navarre',
+        reign_of_earliest_attestation_label:
+          'Regency of Queen Margaret of Navarre',
         order: 'Benedictine',
         positional_accuracy_assesment: 'unknown',
         seismic_class_id: 1,
@@ -5794,29 +6106,31 @@ export const geojson = {
         earliest_attestation_min_year: '1168',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.36291, 37.391941]
+        coordinates: [14.36291, 37.391941],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.386_14.367.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.386_14.367.html',
+        ],
         children: null,
         alternate_location_names: [
           'Iblatasa (unknown)',
           'Iblatsah (unknown)',
           'Platia (unknown)',
-          'Castrum Placiae (unknown)'
+          'Castrum Placiae (unknown)',
         ],
         elevation: 662.0,
         rank_at_foundation: 'Priory',
         parent: 'Church of the Holy Sepulchre at Jerusalem',
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/gran-priorato-santandrea-presso-piazza-armerina/'
+          'http://www.medioevosicilia.eu/markIII/gran-priorato-santandrea-presso-piazza-armerina/',
         ],
         dedication: 'Saint Andrew',
         location_category: 'representative',
@@ -5824,11 +6138,11 @@ export const geojson = {
         earliest_attestation_max_year: '1148',
         english_place_name: 'Saint Andrew at Piazza Armerina',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 230'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 230',
         ],
         founders: [
           'Count of Butera and Policastro Simon (Male)',
-          'Countess of Butera and Policastro Thomasia (Female)'
+          'Countess of Butera and Policastro Thomasia (Female)',
         ],
         italian_place_name: "Sant'Andrea di Piazza Amerina",
         place_type: 'monastery',
@@ -5846,17 +6160,19 @@ export const geojson = {
         earliest_attestation_min_year: '1148',
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8353867, 37.6639868]
+        coordinates: [14.8353867, 37.6639868],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.662_14.835.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.662_14.835.html',
+        ],
         children: null,
         alternate_location_names: ['Adernò (unknown)'],
         elevation: 0.0,
@@ -5869,9 +6185,11 @@ export const geojson = {
         earliest_attestation_max_year: '1160',
         english_place_name: 'Saint Elias the Prophet',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239-231'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239-231',
         ],
-        founders: ['Countess Adelasia (Granddaughter of Count Roger I) (Female)'],
+        founders: [
+          'Countess Adelasia (Granddaughter of Count Roger I) (Female)',
+        ],
         italian_place_name: "Sant'Elia Profeta",
         place_type: 'monastery',
         comune: 'Adrano',
@@ -5887,23 +6205,25 @@ export const geojson = {
         earliest_attestation_min_year: '1160',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.076178, 37.506258]
+        coordinates: [14.076178, 37.506258],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.49_14.062.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.49_14.062.html',
+        ],
         children: null,
         alternate_location_names: [
           "Qal'at an-Nisâ (unknown)",
           'Calatanissa (unknown)',
           'Calatanixectum (unknown)',
-          'Castello di Nisa (unknown)'
+          'Castello di Nisa (unknown)',
         ],
         elevation: 572.0,
         rank_at_foundation: 'Priory',
@@ -5915,7 +6235,7 @@ export const geojson = {
         earliest_attestation_max_year: '1098',
         english_place_name: 'Holy Spirit at Caltanissetta',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 231-232'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 231-232',
         ],
         founders: ['Count Roger I (Male)', 'Countess Adelasia (Female)'],
         italian_place_name: 'Santo Spirito a Caltanissetta',
@@ -5933,8 +6253,8 @@ export const geojson = {
         earliest_attestation_min_year: '1098',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Caltanissetta'
-      }
+        province: 'Caltanissetta',
+      },
     },
     {
       type: 'Feature',
@@ -5953,7 +6273,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Mary de Baratathe',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Baratathe',
@@ -5971,17 +6291,19 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5210473, 38.1908266]
+        coordinates: [15.5210473, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
@@ -5994,7 +6316,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Mary of Mount Sion',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 231-233'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 231-233',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Monte Sion',
@@ -6012,23 +6334,25 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.469397, 37.474889]
+        coordinates: [14.469397, 37.474889],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.415_14.445.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.415_14.445.html',
+        ],
         children: null,
         alternate_location_names: [
           'Fessina (unknown)',
           'Fessima (unknown)',
           'Fesine (unknown)',
-          'Felsinae (unknown)'
+          'Felsinae (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
@@ -6040,7 +6364,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Anne of Fesime',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232',
         ],
         founders: [],
         italian_place_name: "Sant'Anna di Fesime",
@@ -6059,22 +6383,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Noto?',
         archaeological_remains: 'unknown',
-        province: 'Enna?'
-      }
+        province: 'Enna?',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8422705, 37.2935824]
+        coordinates: [14.8422705, 37.2935824],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.298_14.841.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.298_14.841.html',
+        ],
         children: null,
         alternate_location_names: [
           'Excordia (unknown)',
           'Scordia Suitana (unknown)',
-          'Scordia Suprana (unknown)'
+          'Scordia Suprana (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Temple',
@@ -6086,7 +6412,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Unknown',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 234-235'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 234-235',
         ],
         founders: [],
         italian_place_name: 'null',
@@ -6104,22 +6430,25 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
+        province: 'Catania',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.5210473, 38.1908266]
+        coordinates: [15.5210473, 38.1908266],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_38.05_14.867.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_38.05_14.867.html',
+        ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
         elevation: 0.0,
         rank_at_foundation: 'Hospital',
-        parent: 'Order of the Knights of the Hospital of Saint John at Jerusalem',
+        parent:
+          'Order of the Knights of the Hospital of Saint John at Jerusalem',
         place_see_also_uris: null,
         dedication: 'Saint John the Baptist',
         location_category: 'associated_modern',
@@ -6128,7 +6457,7 @@ export const geojson = {
         english_place_name: 'Hospital of Saint John the Baptist of Jerusalem',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp.  ",
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 235-239'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 235-239',
         ],
         founders: [],
         italian_place_name: "L'ospedale di San Giovanni di Gerusalemme",
@@ -6146,28 +6475,31 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Messina'
-      }
+        province: 'Messina',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.3614322, 38.110431]
+        coordinates: [13.3614322, 38.110431],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.817_13.583.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.817_13.583.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bn.rm (unknown)',
           'Balarm (unknown)',
           'Balarmuh (unknown)',
           'Bân.rm (unknown)',
-          'Panormus (unknown)'
+          'Panormus (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: 'Hospital',
-        parent: 'Order of the Knights of the Hospital of Saint John at Jerusalem',
+        parent:
+          'Order of the Knights of the Hospital of Saint John at Jerusalem',
         place_see_also_uris: null,
         dedication: 'All Saints',
         location_category: 'associated_modern',
@@ -6175,7 +6507,7 @@ export const geojson = {
         earliest_attestation_max_year: '1181',
         english_place_name: 'Hospital of All Saints at Palermo',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239',
         ],
         founders: [],
         italian_place_name: "L'ospedale di Tutti i Santi di Palermo",
@@ -6193,8 +6525,8 @@ export const geojson = {
         earliest_attestation_min_year: '1181',
         historical_province: 'Val di Mazara',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
@@ -6213,7 +6545,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Catherine',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239-240'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239-240',
         ],
         founders: [],
         italian_place_name: 'Santa Caterina',
@@ -6231,29 +6563,31 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [15.039317, 37.260433]
+        coordinates: [15.039317, 37.260433],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.285_15.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.285_15.html',
+        ],
         children: 'Abbey of Sambucina, Calabria',
         alternate_location_names: [
           'Lentina (unknown)',
           'Leontini (unknown)',
           'Wâdî Lentini (unknown)',
-          'Palude Salata (unknown)'
+          'Palude Salata (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
         parent: null,
         place_see_also_uris: [
-          'http://www.medioevosicilia.eu/markIII/santa-maria-di-roccadia-presso-lentini/'
+          'http://www.medioevosicilia.eu/markIII/santa-maria-di-roccadia-presso-lentini/',
         ],
         dedication: null,
         location_category: 'associated_modern',
@@ -6261,7 +6595,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Mary of Roccadia',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 182, n.2'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 182, n.2',
         ],
         founders: [],
         italian_place_name: 'Santa Maria di Roccadia',
@@ -6280,8 +6614,8 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: 'Val di Noto',
         archaeological_remains: 'unknown',
-        province: 'Syracuse'
-      }
+        province: 'Syracuse',
+      },
     },
     {
       type: 'Feature',
@@ -6300,7 +6634,7 @@ export const geojson = {
         earliest_attestation_max_year: '1080',
         english_place_name: 'Saint Michael of the Val Demone',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 191 n. 1'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 191 n. 1',
         ],
         founders: [],
         italian_place_name: "Sant'Angelo di Val Demone",
@@ -6318,23 +6652,25 @@ export const geojson = {
         earliest_attestation_min_year: '1080',
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [13.941816, 37.941756]
+        coordinates: [13.941816, 37.941756],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.918_13.936.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.918_13.936.html',
+        ],
         children: null,
         alternate_location_names: [
           'Golisanum (unknown)',
           "Qal'at -aṣ-Ṣirat (unknown)",
           'Gulosam (unknown)',
-          'Pedali (unknown)'
+          'Pedali (unknown)',
         ],
         elevation: 557.0,
         rank_at_foundation: 'Abbey?',
@@ -6346,7 +6682,7 @@ export const geojson = {
         earliest_attestation_max_year: '1134',
         english_place_name: 'Saint Mary of Pedale',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 192, n.7'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 192, n.7',
         ],
         founders: ['Countess? Adelasia? (Female?)'],
         italian_place_name: 'Santa Maria del Pedale',
@@ -6365,23 +6701,25 @@ export const geojson = {
         earliest_attestation_min_year: '1126',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.085329, 37.9733477]
+        coordinates: [14.085329, 37.9733477],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.932_14.089.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.932_14.089.html',
+        ],
         children: null,
         alternate_location_names: [
           'Ypsigro (unknown)',
           'Ruqqah Basili (unknown)',
           'Castri Boni (unknown)',
-          'Q.ratiris (unknown)'
+          'Q.ratiris (unknown)',
         ],
         elevation: 431.0,
         rank_at_foundation: 'Abbey',
@@ -6393,7 +6731,7 @@ export const geojson = {
         earliest_attestation_max_year: '1151',
         english_place_name: 'Saint Anastasia of Gratteri',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 191 n.1'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 191 n.1',
         ],
         founders: ['Count Roger I (Male)'],
         italian_place_name: 'Santa Maria di Gratteri',
@@ -6411,17 +6749,19 @@ export const geojson = {
         earliest_attestation_min_year: '1151',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.1198199, 37.8838052]
+        coordinates: [14.1198199, 37.8838052],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.86_14.154.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.86_14.154.html',
+        ],
         children: null,
         alternate_location_names: [
           'Giracium (unknown)',
@@ -6429,7 +6769,7 @@ export const geojson = {
           'Gârâs (unknown)',
           'Garas (unknown)',
           'Castrum Giracii (unknown)',
-          'Castrum Girachii (unknown)'
+          'Castrum Girachii (unknown)',
         ],
         elevation: 681.0,
         rank_at_foundation: 'Priory',
@@ -6441,7 +6781,7 @@ export const geojson = {
         earliest_attestation_max_year: '1147',
         english_place_name: 'Saint Mary of Cava',
         place_references: [
-          'Antista, Giuseppe. "Il priorato di Santa Maria della Cava." In Architettura e arte a Geraci: (XI-XVI secolo), 145-54. Collana Arte 3. San Marino delle Scale: Abadir, 2009. pp. 145-54'
+          'Antista, Giuseppe. "Il priorato di Santa Maria della Cava." In Architettura e arte a Geraci: (XI-XVI secolo), 145-54. Collana Arte 3. San Marino delle Scale: Abadir, 2009. pp. 145-54',
         ],
         founders: [],
         italian_place_name: 'Sana Maria della Cava',
@@ -6459,17 +6799,19 @@ export const geojson = {
         earliest_attestation_min_year: '1039',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Palermo'
-      }
+        province: 'Palermo',
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.5073319, 37.8094542]
+        coordinates: [14.5073319, 37.8094542],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.811_14.507.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.811_14.507.html',
+        ],
         children: 'Abbey of Saint Mary of Licodia',
         alternate_location_names: [
           'Cirama (unknown)',
@@ -6477,7 +6819,7 @@ export const geojson = {
           'Ceramin (unknown)',
           'Chirami (unknown)',
           'Terami (unknown)',
-          'Chinami (unknown)'
+          'Chinami (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
@@ -6489,7 +6831,7 @@ export const geojson = {
         earliest_attestation_max_year: '1143',
         english_place_name: 'Christ the Savior',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 122'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 122',
         ],
         founders: [],
         italian_place_name: 'Santissimo Salvatore di Cerami',
@@ -6507,8 +6849,8 @@ export const geojson = {
         earliest_attestation_min_year: '1143',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Enna'
-      }
+        province: 'Enna',
+      },
     },
     {
       type: 'Feature',
@@ -6527,7 +6869,7 @@ export const geojson = {
         earliest_attestation_max_year: null,
         english_place_name: 'Saint Nicholas of the Val Demone',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 191 n. 1'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 191 n. 1',
         ],
         founders: [],
         italian_place_name: 'San Nicola di Val Demone',
@@ -6545,22 +6887,24 @@ export const geojson = {
         earliest_attestation_min_year: null,
         historical_province: null,
         archaeological_remains: null,
-        province: null
-      }
+        province: null,
+      },
     },
     {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [14.8946012, 37.5680045]
+        coordinates: [14.8946012, 37.5680045],
       },
       properties: {
-        location_see_also_uris: ['http://www.geonames.org/maps/google_37.571_14.903.html'],
+        location_see_also_uris: [
+          'http://www.geonames.org/maps/google_37.571_14.903.html',
+        ],
         children: null,
         alternate_location_names: [
           'Bâtarnû (unknown)',
           'Paternio (unknown)',
-          'Castrum Paternionis (unknown)'
+          'Castrum Paternionis (unknown)',
         ],
         elevation: 0.0,
         rank_at_foundation: null,
@@ -6572,7 +6916,7 @@ export const geojson = {
         earliest_attestation_max_year: '1143',
         english_place_name: 'Saint Philip of Pantano',
         place_references: [
-          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 121-122'
+          'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 121-122',
         ],
         founders: [],
         italian_place_name: 'San Filippo di Pantano',
@@ -6590,8 +6934,8 @@ export const geojson = {
         earliest_attestation_min_year: '1143',
         historical_province: 'Val Demone',
         archaeological_remains: 'unknown',
-        province: 'Catania'
-      }
-    }
-  ]
+        province: 'Catania',
+      },
+    },
+  ],
 };
