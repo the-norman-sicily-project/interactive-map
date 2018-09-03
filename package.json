@@ -18,7 +18,14 @@
     "react-leaflet-markercluster": "^2.0.0-rc3",
     "react-scripts": "1.1.5"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
   "scripts": {
+    "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -27,8 +34,10 @@
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
     "prettier": "^1.14.2"
   }
 }
