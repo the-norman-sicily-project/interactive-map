@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { geojson } from '../data/geojson';
-import { mapOptions } from '../containers/MapConfig';
+import { Config } from '../containers/Config';
 import '../containers/App.css';
 import '../data/geojson';
 
@@ -18,14 +18,11 @@ class InteractiveMap extends Component {
     return (
       <div>
         <Map
-          center={mapOptions.centerPoint}
-          zoom={mapOptions.initialZoom}
-          maxZoom={mapOptions.maxZoom}
+          center={Config.centerPoint}
+          zoom={Config.initialZoom}
+          maxZoom={Config.maxZoom}
         >
-          <TileLayer
-            url={mapOptions.tileURL}
-            attribution={mapOptions.mapAttribution}
-          />
+          <TileLayer url={Config.tileURL} attribution={Config.mapAttribution} />
           <MarkerClusterGroup>
             <GeoJSON data={geojson} onEachFeature={this.onEachFeature} />
           </MarkerClusterGroup>

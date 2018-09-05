@@ -1,4 +1,4 @@
-export const mapOptions = {
+export const Config = {
   centerPoint: [37.73, 14.2],
   initialZoom: 8,
   maxZoom: 18,
