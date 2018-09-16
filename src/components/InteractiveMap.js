@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
+import { SearchBar } from './SearchBar';
 import { geojson } from '../data/geojson';
 import { Config } from '../containers/Config';
 import '../containers/App.css';
@@ -26,6 +27,7 @@ class InteractiveMap extends Component {
           <MarkerClusterGroup>
             <GeoJSON data={geojson} onEachFeature={this.onEachFeature} />
           </MarkerClusterGroup>
+          <SearchBar />
         </Map>
       </div>
     );
