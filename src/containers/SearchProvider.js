@@ -2,14 +2,15 @@ import { geojson } from '../data/geojson';
 
 class SearchProvider {
   async search({ query }) {
+    let lowerCaseQuery = query.toLowerCase();
     let matches = geojson.features.filter(
       feature =>
         feature.geometry &&
         feature.geometry.coordinates &&
-        feature.geometry.coordinates.length > 0 &&
+        feature.geometry.coordinates.length >= 2 &&
         feature.properties.english_place_name
           .toLowerCase()
-          .indexOf(query.toLowerCase()) > -1
+          .indexOf(lowerCaseQuery) > -1
     );
 
     if (matches && matches.length > 0) {
