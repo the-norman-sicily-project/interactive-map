@@ -3,7 +3,7 @@ export const Config = {
   initialZoom: 8,
   maxZoom: 18,
   tileURL:
-    'https://api.mapbox.com/styles/v1/marshallr2/cjmgpleyx0lri2tph0orws1m5/tiles/256/{z}/{x}/{y}@2x?access_token=',
+    'https://api.mapbox.com/styles/v1/norman-sicily-project/cjmm4r23s7n2b2rs0tq0a9rw0/tiles/256/{z}/{x}/{y}@2x?access_token=',
   mapAttribution:
     '<a href=&quot;https://www.mapbox.com/about/maps/&quot;>© Mapbox</a> <a href=&quot;http://www.openstreetmap.org/copyright&quot;>© OpenStreetMap</a>',
 };
