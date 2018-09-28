@@ -1,12 +1,16 @@
-import { withLeaflet } from 'react-leaflet';
+import { withLeaflet, MapControl } from 'react-leaflet';
 import { GeoSearchControl } from 'leaflet-geosearch';
-import { MapControl } from 'react-leaflet';
+import { geojson } from '../data/geojson';
 import SearchProvider from '../containers/SearchProvider';
 
 class Search extends MapControl {
+  static getSearchProvider() {
+    return new SearchProvider(geojson);
+  }
+
   createLeafletElement() {
     return GeoSearchControl({
-      provider: new SearchProvider(),
+      provider: this.getSearchProvider(),
       autoClose: true,
       showPopup: true,
       searchLabel: 'search',
@@ -14,4 +18,5 @@ class Search extends MapControl {
   }
 }
 
-export const SearchBar = withLeaflet(Search);
+const SearchBar = withLeaflet(Search);
+export default SearchBar;

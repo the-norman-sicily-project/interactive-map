@@ -1,7 +1,8 @@
 # The Norman Sicily Project - Interactive Map
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-Steps to start a local version.
+
+## Running a local version
 
 Clone the repository:
 
@@ -14,6 +15,12 @@ Move to the directory of the clone:
 Start local server at port 3000:
 
     yarn start
+
+## Running Tests
+
+To run tests:
+
+    yarn test
 
 ## License
 

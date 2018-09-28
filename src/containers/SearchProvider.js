@@ -1,9 +1,11 @@
-import { geojson } from '../data/geojson';
-
 class SearchProvider {
+  constructor(geojson) {
+    this.geojson = geojson;
+  }
+
   async search({ query }) {
-    let lowerCaseQuery = query.toLowerCase();
-    let matches = geojson.features.filter(
+    const lowerCaseQuery = query.toLowerCase();
+    const matches = this.geojson.features.filter(
       feature =>
         feature.geometry &&
         feature.geometry.coordinates &&
@@ -19,9 +21,8 @@ class SearchProvider {
         y: feature.geometry.coordinates[1],
         label: feature.properties.english_place_name,
       }));
-    } else {
-      return [];
     }
+    return [];
   }
 }
 
