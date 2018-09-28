@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
-import { SearchBar } from './SearchBar';
+import SearchBar from './SearchBar';
 import { geojson } from '../data/geojson';
 import { Config } from '../containers/Config';
 import { apikey } from '../containers/ApiKey';
