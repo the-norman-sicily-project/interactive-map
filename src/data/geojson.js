@@ -1,4 +1,4 @@
-export const geojson = {
+const geojson = {
   type: 'FeatureCollection',
   features: [
     {
@@ -6939,3 +6939,5 @@ export const geojson = {
     },
   ],
 };
+
+export default geojson;
