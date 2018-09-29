@@ -2,20 +2,21 @@ import React, { Component } from 'react';
 import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import SearchBar from './SearchBar';
-import { geojson } from '../data/geojson';
-import { Config } from '../containers/Config';
-import { apikey } from '../containers/ApiKey';
+import geojson from '../data/geojson';
+import Config from '../containers/Config';
+import apikey from '../containers/ApiKey';
 import '../containers/App.css';
-import '../data/geojson';
 
 class InteractiveMap extends Component {
   constructor(props) {
     super(props);
     this.onEachFeature = this.onEachFeature.bind(this);
   }
+
   onEachFeature = (feature, layer) => {
     layer.bindPopup(feature.properties.english_place_name);
   };
+
   render() {
     return (
       <div>
