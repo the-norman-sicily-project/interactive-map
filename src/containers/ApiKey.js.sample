@@ -6,3 +6,5 @@
 const apikey = {
   MAPBOX_ACCESS_TOKEN: 'YOUR MAPBOX ACCESS TOKEN'
 };
+
+export default apikey;
