@@ -17,7 +17,7 @@
     "react-dom": "^16.4.2",
     "react-leaflet": "^2.0.1",
     "react-leaflet-markercluster": "^2.0.0-rc3",
-    "react-scripts": "1.1.5"
+    "react-scripts": "2.0.3"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -34,7 +34,6 @@
     "lint": "eslint --ext .js --ext .jsx src/"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.14.0",
@@ -44,5 +43,11 @@
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
     "prettier": "^1.14.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
