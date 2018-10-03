@@ -1,6 +1,7 @@
 # The Norman Sicily Project - Interactive Map
 
 [![Build Status](https://travis-ci.org/the-norman-sicily-project/interactive-map.svg?branch=master)](https://travis-ci.org/the-norman-sicily-project/interactive-map)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
