@@ -1,5 +1,7 @@
 # The Norman Sicily Project - Interactive Map
 
+[![Build Status](https://travis-ci.org/the-norman-sicily-project/interactive-map.svg?branch=master)](https://travis-ci.org/the-norman-sicily-project/interactive-map)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Running a local version
