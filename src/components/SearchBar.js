@@ -4,12 +4,15 @@ import geojson from '../data/geojson';
 import SearchProvider from '../containers/SearchProvider';
 
 class Search extends MapControl {
-  static getSearchProvider() {
-    const provider = new SearchProvider(geojson);
-    return provider;
+  initProvider() {
+    this.provider = new SearchProvider(geojson);
   }
 
   createLeafletElement() {
+    if (!this.provider) {
+      this.initProvider();
+    }
+
     return GeoSearchControl({
       provider: this.provider,
       autoClose: true,
