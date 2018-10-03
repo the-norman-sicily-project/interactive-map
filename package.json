@@ -8,6 +8,11 @@
     "type": "git",
     "url": "https://github.com/the-norman-sicily-project/interactive-map.git"
   },
+  "author": "Joseph Hayes <joephayes@gmail.com> (https://github.com/joephayes)",
+  "contributors": [
+    "Dawn Marie Hayes <hayesd@montclair.edu> (http://www.thehayesweb.org/dhayes)",
+    "Ryan Marshall <RyanMarshall5765@gmail.com> (https://github.com/RyanMarshall5765)"
+  ],
   "dependencies": {
     "leaflet": "^1.3.4",
     "leaflet-geosearch": "^2.7.0",
