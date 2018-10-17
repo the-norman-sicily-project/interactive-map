@@ -1,36 +1,46 @@
 import React, { Component } from 'react';
 import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
-import SearchBar from './SearchBar';
+import SearchBar from './searchbar';
 import geojson from '../data/geojson';
-import Config from '../containers/Config';
-import apikey from '../containers/ApiKey';
-import '../containers/App.css';
+import CONFIG from '../containers/config';
+import API_KEY from '../containers/apikey';
+import setMarker from '../containers/markericon';
+import '../containers/app.css';
 
 class InteractiveMap extends Component {
   constructor(props) {
     super(props);
     this.onEachFeature = this.onEachFeature.bind(this);
+    this.pointToLayer = this.pointToLayer.bind(this);
   }
 
   onEachFeature = (feature, layer) => {
     layer.bindPopup(feature.properties.english_place_name);
   };
 
+  pointToLayer = (properties, latlng) => {
+    return setMarker(properties, latlng);
+  };
+
   render() {
     return (
       <div>
         <Map
-          center={Config.centerPoint}
-          zoom={Config.initialZoom}
-          maxZoom={Config.maxZoom}
+          center={CONFIG.centerPoint}
+          zoom={CONFIG.initialZoom}
+          maxZoom={CONFIG.maxZoom}
         >
           <TileLayer
-            url={Config.tileURL + apikey.MAPBOX_ACCESS_TOKEN}
-            attribution={Config.mapAttribution}
+            url={CONFIG.tileURL + API_KEY.MAPBOX_ACCESS_TOKEN}
+            attribution={CONFIG.mapAttribution}
           />
           <MarkerClusterGroup>
-            <GeoJSON data={geojson} onEachFeature={this.onEachFeature} />
+            <GeoJSON
+              data={geojson}
+              onEachFeature={this.onEachFeature}
+              pointToLayer={this.pointToLayer}
+            />
           </MarkerClusterGroup>
           <SearchBar />
         </Map>
