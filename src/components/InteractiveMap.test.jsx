@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import InteractiveMap from './InteractiveMap';
+import InteractiveMap from './interactivemap';
 
 it('renders without crashing', () => {
   shallow(<InteractiveMap />);
