@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Icon = ({ color, icon, size }) => {
+const Icon = ({ color, icon, size, translate, scale }) => {
   const styles = {
     svg: {
       display: 'inline-block',
@@ -17,6 +17,7 @@ const Icon = ({ color, icon, size }) => {
       style={styles.svg}
       width={`${size}px`}
       height={`${size}px`}
+      transform={`translate(${translate}) scale(${scale})`}
       viewBox="0 0 1024 1024"
     >
       <path style={styles.path} d={icon} />
@@ -28,11 +29,15 @@ Icon.propTypes = {
   icon: PropTypes.string.isRequired,
   size: PropTypes.number,
   color: PropTypes.string,
+  translate: PropTypes.string,
+  scale: PropTypes.string,
 };
 
 Icon.defaultProps = {
   size: 55,
   color: '#000000',
+  scale: '',
+  translate: '',
 };
 
 export default Icon;
