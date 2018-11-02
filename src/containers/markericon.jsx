@@ -41,7 +41,9 @@ const setMarker = (properties, latlng) => {
     }),
     'Knights Templar': L.marker(latlng, {
       icon: L.divIcon({
-        html: ReactDOMServer.renderToString(<Icon icon={ICONS.MONASTERY} />),
+        html: ReactDOMServer.renderToString(
+          <Icon icon={ICONS.MONASTERY} translate="-6,-41" scale="1,-1" />
+        ),
       }),
     }),
   };
@@ -50,7 +52,12 @@ const setMarker = (properties, latlng) => {
     L.marker(latlng, {
       icon: L.divIcon({
         html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} color="#0000ff" />
+          <Icon
+            icon={ICONS.MONASTERY}
+            color="#0000ff"
+            translate="-6,-41"
+            scale="1,-1"
+          />
         ),
       }),
     })
