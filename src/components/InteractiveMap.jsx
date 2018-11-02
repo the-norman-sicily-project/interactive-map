@@ -3,10 +3,10 @@ import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import SearchBar from './SearchBar';
 import geojson from '../data/geojson';
-import CONFIG from '../containers/config';
+import CONFIG from '../containers/Config';
 import API_KEY from '../containers/ApiKey';
 import setMarker from '../containers/markericon';
-import '../containers/app.css';
+import '../containers/App.css';
 
 class InteractiveMap extends Component {
   constructor(props) {
