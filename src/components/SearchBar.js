@@ -1,7 +1,7 @@
 import { withLeaflet, MapControl } from 'react-leaflet';
 import { GeoSearchControl } from 'leaflet-geosearch';
 import geojson from '../data/geojson';
-import SearchProvider from '../containers/searchprovider';
+import SearchProvider from '../containers/SearchProvider';
 
 class Search extends MapControl {
   initProvider() {

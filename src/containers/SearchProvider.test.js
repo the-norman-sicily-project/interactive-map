@@ -1,4 +1,4 @@
-import SearchProvider from './searchprovider';
+import SearchProvider from './SearchProvider';
 import testdata from '../data/testdata';
 
 let sp;
