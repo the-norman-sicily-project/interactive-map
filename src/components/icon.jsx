@@ -34,10 +34,10 @@ Icon.propTypes = {
 };
 
 Icon.defaultProps = {
-  size: 55,
   color: '#000000',
-  scale: '',
+  scale: '1,1',
   translate: '',
+  size: 55,
 };
 
 export default Icon;

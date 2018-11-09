@@ -19,7 +19,7 @@ class InteractiveMap extends Component {
     layer.bindPopup(feature.properties.english_place_name);
   };
 
-  pointToLayer = (properties, latlng) => setMarker(properties, latlng);
+  pointToLayer = (feature, latlng) => setMarker(feature, latlng);
 
   render() {
     return (
