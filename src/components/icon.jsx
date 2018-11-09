@@ -35,7 +35,7 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
   color: '#000000',
-  scale: '1,1',
+  scale: '',
   translate: '',
   size: 55,
 };

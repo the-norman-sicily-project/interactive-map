@@ -7,79 +7,49 @@ import ICONS from './icons';
 // Using L because a component returns React.createElement() instead of L.geoJSON(..., { pointToLayer }
 // Reference: https://github.com/PaulLeCam/react-leaflet/issues/234
 
-const setMarker = (feature, latlng) => {
-  const orderType = {
-    Basilian: L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} size={55} />
-        ),
-      }),
+const orderLookup = order => {
+  switch (order) {
+    case 'Basilian':
+      return { color: 'blue', scale: '1,-1', translate: '-6,-41' };
+
+    case 'Augustinian Canons':
+      return { color: 'red', scale: '1,-1', translate: '-6,-41' };
+
+    case 'Knights of the Hospital of Saint John of Jerusalem':
+      return { color: 'green', scale: '1,-1', translate: '-6,-41' };
+
+    case 'Benedictine':
+      return { color: 'yellow', scale: '1,-1', translate: '-6,-41' };
+
+    case 'Cistercian':
+      return { color: 'purple', scale: '1,-1', translate: '-6,-41' };
+
+    case 'Cluniac':
+      return { color: 'orange', scale: '1,-1', translate: '-6,-41' };
+
+    case 'Knights Templar':
+      return { color: 'brown', scale: '1,-1', translate: '-6,-41' };
+
+    default: {
+      return Icon.defaultProps;
+    }
+  }
+};
+const setMarker = ({ properties: { order } }, latlng) => {
+  const setProps = Object.assign({}, Icon.defaultProps, orderLookup(order));
+  return L.marker(latlng, {
+    icon: L.divIcon({
+      html: ReactDOMServer.renderToString(
+        <Icon
+          icon={ICONS.MONASTERY}
+          color={setProps.color}
+          translate={setProps.translate}
+          scale={setProps.scale}
+          size={setProps.size}
+        />
+      ),
     }),
-    'Augustinian Canons': L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} size={55} />
-        ),
-      }),
-    }),
-    'Knights of the Hospital of Saint John of Jerusalem': L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} size={55} />
-        ),
-      }),
-    }),
-    Benedictine: L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} size={55} />
-        ),
-      }),
-    }),
-    Cistercian: L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} size={55} />
-        ),
-      }),
-    }),
-    Cluniac: L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon icon={ICONS.MONASTERY} size={55} />
-        ),
-      }),
-    }),
-    'Knights Templar': L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon
-            icon={ICONS.MONASTERY}
-            translate="-6,-41"
-            scale="1,-1"
-            size={55}
-          />
-        ),
-      }),
-    }),
-  };
-  return (
-    orderType[feature.properties.order] ||
-    L.marker(latlng, {
-      icon: L.divIcon({
-        html: ReactDOMServer.renderToString(
-          <Icon
-            icon={ICONS.MONASTERY}
-            color="#0000ff"
-            translate="-6,-41"
-            scale="1,-1"
-            size={55}
-          />
-        ),
-      }),
-    })
-  );
+  });
 };
 
 export default setMarker;
