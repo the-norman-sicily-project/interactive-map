@@ -37,7 +37,7 @@ const orderLookup = order => {
 const placeTypeLookup = placeType => {
   switch (placeType) {
     case 'monastery':
-      return { scale: '1,-1', translate: '-6,-41' };
+      return { icon: ICONS.MONASTERY, scale: '1,-1', translate: '-6,-41' };
     default: {
       return {};
     }
@@ -54,7 +54,7 @@ const setMarker = (feature, latlng) => {
     icon: L.divIcon({
       html: ReactDOMServer.renderToString(
         <Icon
-          icon={ICONS.MONASTERY}
+          icon={setProps.icon}
           color={setProps.color}
           translate={setProps.translate}
           scale={setProps.scale}
