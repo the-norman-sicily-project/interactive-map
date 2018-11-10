@@ -10,33 +10,46 @@ import ICONS from './icons';
 const orderLookup = order => {
   switch (order) {
     case 'Basilian':
-      return { color: 'blue', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'blue' };
 
     case 'Augustinian Canons':
-      return { color: 'red', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'red' };
 
     case 'Knights of the Hospital of Saint John of Jerusalem':
-      return { color: 'green', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'green' };
 
     case 'Benedictine':
-      return { color: 'yellow', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'yellow' };
 
     case 'Cistercian':
-      return { color: 'purple', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'purple' };
 
     case 'Cluniac':
-      return { color: 'orange', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'orange' };
 
     case 'Knights Templar':
-      return { color: 'brown', scale: '1,-1', translate: '-6,-41' };
+      return { color: 'brown' };
 
+    default:
+      return {};
+  }
+};
+const placeTypeLookup = placeType => {
+  switch (placeType) {
+    case 'monastery':
+      return { scale: '1,-1', translate: '-6,-41' };
     default: {
-      return Icon.defaultProps;
+      return {};
     }
   }
 };
-const setMarker = ({ properties: { order } }, latlng) => {
-  const setProps = Object.assign({}, Icon.defaultProps, orderLookup(order));
+const setMarker = (feature, latlng) => {
+  const setProps = Object.assign(
+    {},
+    Icon.defaultProps,
+    placeTypeLookup(feature.properties.place_type),
+    orderLookup(feature.properties.order)
+  );
   return L.marker(latlng, {
     icon: L.divIcon({
       html: ReactDOMServer.renderToString(
