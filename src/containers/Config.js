@@ -1,4 +1,4 @@
-const Config = {
+const CONFIG = {
   centerPoint: [37.73, 14.2],
   initialZoom: 8,
   maxZoom: 18,
@@ -8,4 +8,4 @@ const Config = {
     '<a href=&quot;https://www.mapbox.com/about/maps/&quot;>© Mapbox</a> <a href=&quot;http://www.openstreetmap.org/copyright&quot;>© OpenStreetMap</a>',
 };
 
-export default Config;
+export default CONFIG;

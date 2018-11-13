@@ -1,10 +1,10 @@
 // IMPORTANT! DO NOT COMMIT THIS FILE!
 //
 // Replace the text 'YOUR MAPBOX ACCESS TOKEN' with your MapBox access token
-// and save and rename this file to 'ApiKey.js'.
+// and save and rename this file to 'apikey.js'.
 //
-const apikey = {
+const API_KEY = {
   MAPBOX_ACCESS_TOKEN: 'YOUR MAPBOX ACCESS TOKEN',
 };
 
-export default apikey;
+export default API_KEY;
