@@ -8,13 +8,12 @@ const popupOptions = {
   className: 'leaflet_popup',
 };
 
-function formatKey(key) {
-  return key
+const formatKey = key =>
+  key
     .toLowerCase()
     .split('_')
     .map(str => str[0].toUpperCase() + str.substr(1))
     .join(' ');
-}
 
 const parseGeoJson = data =>
   Object.entries(data).map(([key, value]) => {
