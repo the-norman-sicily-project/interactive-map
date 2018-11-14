@@ -8,18 +8,33 @@ const popupOptions = {
   className: 'leaflet_popup',
 };
 
+function formatKey(key) {
+  return key
+    .toLowerCase()
+    .split('_')
+    .map(str => str[0].toUpperCase() + str.substr(1))
+    .join(' ');
+}
+
 const parseGeoJson = data =>
   Object.entries(data).map(([key, value]) => {
     if (value) {
+      if (Array.isArray(value)) {
+        return value.reduce((accumulator, element, currentIndex) => {
+          const keyValue = currentIndex === 0 ? formatKey(key) : '&nbsp;';
+          accumulator += `<tr><td>${keyValue}</td><td>${element}</td></tr>`; // eslint-disable-line no-param-reassign
+          return accumulator;
+        }, '');
+      }
       return typeof value === 'object'
         ? parseGeoJson(value)
         : `<tr>
-          <td>${key}</td>
+          <td>${formatKey(key)}</td>
           <td>${value}</td>
           </tr>`;
     }
     return `<tr>
-            <td>${key}</td>
+            <td>${formatKey(key)}</td>
             <td>unknown</td>
             </tr>`;
   });
