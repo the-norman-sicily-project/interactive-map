@@ -16,27 +16,29 @@ const formatKey = key =>
     .join(' ');
 
 const parseGeoJson = data =>
-  Object.entries(data).map(([key, value]) => {
-    if (value) {
-      if (Array.isArray(value)) {
-        return value.reduce((accumulator, element, currentIndex) => {
-          const keyValue = currentIndex === 0 ? formatKey(key) : '&nbsp;';
-          accumulator += `<tr><td>${keyValue}</td><td>${element}</td></tr>`; // eslint-disable-line no-param-reassign
-          return accumulator;
-        }, '');
-      }
-      return typeof value === 'object'
-        ? parseGeoJson(value)
-        : `<tr>
+  Object.entries(data)
+    .map(([key, value]) => {
+      if (value) {
+        if (Array.isArray(value)) {
+          return value.reduce((accumulator, element, currentIndex) => {
+            const keyValue = currentIndex === 0 ? formatKey(key) : '&nbsp;';
+            accumulator += `<tr><td>${keyValue}</td><td>${element}</td></tr>`; // eslint-disable-line no-param-reassign
+            return accumulator;
+          }, '');
+        }
+        return typeof value === 'object'
+          ? parseGeoJson(value)
+          : `<tr>
           <td>${formatKey(key)}</td>
           <td>${value}</td>
           </tr>`;
-    }
-    return `<tr>
+      }
+      return `<tr>
             <td>${formatKey(key)}</td>
             <td>unknown</td>
             </tr>`;
-  });
+    })
+    .join('');
 
 const getContent = feature => {
   const content = feature.properties;
