@@ -1,15 +1,25 @@
-body {
-  padding-bottom: 0;
-  padding-top: 0;
-}
-h1,
-h2,
-p {
-  font-family: sans-serif;
-  text-align: center;
-}
+/* Map */
 .leaflet-container {
   height: 600px;
   width: 1200px;
   margin: 0 auto;
+}
+
+/* Popup Classes
+ .leaflet-popup-content-wrapper .leaflet-popup-content{
+}
+.leaflet-popup-content-wrapper {
+}
+.leaflet-popup-tip-container {
+} */
+
+.leaflet-popup-content-wrapper .leaflet-popup-content tr:nth-child(even) {
+  background-color: lightblue;
+}
+.leaflet-popup-content-wrapper .leaflet-popup-content table,
+td,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
 }
