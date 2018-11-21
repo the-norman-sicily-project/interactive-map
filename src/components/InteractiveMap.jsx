@@ -5,6 +5,7 @@ import SearchBar from './SearchBar';
 import geojson from '../data/geojson';
 import CONFIG from '../containers/Config';
 import API_KEY from '../containers/ApiKey';
+import setPopup from '../containers/popup';
 import setMarker from '../containers/markericon';
 import '../containers/App.css';
 
@@ -15,9 +16,7 @@ class InteractiveMap extends Component {
     this.pointToLayer = this.pointToLayer.bind(this);
   }
 
-  onEachFeature = (feature, layer) => {
-    layer.bindPopup(feature.properties.english_place_name);
-  };
+  onEachFeature = (feature, layer) => setPopup(feature, layer);
 
   pointToLayer = (feature, latlng) => setMarker(feature, latlng);
 
