@@ -30,7 +30,7 @@ tr {
   font-weight: bold;
   font-size: 90%;
   position: absolute;
-  bottom: 180px;
+  bottom: 200px;
   z-index: 500;
 }
 .my-legend .legend-scale ul {
