@@ -23,3 +23,49 @@ tr {
   border-collapse: collapse;
   padding: 8px;
 }
+
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 95px;
+  font-weight: bold;
+  font-size: 90%;
+  position: absolute;
+  bottom: 200px;
+  z-index: 500;
+}
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  position: absolute;
+  bottom: 15px;
+  z-index: 500;
+  border: 1px solid black;
+  background: rgba(223, 223, 220, 0.6);
+}
+.my-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 5px;
+  line-height: 18px;
+  margin-bottom: 2px;
+  z-index: 500;
+}
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+  z-index: 500;
+}
+.my-legend a {
+  color: #777;
+  z-index: 500;
+}
