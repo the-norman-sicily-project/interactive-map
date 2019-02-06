@@ -7,6 +7,7 @@ import CONFIG from '../containers/Config';
 import API_KEY from '../containers/ApiKey';
 import setPopup from '../containers/popup';
 import setMarker from '../containers/markericon';
+import Legend from './legend';
 import '../containers/App.css';
 
 class InteractiveMap extends Component {
@@ -40,6 +41,7 @@ class InteractiveMap extends Component {
             />
           </MarkerClusterGroup>
           <SearchBar />
+          <Legend />
         </Map>
       </div>
     );
