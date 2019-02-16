@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "Interactive map application for the Norman Sicily Project",
   "private": true,
+  "homepage": "http://www.normansicily.org/places",
   "repository": {
     "type": "git",
     "url": "https://github.com/the-norman-sicily-project/interactive-map.git"
