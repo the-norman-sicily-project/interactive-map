@@ -25,7 +25,7 @@
     "react-dom": "^16.4.2",
     "react-leaflet": "^2.0.1",
     "react-leaflet-markercluster": "^2.0.0-rc3",
-    "react-scripts": "2.0.3",
+    "react-scripts": "2.1.8",
     "react-test-renderer": "^16.5.2"
   },
   "lint-staged": {
