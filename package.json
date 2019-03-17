@@ -21,12 +21,12 @@
     "leaflet-geosearch": "^2.7.0",
     "leaflet.markercluster": "^1.4.0",
     "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
     "react-leaflet": "^2.0.1",
     "react-leaflet-markercluster": "^2.0.0-rc3",
     "react-scripts": "2.1.8",
-    "react-test-renderer": "^16.5.2"
+    "react-test-renderer": "16.8.4"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
