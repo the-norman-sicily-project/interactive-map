@@ -1,11 +1,15 @@
 language: node_js
 node_js:
-  - 8
+- 8
 cache:
   yarn: true
   directories:
-    - node_modules
+  - node_modules
 script:
-  - cp src/containers/ApiKey.js.sample src/containers/ApiKey.js
-  - yarn lint
-  - yarn test
+- cp src/containers/ApiKey.js.sample src/containers/ApiKey.js
+- yarn build
+- yarn lint
+- yarn test
+notifications:
+  slack:
+    secure: XDCdSxTy6fwF7vZxeOBoIbm4mKbczB6ZxBIbSE93Nwv8LSTIOw7SSqwWtgCnIoGn6bNH6Sl/qnZDfNSS9m7SnHveGKKfS9GniluW/TS2+MwM668IuBiEe1WgAzbxkJjGuv1F0bOZs9SdwfPhllaeDS9esh2pKPLBoLlqgadJ8k748PGR6IywEZlZ9kzQIeC9U2A30o+ra7fJL32JLYgQkrero7mwHnVXJzLNtlU7X2KWxEu+GDn7z6+nQ7MPZBWmWRXUcWHF1fbX0EhX27TEmoFdbJN6Ix6YT3zOdX6KZ7NxpNR+fZlLDTIOwII4gvDUBxbP+K/bo7giQza5aTglhE8kGpklaJKWihrr2n41xoxF65i0iRQlRF9D+NRtIyd86WxKKSGtU8z8lXyl2c7wqKFWpBVuCjtQNoPbUf8XAfNtJ1nx9q5fnMvlSbdF43AU7BvrGA5M9Y741KH9UDr8chbyj97cT0NCbVKl3ovaQQJ3ReqFullqRZxmB23hx2lTP6j6CzJhHbSqIKjy3FZA2rO3cY8feXR2x2xwHyB4MHUwNurye2X14+LXsGre2qKrJTSZCQnVv4sbYp6lo8guSY5zDNaM+odK1zb7kmklTbInrTYD6xiPEy8TlEAu/t9sn5YTQ2Q3gcz8Tlzmd7Ws8+JDP2dRmcPUN0AvEdBQtiE=
