@@ -7,6 +7,5 @@ cache:
     - node_modules
 script:
   - cp src/containers/ApiKey.js.sample src/containers/ApiKey.js
-  - yarn build
   - yarn lint
   - yarn test
