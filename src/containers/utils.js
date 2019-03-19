@@ -2,32 +2,32 @@ import ICONS from './icons';
 
 export const orderLookup = order => {
   switch (order) {
-    case 'Basilian':
-      return { color: 'blue' };
-
     case 'Augustinian Canons':
-      return { color: 'red' };
+      return { color: '#ba3d36' };
 
-    case 'Knights of the Hospital of Saint John of Jerusalem':
-      return { color: 'green' };
+    case 'Basilian':
+      return { color: '#ca8345' };
 
     case 'Benedictine':
-      return { color: 'yellow' };
+      return { color: '#f9f9f9' };
 
     case 'Cistercian':
-      return { color: 'purple' };
+      return { color: '#cabfb3' };
 
     case 'Cluniac':
-      return { color: 'orange' };
-
-    case 'Knights Templar':
-      return { color: 'brown' };
-
-    case 'Premonstratensian Canons':
-      return { color: 'aqua' };
+      return { color: '#ffb404' };
 
     case 'Hospital of Saint Lazarus at Jerusalem':
-      return { color: 'teal' };
+      return { color: '#837b52' };
+
+    case 'Knights of the Hospital of Saint John of Jerusalem':
+      return { color: '#617790' };
+
+    case 'Knights Templar':
+      return { color: '#8d8594' };
+
+    case 'Premonstratensian Canons':
+      return { color: '#423c46' };
 
     default:
       return {};
@@ -58,5 +58,5 @@ export const getListOfOrders = data => {
 
     return accumulator;
   }, new Set([]));
-  return [...ordersSet];
+  return [...ordersSet].sort((a, b) => a.localeCompare(b));
 };
