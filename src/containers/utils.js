@@ -5,19 +5,19 @@ export const orderLookup = order => {
     case 'Augustinian Canons':
       return { color: '#ba3d36' };
 
-    case 'Basilian':
+    case 'Basilians':
       return { color: '#ca8345' };
 
-    case 'Benedictine':
+    case 'Benedictines':
       return { color: '#f9f9f9' };
 
-    case 'Cistercian':
+    case 'Cistercians':
       return { color: '#cabfb3' };
 
-    case 'Cluniac':
+    case 'Cluniacs':
       return { color: '#ffb404' };
 
-    case 'Hospital of Saint Lazarus at Jerusalem':
+    case 'Knights of the Hospital of Saint Lazarus at Jerusalem':
       return { color: '#837b52' };
 
     case 'Knights of the Hospital of Saint John of Jerusalem':
@@ -30,7 +30,7 @@ export const orderLookup = order => {
       return { color: '#423c46' };
 
     default:
-      return {};
+      return { color: '#88868d' };
   }
 };
 
@@ -57,6 +57,6 @@ export const getListOfOrders = data => {
     }
 
     return accumulator;
-  }, new Set([]));
+  }, new Set(['Unknown']));
   return [...ordersSet].sort((a, b) => a.localeCompare(b));
 };
