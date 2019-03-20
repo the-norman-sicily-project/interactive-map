@@ -30,7 +30,7 @@ export const orderLookup = order => {
       return { color: '#423c46' };
 
     default:
-      return { color: '#88868d' };
+      return { color: '#fbe5ba' };
   }
 };
 
