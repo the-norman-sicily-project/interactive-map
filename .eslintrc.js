@@ -9,6 +9,12 @@ module.exports = {
   plugins: ['prettier'],
   parser: 'babel-eslint',
   rules: {
+    'camelcase': [
+      'error',
+      {
+        ignoreDestructuring: true
+      }
+    ],
     'prettier/prettier': [
       'error',
       {

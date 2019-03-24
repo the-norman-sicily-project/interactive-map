@@ -1,3 +1,4 @@
+/* eslint camelcase: 0 */
 const testdata = {
   type: 'FeatureCollection',
   features: [

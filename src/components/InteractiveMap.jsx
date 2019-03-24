@@ -17,7 +17,14 @@ class InteractiveMap extends Component {
     this.pointToLayer = this.pointToLayer.bind(this);
   }
 
-  onEachFeature = (feature, layer) => setPopup(feature, layer);
+  onEachFeature = (feature, layer) => {
+    const { english_place_name, italian_place_name } = feature.properties;
+
+    /* eslint-disable-next-line camelcase */
+    layer.bindTooltip(`${italian_place_name} (${english_place_name} )`);
+
+    setPopup(feature, layer);
+  };
 
   pointToLayer = (feature, latlng) => setMarker(feature, latlng);
 
