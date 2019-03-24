@@ -15,8 +15,7 @@ const makeOrderList = orderList.map(order => (
 
 const Legend = () => (
   <Pane>
-    <div className="my-legend">
-      <div className="legend-title">Map Legend</div>
+    <div className="map-legend">
       <div className="legend-scale">
         <ul className="legend-labels">{makeOrderList}</ul>
       </div>
