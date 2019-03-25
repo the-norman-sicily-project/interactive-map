@@ -1,29 +1,29 @@
-import SearchProvider from './SearchProvider';
+import SearchProvider from './search_provider';
 import testdata from '../data/testdata';
 
 let sp;
 
-const allResults = testdata.features
+const allResults = testdata
   .filter(feature => feature.geometry)
   .map(feature => ({
-    x: feature.geometry.coordinates[0],
-    y: feature.geometry.coordinates[1],
+    x: feature.geometry.coordinates[1],
+    y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,
   }));
 
-const palermoResults = testdata.features
+const palermoResults = testdata
   .filter(feature => feature.properties.english_place_name === 'Palermo')
   .map(feature => ({
-    x: feature.geometry.coordinates[0],
-    y: feature.geometry.coordinates[1],
+    x: feature.geometry.coordinates[1],
+    y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,
   }));
 
-const cataniaResults = testdata.features
+const cataniaResults = testdata
   .filter(feature => feature.properties.english_place_name === 'Catania')
   .map(feature => ({
-    x: feature.geometry.coordinates[0],
-    y: feature.geometry.coordinates[1],
+    x: feature.geometry.coordinates[1],
+    y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,
   }));
 

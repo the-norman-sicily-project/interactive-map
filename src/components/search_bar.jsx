@@ -1,23 +1,22 @@
 import { withLeaflet, MapControl } from 'react-leaflet';
 import { GeoSearchControl } from 'leaflet-geosearch';
-import geojson from '../data/geojson';
-import SearchProvider from '../containers/SearchProvider';
+import SearchProvider from '../containers/search_provider';
 
 class Search extends MapControl {
-  initProvider() {
-    this.provider = new SearchProvider(geojson);
+  initProvider(sites) {
+    this.provider = new SearchProvider(sites);
   }
 
-  createLeafletElement() {
-    if (!this.provider) {
-      this.initProvider();
-    }
+  createLeafletElement({ sites }) {
+    this.initProvider(sites);
 
     return GeoSearchControl({
       provider: this.provider,
-      autoClose: true,
+      showMarker: false,
       showPopup: true,
       searchLabel: 'search',
+      autoClose: true,
+      keepResult: true,
     });
   }
 }
