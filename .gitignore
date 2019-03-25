@@ -1,7 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 #secrets
-ApiKey.js
+apikeys.js
 
 # dependencies
 /node_modules
