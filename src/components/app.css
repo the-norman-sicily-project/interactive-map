@@ -5,13 +5,14 @@
   margin: 0 auto;
 }
 
-/* Popup Classes
- .leaflet-popup-content-wrapper .leaflet-popup-content{
+#feature-popup {
+  min-height: 300px;
 }
-.leaflet-popup-content-wrapper {
+
+.react-tabs__tab-panel > table {
+  width: 100%;
+  align: center;
 }
-.leaflet-popup-tip-container {
-} */
 
 .leaflet-popup-content-wrapper .leaflet-popup-content tr:nth-child(even) {
   background-color: lightblue;

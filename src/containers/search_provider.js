@@ -1,11 +1,11 @@
 class SearchProvider {
-  constructor(geojson) {
-    this.geojson = geojson;
+  constructor(sites) {
+    this.sites = sites;
   }
 
   async search({ query }) {
     const lowerCaseQuery = query.toLowerCase();
-    const matches = this.geojson.features.filter(
+    const matches = this.sites.filter(
       feature =>
         feature.geometry &&
         feature.geometry.coordinates &&
@@ -17,8 +17,8 @@ class SearchProvider {
 
     if (matches && matches.length > 0) {
       return matches.map(feature => ({
-        x: feature.geometry.coordinates[0],
-        y: feature.geometry.coordinates[1],
+        x: feature.geometry.coordinates[1],
+        y: feature.geometry.coordinates[0],
         label: feature.properties.english_place_name,
       }));
     }

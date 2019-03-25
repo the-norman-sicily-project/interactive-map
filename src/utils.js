@@ -1,4 +1,4 @@
-import ICONS from './icons';
+import icons from './icons';
 
 export const orderLookup = order => {
   switch (order) {
@@ -37,15 +37,15 @@ export const orderLookup = order => {
 export const placeTypeLookup = placeType => {
   switch (placeType) {
     case 'monastery':
-      return { icon: ICONS.MONASTERY, scale: '1,-1', translate: '-6,-41' };
+      return { icon: icons.MONASTERY, scale: '1,-1', translate: '-6,-41' };
     default: {
       return {};
     }
   }
 };
 
-export const getListOfOrders = data => {
-  const ordersSet = data.features.reduce((accumulator, currentValue) => {
+export const getListOfOrders = sites => {
+  const ordersSet = sites.reduce((accumulator, currentValue) => {
     if (
       currentValue.properties.order &&
       currentValue.properties.order.length > 0
@@ -59,4 +59,52 @@ export const getListOfOrders = data => {
     return accumulator;
   }, new Set(['Unknown']));
   return [...ordersSet].sort((a, b) => a.localeCompare(b));
+};
+
+// source: http://en.marnoto.com/2014/04/converter-coordenadas-gps.html
+const getDms = val => {
+  const result = [];
+  const v = Math.abs(val);
+
+  const deg = Math.floor(v);
+  result.push(`${deg}º`);
+
+  const min = Math.floor((v - deg) * 60);
+  result.push(`${min}'`);
+
+  const sec = Math.round((v - deg - min / 60) * 3600 * 1000) / 1000;
+  result.push(`${sec}"`);
+
+  return result;
+};
+
+// source: http://en.marnoto.com/2014/04/converter-coordenadas-gps.html
+export const ddToDms = ({ lat, lng }) => {
+  const latResult = [];
+  latResult.push(lat >= 0 ? 'N' : 'S');
+
+  const lngResult = [];
+  lngResult.push(lng >= 0 ? 'E' : 'W');
+
+  return `${lngResult.concat(getDms(lng)).join(' ')} ${latResult
+    .concat(getDms(lat))
+    .join(' ')}`;
+};
+
+export const startCaseTerm = t => {
+  return (
+    t
+      .trim()
+      .charAt(0)
+      .toUpperCase() + t.slice(1)
+  );
+};
+
+export const startCaseList = (l, d) => {
+  const words = l.split(d);
+  return words
+    .map(word => {
+      return startCaseTerm(word);
+    })
+    .join(', ');
 };

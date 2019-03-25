@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SearchBar from './SearchBar';
+import SearchBar from './search_bar';
 
 it('renders without crashing', () => {
   shallow(<SearchBar />);
