@@ -4,20 +4,17 @@ const geojson = {
   features: [
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.9573575, 38.4667512],
-      },
+      geometry: { type: 'Point', coordinates: [14.95728, 38.4668] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.464_14.953.html',
+          'http://www.geonames.org/10376237/cattedrale-di-san-bartolomeo.html',
         ],
         children: null,
         alternate_location_names: [
           'Garirat-Libara (unknown)',
           'Lipara (unknown)',
         ],
-        elevation: 21.0,
+        elevation: 21,
         rank_at_foundation: 'Abbey',
         parent:
           'Direct Subject of the Holy See. As of September 14, 1131, Archbishopric of Messina-Troina.',
@@ -52,17 +49,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.964094, 38.139876],
-      },
+      geometry: { type: 'Point', coordinates: [14.964094, 38.139876] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.147_14.97.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2523864/patti.html'],
         children: null,
         alternate_location_names: ['Baqt.s (unknown)', 'Pactes (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent:
           'Direct Subject of the Holy See. As of September 14, 1131, Archbishopric of Messina-Troina.',
@@ -97,23 +89,20 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.663505, 37.936117],
-      },
+      geometry: { type: 'Point', coordinates: [13.663505, 37.936117] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.933_13.665.html',
+          'http://www.geonames.org/2525476/caccamo.html',
         ],
         children: null,
         alternate_location_names: [
+          'Qaqabus (unknown)',
           'Caccabo (unknown)',
           'K.k.b.sc (unknown)',
-          'Qaqabus (unknown)',
           'Calces (unknown)',
           'Caccabum (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -146,13 +135,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8512177, 37.1270741],
-      },
+      geometry: { type: 'Point', coordinates: [14.8512177, 37.1270741] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.125_14.85.html',
+          'http://www.geonames.org/2525492/buccheri.html',
         ],
         children: null,
         alternate_location_names: [
@@ -162,7 +148,7 @@ const geojson = {
           'Buccherie (unknown)',
           'Castrum Buccherii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -195,13 +181,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.753695, 37.162151],
-      },
+      geometry: { type: 'Point', coordinates: [14.753695, 37.162151] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.161_14.75.html',
+          'http://www.geonames.org/2522709/vizzini.html',
         ],
         children: null,
         alternate_location_names: [
@@ -212,7 +195,7 @@ const geojson = {
           'Bizinas (unknown)',
           'Turris Bizini (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -245,14 +228,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.571007, 37.825702],
-      },
+      geometry: { type: 'Point', coordinates: [13.571007, 37.825702] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.824_13.566.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522774/vicari.html'],
         children: null,
         alternate_location_names: [
           'Biccari (unknown)',
@@ -261,7 +239,7 @@ const geojson = {
           'Biccarum (unknown)',
           'Castrum Biccari (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -295,14 +273,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.2360416, 37.9832076],
-      },
+      geometry: { type: 'Point', coordinates: [14.2360416, 37.9832076] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.984_14.236.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522839/tusa.html'],
         children: null,
         alternate_location_names: [
           'Tusia (unknown)',
@@ -310,7 +283,7 @@ const geojson = {
           'Tosa (unknown)',
           'Castrum Maritimae Tusae (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -344,13 +317,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.213745, 37.304803],
-      },
+      geometry: { type: 'Point', coordinates: [14.213745, 37.304803] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.304_14.214.html',
+          'http://www.geonames.org/2524200/mazzarino.html',
         ],
         children: null,
         alternate_location_names: [
@@ -359,7 +329,7 @@ const geojson = {
           'Casale Mazarini (unknown)',
           'Mazareni (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -372,7 +342,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 103-104',
         ],
         founders: [],
-        italian_place_name: 'Santa Maria a Mazzarino',
+        italian_place_name: 'Santa Maria di Mazzarino',
         place_type: 'monastery',
         comune: 'Mazzarino',
         place_category: 'priory',
@@ -392,17 +362,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.1845535, 37.1875953],
-      },
+      geometry: { type: 'Point', coordinates: [14.1845535, 37.1875953] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.191_14.184.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525480/butera.html'],
         children: null,
         alternate_location_names: ['Butheria (unknown)', 'Buthìr (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Bartholomew of Lipari/Saint Savior of Patti',
         place_see_also_uris: null,
@@ -435,17 +400,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.362704, 37.92746],
-      },
+      geometry: { type: 'Point', coordinates: [14.362704, 37.92746] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.927_14.357.html',
+          'http://www.geonames.org/2524122/mistretta.html',
         ],
         children: null,
         alternate_location_names: ['Mistrecta (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -453,7 +415,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1122',
         earliest_attestation_max_year: '1122',
-        english_place_name: 'Saint Anastasia in Mistretta',
+        english_place_name: 'Saint Anastasia of Mistretta',
         place_references: [
           'Cusa, Salvatore, ed. I diplomi greci ed arabi di Sicilia pubblicati nel testo originale. Palermo: Stabilimento tip. Lao, 1868. pp. 413',
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
@@ -479,13 +441,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.35814, 38.098661],
-      },
+      geometry: { type: 'Point', coordinates: [13.35814, 38.098661] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -495,7 +454,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -528,17 +487,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5533274, 38.1808393],
-      },
+      geometry: { type: 'Point', coordinates: [15.5533274, 38.1808393] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -572,13 +528,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.273087, 37.389294],
-      },
+      geometry: { type: 'Point', coordinates: [13.273087, 37.389294] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.383_13.267.html',
+          'http://www.geonames.org/2525557/capo-bianco.html',
         ],
         children: null,
         alternate_location_names: [
@@ -586,7 +539,7 @@ const geojson = {
           'Capobianco (unknown)',
           'Monforte (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -594,7 +547,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1131',
         earliest_attestation_max_year: '1131',
-        english_place_name: 'Saint Anne of Monteforte',
+        english_place_name: 'Saint Anne of Monforte',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
@@ -620,14 +573,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.887604, 38.110529],
-      },
+      geometry: { type: 'Point', coordinates: [14.887604, 38.110529] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.155_14.83.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525499/brolo.html'],
         children: null,
         alternate_location_names: [
           'Voah (unknown)',
@@ -635,7 +583,7 @@ const geojson = {
           'Vohab (unknown)',
           'Marsâ Dalîah (unknown)',
         ],
-        elevation: 411.0,
+        elevation: 411,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -643,7 +591,7 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: '1084',
         earliest_attestation_max_year: '1084',
-        english_place_name: 'Saint Michael Archangel of Brolo',
+        english_place_name: 'Saint Michael the Archangel of Brolo',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 1-7",
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
@@ -669,13 +617,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.7005667, 38.0728323],
-      },
+      geometry: { type: 'Point', coordinates: [14.7005667, 38.0728323] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.072_14.701.html',
+          'http://www.geonames.org/2523425/san-marco-d-alunzio.html',
         ],
         children: null,
         alternate_location_names: [
@@ -685,7 +630,7 @@ const geojson = {
           'Castrum Sancti Mauri (unknown)',
           'Castrum Marci (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -718,17 +663,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.78688, 38.1222117],
-      },
+      geometry: { type: 'Point', coordinates: [14.78688, 38.1222117] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.123_14.787.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2524020/naso.html'],
         children: null,
         alternate_location_names: ['Nasa (unknown)', 'Nasus (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -761,14 +701,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.5993704, 37.782591],
-      },
+      geometry: { type: 'Point', coordinates: [14.5993704, 37.782591] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.785_14.598.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522849/troina.html'],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -779,7 +714,7 @@ const geojson = {
           'Draginat (unknown)',
           'Targinis (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -812,17 +747,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8627627, 37.8286412],
-      },
+      geometry: { type: 'Point', coordinates: [14.8627627, 37.8286412] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.83_14.862.html',
+          'http://www.geonames.org/2524322/maletto.html',
         ],
         children: null,
         alternate_location_names: ['Castrum Malecti (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -855,13 +787,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.081389, 37.885556],
-      },
+      geometry: { type: 'Point', coordinates: [14.081389, 37.885556] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.932_14.089.html',
+          'http://www.geonames.org/2525103/castelbuono.html',
         ],
         children: null,
         alternate_location_names: [
@@ -870,7 +799,7 @@ const geojson = {
           'Castri Boni (unknown)',
           'Gonato (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -878,12 +807,12 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1142-1143',
         earliest_attestation_max_year: '1143',
-        english_place_name: 'Saint Cosmas of Gonata',
+        english_place_name: 'Saint Cosmas at Gonata',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41',
         ],
         founders: [],
-        italian_place_name: 'San Cosma a Castelbuono',
+        italian_place_name: 'San Cosma a Gonata',
         place_type: 'monastery',
         comune: 'Castelbuono',
         place_category: 'abbey',
@@ -904,14 +833,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.5986194, 37.7844819],
-      },
+      geometry: { type: 'Point', coordinates: [14.5986194, 37.7844819] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.785_14.598.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522849/troina.html'],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -924,7 +848,7 @@ const geojson = {
           'Ambula (unknown)',
           'Ambola (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -957,13 +881,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.0594847, 38.1242857],
-      },
+      geometry: { type: 'Point', coordinates: [15.0594847, 38.1242857] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.126_15.063.html',
+          'http://www.geonames.org/2523972/oliveri.html',
         ],
         children: null,
         alternate_location_names: [
@@ -974,7 +895,7 @@ const geojson = {
           'Lu Liveri (unknown)',
           'Castrum Oliverii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1007,13 +928,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.6997621, 38.072883],
-      },
+      geometry: { type: 'Point', coordinates: [14.6997621, 38.072883] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.072_14.701.html',
+          'http://www.geonames.org/2523425/san-marco-d-alunzio.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1023,7 +941,7 @@ const geojson = {
           'Castrum Sancti Mauri (unknown)',
           'Castrum Marci (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1056,13 +974,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3544897, 38.1099097],
-      },
+      geometry: { type: 'Point', coordinates: [13.3544897, 38.1099097] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1072,7 +987,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 24.0,
+        elevation: 24,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1105,17 +1020,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.2177298, 37.5738513],
-      },
+      geometry: { type: 'Point', coordinates: [13.2177298, 37.5738513] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.577_13.217.html',
+          'http://www.geonames.org/2525451/caltabellotta.html',
         ],
         children: null,
         alternate_location_names: ['Troccolum (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1148,17 +1060,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.5771576, 37.3114325],
-      },
+      geometry: { type: 'Point', coordinates: [13.5771576, 37.3114325] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.45_13.5.html',
+          'http://www.geonames.org/2525764/agrigento.html',
         ],
         children: null,
         alternate_location_names: ['Girgenti (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1191,13 +1100,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.4674759, 38.2357134],
-      },
+      geometry: { type: 'Point', coordinates: [15.4674759, 38.2357134] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.235_15.469.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1208,7 +1114,7 @@ const geojson = {
           'Gypsus (unknown)',
           'Ysa (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1242,13 +1148,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.32228, 37.957175],
-      },
+      geometry: { type: 'Point', coordinates: [15.32228, 37.957175] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.958_15.323.html',
+          'http://www.geonames.org/2525251/casalvecchio-siculo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1256,7 +1159,7 @@ const geojson = {
           'Calatabiet (unknown)',
           'Calatabieth (unknown)',
         ],
-        elevation: 411.0,
+        elevation: 411,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1290,13 +1193,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.1319995, 38.016335],
-      },
+      geometry: { type: 'Point', coordinates: [15.1319995, 38.016335] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.016_15.132.html',
+          'http://www.geonames.org/2523994/novara-di-sicilia.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1307,7 +1207,7 @@ const geojson = {
           'Nohara (unknown)',
           'Castrum Nucariae (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1340,17 +1240,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5533274, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5533274, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1383,13 +1280,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.014426, 37.889053],
-      },
+      geometry: { type: 'Point', coordinates: [15.014426, 37.889053] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.876_14.95.html',
+          'http://www.geonames.org/2523641/randazzo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1400,7 +1294,7 @@ const geojson = {
           'Randâg (unknown)',
           'Randatium (unknown)',
         ],
-        elevation: 590.0,
+        elevation: 590,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -1436,17 +1330,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5210473, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5210473, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1479,20 +1370,17 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.612731, 37.651731],
-      },
+      geometry: { type: 'Point', coordinates: [12.612731, 37.651731] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.655_12.59.html',
+          'http://www.geonames.org/2524205/mazara-del-vallo.html',
         ],
         children: null,
         alternate_location_names: [
           'Mâzar (unknown)',
           'Castrum Maczarie (unknown)',
         ],
-        elevation: 27.0,
+        elevation: 27,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1500,7 +1388,7 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: 'before 1144',
         earliest_attestation_max_year: '1144',
-        english_place_name: 'Saint Mary de Alto de Jummariis',
+        english_place_name: 'Saint Mary of the Giummare',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
@@ -1526,17 +1414,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5135857, 38.1754338],
-      },
+      geometry: { type: 'Point', coordinates: [15.5135857, 38.1754338] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.183_15.517.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
-        alternate_location_names: [],
-        elevation: 0.0,
+        alternate_location_names: ['Massîni (unknown)'],
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1570,17 +1455,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.5638698, 38.0373274],
-      },
+      geometry: { type: 'Point', coordinates: [13.5638698, 38.0373274] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.038_13.548.html',
+          'http://www.geonames.org/2525734/altavilla-milicia.html',
         ],
         children: null,
         alternate_location_names: [],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1613,13 +1495,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.361046, 38.113141],
-      },
+      geometry: { type: 'Point', coordinates: [13.361046, 38.113141] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.132_13.336.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1629,7 +1508,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 77.0,
+        elevation: 77,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1662,17 +1541,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.233962, 38.119878],
-      },
+      geometry: { type: 'Point', coordinates: [15.233962, 38.119878] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.148_15.21.html',
+          'http://www.geonames.org/2525597/barcellona-pozzo-di-gotto.html',
         ],
         children: null,
         alternate_location_names: ['Galath (unknown)'],
-        elevation: 260.0,
+        elevation: 260,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1706,13 +1582,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8055513, 38.0837188],
-      },
+      geometry: { type: 'Point', coordinates: [14.8055513, 38.0837188] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.085_14.807.html',
+          'http://www.geonames.org/2525088/castell-umberto.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1721,7 +1594,7 @@ const geojson = {
           'Quastania (unknown)',
           'Castaniae (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1738,8 +1611,7 @@ const geojson = {
         place_type: 'monastery',
         comune: "Castell'Umberto?",
         place_category: 'abbey',
-        notes:
-          'Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 104 (s.v. "Mallimaco"), places Mallimachi near Castell\'Umberto.',
+        notes: `Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 104 (s.v. "Mallimaco"), places Mallimachi near Castell'Umberto.`,
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label: 'Reign of King Roger II',
@@ -1755,13 +1627,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.33537, 37.995241],
-      },
+      geometry: { type: 'Point', coordinates: [15.33537, 37.995241] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.004_15.317.html',
+          'http://www.geonames.org/2524310/mandanici.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1770,7 +1639,7 @@ const geojson = {
           'Mandanich (unknown)',
           'Mandanichi (unknown)',
         ],
-        elevation: 319.0,
+        elevation: 319,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1783,7 +1652,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: ['Count Roger I (Male)'],
-        italian_place_name: 'Santa Maria di Mandinici',
+        italian_place_name: 'Santa Maria di Mandanici',
         place_type: 'monastery',
         comune: 'Mandanici',
         place_category: 'abbey',
@@ -1803,20 +1672,17 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.4424612, 37.799186],
-      },
+      geometry: { type: 'Point', coordinates: [12.4424612, 37.799186] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.804_12.438.html',
+          'http://www.geonames.org/2524245/marsala.html',
         ],
         children: null,
         alternate_location_names: [
           'Marsa-Ali (unknown)',
           'Marsa-Allah (unknown)',
         ],
-        elevation: 53.0,
+        elevation: 53,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Santa Maria della Crypta',
         place_see_also_uris: null,
@@ -1851,17 +1717,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5368073, 38.2749769],
-      },
+      geometry: { type: 'Point', coordinates: [15.5368073, 38.2749769] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.274_15.537.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
-        alternate_location_names: [],
-        elevation: 0.0,
+        alternate_location_names: ['Massîni (unknown)'],
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1894,17 +1757,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.490884, 38.124229],
-      },
+      geometry: { type: 'Point', coordinates: [15.490884, 38.124229] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.126_15.489.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
-        alternate_location_names: [],
-        elevation: 167.0,
+        alternate_location_names: ['Massîni (unknown)'],
+        elevation: 167,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -1939,13 +1799,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.362868, 38.114766],
-      },
+      geometry: { type: 'Point', coordinates: [13.362868, 38.114766] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -1955,7 +1812,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 15.0,
+        elevation: 15,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -1973,8 +1830,7 @@ const geojson = {
         place_type: 'monastery',
         comune: 'Palermo',
         place_category: 'abbey',
-        notes:
-          'In the charter dated August 1194 that witnesses William III\'s grant of a house (previously owned by Adelicia of Golisano) to Aloysa so that she can establish the nunnery, we read that "Ab occidente est tenimentum ecclesie Sancte Marie de Admirato, et darbus [alley] unde habet introitum et exitum dicta domus . . . ." ',
+        notes: `In the charter dated August 1194 that witnesses William III's grant of a house (previously owned by Adelicia of Golisano) to Aloysa so that she can establish the nunnery, we read that "Ab occidente est tenimentum ecclesie Sancte Marie de Admirato, et darbus [alley] unde habet introitum et exitum dicta domus . . . ." `,
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label: 'Reign of King Roger II',
@@ -1990,13 +1846,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.9212254, 37.5617072],
-      },
+      geometry: { type: 'Point', coordinates: [14.9212254, 37.5617072] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.571_14.903.html',
+          'http://www.geonames.org/2523866/paterno.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2004,7 +1857,7 @@ const geojson = {
           'Paternio (unknown)',
           'Castrum Paternionis (unknown)',
         ],
-        elevation: 300.0,
+        elevation: 300,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2040,14 +1893,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.571007, 37.825702],
-      },
+      geometry: { type: 'Point', coordinates: [13.571007, 37.825702] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.824_13.566.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522774/vicari.html'],
         children: null,
         alternate_location_names: [
           'Biccari (unknown)',
@@ -2056,7 +1904,7 @@ const geojson = {
           'Biccarum (unknown)',
           'Castrum Biccari (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2090,14 +1938,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.60082, 37.78525],
-      },
+      geometry: { type: 'Point', coordinates: [14.60082, 37.78525] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.785_14.598.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522849/troina.html'],
         children: null,
         alternate_location_names: [
           'Traina (unknown)',
@@ -2108,7 +1951,7 @@ const geojson = {
           'Draginat (unknown)',
           'Targinis (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2141,20 +1984,17 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.590779, 37.653498],
-      },
+      geometry: { type: 'Point', coordinates: [12.612731, 37.651731] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.655_12.59.html',
+          'http://www.geonames.org/2524205/mazara-del-vallo.html',
         ],
         children: null,
         alternate_location_names: [
           'Mâzar (unknown)',
           'Castrum Maczarie (unknown)',
         ],
-        elevation: 12.0,
+        elevation: 12,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2187,13 +2027,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8274471, 38.1104051],
-      },
+      geometry: { type: 'Point', coordinates: [14.8274471, 38.1104051] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.109_14.829.html',
+          'http://www.geonames.org/2524764/ficarra.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2202,7 +2039,7 @@ const geojson = {
           'Filarino (unknown)',
           'Ficarie (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -2237,13 +2074,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.6071177, 37.7732506],
-      },
+      geometry: { type: 'Point', coordinates: [14.6071177, 37.7732506] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.785_14.598.html',
+          'http://www.geonames.org/11821412/ruderi-del-monastero-di-s-michele-arcangelo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2255,7 +2089,7 @@ const geojson = {
           'Draginat (unknown)',
           'Targinis (unknown)',
         ],
-        elevation: 853.0,
+        elevation: 853,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -2291,17 +2125,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.554167, 38.216111],
-      },
+      geometry: { type: 'Point', coordinates: [15.554167, 38.216111] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2334,17 +2165,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.4367602, 38.050838],
-      },
+      geometry: { type: 'Point', coordinates: [15.4367602, 38.050838] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.051_15.438.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2524492/itala.html'],
         children: null,
         alternate_location_names: ['Gitala (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2378,17 +2204,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.1845535, 37.1875953],
-      },
+      geometry: { type: 'Point', coordinates: [14.1845535, 37.1875953] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.191_14.184.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525480/butera.html'],
         children: null,
         alternate_location_names: ['Butheria (unknown)', 'Buthìr (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Saint Mary of Licodia',
         place_see_also_uris: null,
@@ -2421,13 +2242,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.916375, 38.0462583],
-      },
+      geometry: { type: 'Point', coordinates: [14.916375, 38.0462583] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.055_14.91.html',
+          'http://www.geonames.org/2523658/raccuja.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2438,7 +2256,7 @@ const geojson = {
           'Raccudia (unknown)',
           'Castrum Raccuiae (unknown)',
         ],
-        elevation: 665.0,
+        elevation: 665,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2471,13 +2289,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3336542, 38.0787177],
-      },
+      geometry: { type: 'Point', coordinates: [13.3336542, 38.0787177] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.083_13.333.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2485,7 +2300,7 @@ const geojson = {
           'Churkaru (unknown)',
           "Ci'irchuro (unknown)",
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2518,13 +2333,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.896241, 37.56779],
-      },
+      geometry: { type: 'Point', coordinates: [14.896241, 37.56779] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.571_14.903.html',
+          'http://www.geonames.org/2523866/paterno.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2532,7 +2344,7 @@ const geojson = {
           'Paternio (unknown)',
           'Castrum Paternionis (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Saint Agatha of Catania',
         place_see_also_uris: null,
@@ -2545,7 +2357,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
         founders: ['Geoffrey Secretus (Male)'],
-        italian_place_name: 'San Nicolò of Paternò',
+        italian_place_name: 'San Nicolò di Paternò',
         place_type: 'monastery',
         comune: 'Paternò',
         place_category: 'abbey',
@@ -2565,20 +2377,17 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.010865, 37.933354],
-      },
+      geometry: { type: 'Point', coordinates: [15.010865, 37.933354] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.933_15.01.html',
+          'http://www.geonames.org/2523594/roccella-valdemone.html',
         ],
         children: null,
         alternate_location_names: [
           'Castrum Aurichelle (unknown)',
           'Castrum Roccellae (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2611,20 +2420,17 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.586792, 37.6537615],
-      },
+      geometry: { type: 'Point', coordinates: [12.5874, 37.65359] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.655_12.59.html',
+          'http://www.geonames.org/10376094/saint-nicolo-regale.html',
         ],
         children: null,
         alternate_location_names: [
           'Mâzar (unknown)',
           'Castrum Maczarie (unknown)',
         ],
-        elevation: 2.0,
+        elevation: 2,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2657,14 +2463,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.4688599, 38.2348833],
-      },
+      geometry: { type: 'Point', coordinates: [15.4688599, 38.2348833] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.235_15.469.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2524634/gesso.html'],
         children: null,
         alternate_location_names: [
           'Gibiso (unknown)',
@@ -2674,7 +2475,7 @@ const geojson = {
           'Gypsus (unknown)',
           'Gypso (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2714,7 +2515,7 @@ const geojson = {
       },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.017_14.598.html',
+          'http://www.geonames.org/2523487/san-fratello.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2731,7 +2532,7 @@ const geojson = {
           'Fradellus (unknown)',
           'Tre Santi (unknown)',
         ],
-        elevation: 703.0,
+        elevation: 703,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2739,7 +2540,7 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: '1131',
         earliest_attestation_max_year: '1131',
-        english_place_name: 'Saint Pancras of San Fratello',
+        english_place_name: 'Saint Pancras of Saint Fratello',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
@@ -2764,17 +2565,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.4681852, 37.8676528],
-      },
+      geometry: { type: 'Point', coordinates: [12.4681852, 37.8676528] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.865_12.468.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2524039/mozia.html'],
         children: null,
         alternate_location_names: [],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2808,17 +2604,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.686714, 38.085164],
-      },
+      geometry: { type: 'Point', coordinates: [14.686714, 38.085164] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.094_14.68.html',
+          'http://www.geonames.org/2522900/torrenova.html',
         ],
         children: null,
         alternate_location_names: [],
-        elevation: 88.0,
+        elevation: 88,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -2853,13 +2646,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.6040968, 37.6798925],
-      },
+      geometry: { type: 'Point', coordinates: [13.6040968, 37.6798925] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.679_13.603.html',
+          'http://www.geonames.org/2525074/castronuovo-di-sicilia.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2870,7 +2660,7 @@ const geojson = {
           'Qasr al Jadid (unknown)',
           'Castrum Novum (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -2903,13 +2693,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.3084088, 37.9470811],
-      },
+      geometry: { type: 'Point', coordinates: [15.3084088, 37.9470811] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.958_15.323.html',
+          'http://www.geonames.org/2525251/casalvecchio-siculo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -2917,7 +2704,7 @@ const geojson = {
           'Calatabiet (unknown)',
           'Calatabieth (unknown)',
         ],
-        elevation: 142.0,
+        elevation: 142,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -2953,17 +2740,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.440424, 38.046484],
-      },
+      geometry: { type: 'Point', coordinates: [15.440424, 38.046484] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.051_15.438.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2524492/itala.html'],
         children: null,
         alternate_location_names: ['Gitala (unknown)'],
-        elevation: 237.0,
+        elevation: 237,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -2998,13 +2780,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.741713, 38.0705092],
-      },
+      geometry: { type: 'Point', coordinates: [14.741713, 38.0705092] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.073_14.742.html',
+          'http://www.geonames.org/2524698/frazzano.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3012,7 +2791,7 @@ const geojson = {
           'Flacianò (unknown)',
           'Frasino (unknown)',
         ],
-        elevation: 523.0,
+        elevation: 523,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -3049,17 +2828,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5003272, 38.1654608],
-      },
+      geometry: { type: 'Point', coordinates: [15.5003272, 38.1654608] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.165_15.501.html',
+          'http://www.geonames.org/2523492/san-filippo-superiore.html',
         ],
         children: null,
         alternate_location_names: [],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3093,13 +2869,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.2730725, 38.1697389],
-      },
+      geometry: { type: 'Point', coordinates: [15.2730725, 38.1697389] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.144_15.281.html',
+          'http://www.geonames.org/2523333/santa-lucia-del-mela.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3107,7 +2880,7 @@ const geojson = {
           'Castrum Maccaruni (unknown)',
           'Castrum Sanctae Luciae (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: 'Bishopric of Lipari',
         place_see_also_uris: null,
@@ -3115,7 +2888,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: 'before 1101',
         earliest_attestation_max_year: '1101',
-        english_place_name: 'Saint Philip',
+        english_place_name: 'Saint Philip of Saint Lucy',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
@@ -3140,17 +2913,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.562538, 38.196592],
-      },
+      geometry: { type: 'Point', coordinates: [15.562538, 38.196592] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -3186,17 +2956,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5210473, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5210473, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3204,7 +2971,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: null,
         earliest_attestation_max_year: null,
-        english_place_name: 'Christ the Savior in Messina',
+        english_place_name: 'Christ the Savior of Messina',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 168",
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
@@ -3230,13 +2997,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3586443, 38.1143913],
-      },
+      geometry: { type: 'Point', coordinates: [13.35888, 38.11442] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/10344717/chiesa-del-santissimo-salvatore.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3246,7 +3010,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 55.0,
+        elevation: 55,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3254,7 +3018,7 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: null,
         earliest_attestation_max_year: null,
-        english_place_name: 'Christ the Savior in Palermo',
+        english_place_name: 'Christ the Savior of Palermo',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 43',
         ],
@@ -3279,17 +3043,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.1010408, 37.9153099],
-      },
+      geometry: { type: 'Point', coordinates: [15.1010408, 37.9153099] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.902_15.137.html',
+          'http://www.geonames.org/2524707/francavilla-di-sicilia.html',
         ],
         children: null,
         alternate_location_names: [],
-        elevation: 495.0,
+        elevation: 495,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -3326,13 +3087,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.478462, 38.100772],
-      },
+      geometry: { type: 'Point', coordinates: [15.478462, 38.100772] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3340,7 +3098,7 @@ const geojson = {
           'Briga (unknown)',
           'Briculo (unknown)',
         ],
-        elevation: 144.0,
+        elevation: 144,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -3375,13 +3133,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.268428, 38.187244],
-      },
+      geometry: { type: 'Point', coordinates: [15.268428, 38.187244] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.221_15.238.html',
+          'http://www.geonames.org/2524155/milazzo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3389,7 +3144,7 @@ const geojson = {
           'Milatium (unknown)',
           'Castrum Melacii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3422,17 +3177,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.7496803, 38.0847065],
-      },
+      geometry: { type: 'Point', coordinates: [14.7496803, 38.0847065] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.085_14.751.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2524131/mirto.html'],
         children: null,
         alternate_location_names: ['Mertu (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3465,13 +3215,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.7541969, 37.6858036],
-      },
+      geometry: { type: 'Point', coordinates: [12.7541969, 37.6858036] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.683_12.792.html',
+          'http://www.geonames.org/2525083/castelvetrano.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3482,7 +3229,7 @@ const geojson = {
           'Castrum Vitranum (unknown)',
           'Handag al daliyah (unknown)',
         ],
-        elevation: 149.0,
+        elevation: 149,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3516,17 +3263,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.2167096, 38.0440563],
-      },
+      geometry: { type: 'Point', coordinates: [15.2167096, 38.0440563] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.074_15.205.html',
+          'http://www.geonames.org/2525073/castroreale.html',
         ],
         children: null,
         alternate_location_names: ['Baffia (unknown)', 'Vanellu (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -3560,13 +3304,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.092612, 37.518963],
-      },
+      geometry: { type: 'Point', coordinates: [15.092612, 37.518963] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.472_14.847.html',
+          'http://www.geonames.org/2525068/catania.html',
         ],
         children: 'Abbey of Saint Euphemia, Calabria',
         alternate_location_names: [
@@ -3576,7 +3317,7 @@ const geojson = {
           'Qatâna (unknown)',
           'Castello Ursino (unknown)',
         ],
-        elevation: 66.0,
+        elevation: 66,
         rank_at_foundation: 'Abbey',
         parent:
           'Direct subject of the Holy See from 1092, then subjected to Messina by anti-pope Anacletus II from 1131-1139. Later placed under the Archbishopric of Monreale by Pope Lucius III in 1183.',
@@ -3610,17 +3351,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.9936716, 37.7511407],
-      },
+      geometry: { type: 'Point', coordinates: [14.9936716, 37.7511407] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.616_15.025.html',
+          'http://www.geonames.org/2524010/nicolosi.html',
         ],
         children: null,
         alternate_location_names: ['Pennachio (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Agatha of Catania',
         place_see_also_uris: null,
@@ -3653,17 +3391,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8580471, 37.6484169],
-      },
+      geometry: { type: 'Point', coordinates: [14.8580471, 37.6484169] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.662_14.835.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525769/adrano.html'],
         children: null,
         alternate_location_names: ['Adernò (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Agatha of Catania',
         place_see_also_uris: null,
@@ -3696,17 +3429,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.887793, 37.616163],
-      },
+      geometry: { type: 'Point', coordinates: [14.887793, 37.616163] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.615_14.891.html',
+          'http://www.geonames.org/2523320/santa-maria-di-licodia.html',
         ],
         children: 'Abbey of Saint Agatha of Catania',
         alternate_location_names: [],
-        elevation: 446.0,
+        elevation: 446,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Saint Agatha of Catania',
         place_see_also_uris: null,
@@ -3744,13 +3474,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3547141, 38.1097357],
-      },
+      geometry: { type: 'Point', coordinates: [13.35478, 38.10953] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/11822517/eglise-saint-jean-des-ermites.html',
         ],
         children: 'Abbey of Santa Maria of Montevergine, Campania',
         alternate_location_names: [
@@ -3760,7 +3487,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 24.0,
+        elevation: 24,
         rank_at_foundation: 'Abbey',
         parent: 'Direct Subject of the Holy See',
         place_see_also_uris: null,
@@ -3793,13 +3520,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3328134, 37.6455443],
-      },
+      geometry: { type: 'Point', coordinates: [13.3328134, 37.6455443] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.681_13.379.html',
+          'http://www.geonames.org/2523925/palazzo-adriano.html',
         ],
         children: 'Abbey of Saint John of the Hermits',
         alternate_location_names: [
@@ -3808,7 +3532,7 @@ const geojson = {
           'Palacium Triane (unknown)',
           'Castrum Palacii Adriani (unknown)',
         ],
-        elevation: 733.0,
+        elevation: 733,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint John of the Hermits',
         place_see_also_uris: null,
@@ -3842,17 +3566,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.2918855, 38.0782587],
-      },
+      geometry: { type: 'Point', coordinates: [13.29215, 38.08202] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.08_13.289.html',
+          'http://www.geonames.org/10401310/cattedrale-di-monreale.html',
         ],
         children: 'Abbey of the Holy Trinity at La Cava, Campania',
         alternate_location_names: ['Munt Rival (unknown)'],
-        elevation: 256.0,
+        elevation: 256,
         rank_at_foundation: 'Abbey',
         parent: 'Direct Subject of the Holy See',
         place_see_also_uris: null,
@@ -3887,15 +3608,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.831383, 37.858033],
-      },
+      geometry: { type: 'Point', coordinates: [14.831383, 37.858033] },
       properties: {
-        location_see_also_uris: null,
+        location_see_also_uris: ['http://www.geonames.org/2525498/bronte.html'],
         children: null,
         alternate_location_names: ['Bronti (unknown)', 'Brontis (unknown)'],
-        elevation: 754.0,
+        elevation: 754,
         rank_at_foundation: 'Abbey',
         parent: 'Cathedral of Santa Maria Nuova, Monreale',
         place_see_also_uris: [
@@ -3931,13 +3649,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.08785, 37.507266],
-      },
+      geometry: { type: 'Point', coordinates: [13.08785, 37.507266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.508_13.088.html',
+          'http://www.geonames.org/2523194/sciacca.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3950,7 +3665,7 @@ const geojson = {
           'Castrum Novum Saccae (unknown)',
           'Xiaxia (unknown)',
         ],
-        elevation: 73.0,
+        elevation: 73,
         rank_at_foundation: 'Priory',
         parent: 'Cathedral of Santa Maria Nuova, Monreale',
         place_see_also_uris: null,
@@ -3963,7 +3678,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 149-151',
         ],
         founders: ['Countess Juliet (Female)'],
-        italian_place_name: 'Santa Maria de Giummare',
+        italian_place_name: 'Santa Maria delle Giummare',
         place_type: 'monastery',
         comune: 'Sciacca',
         place_category: 'priory',
@@ -3984,13 +3699,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8978519, 37.0931777],
-      },
+      geometry: { type: 'Point', coordinates: [14.8978519, 37.0931777] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.087_14.884.html',
+          'http://www.geonames.org/2525483/buscemi.html',
         ],
         children: null,
         alternate_location_names: [
@@ -3999,7 +3711,7 @@ const geojson = {
           'Buyssem (unknown)',
           'Buxeme (unknown)',
         ],
-        elevation: 623.0,
+        elevation: 623,
         rank_at_foundation: 'Priory',
         parent: 'Bishopric of Syracuse',
         place_see_also_uris: null,
@@ -4037,20 +3749,15 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.168807, 38.703677],
-      },
+      geometry: { type: 'Point', coordinates: [13.168807, 38.703677] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.711_13.192.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2522818/ustica.html'],
         children: null,
         alternate_location_names: [
           'Ghazîrat-Osctika (unknown)',
           'Hostica (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Bishopric of Agrigento',
         place_see_also_uris: null,
@@ -4083,17 +3790,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.514933, 38.213066],
-      },
+      geometry: { type: 'Point', coordinates: [15.514933, 38.213066] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: 'Abbey of Saint Euplus, Calabria',
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 278.0,
+        elevation: 278,
         rank_at_foundation: 'Abbey',
         parent: 'Archbishopric of Messina-Troina',
         place_see_also_uris: null,
@@ -4101,13 +3805,13 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: 'before 1101',
         earliest_attestation_max_year: '1101',
-        english_place_name: 'Saint Mary della Scala',
+        english_place_name: 'Saint Mary delle Scale',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp. 15-16, 101-102",
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 153-157',
         ],
         founders: ['Count Roger I (Male)', 'Countess Adelasia (Female)'],
-        italian_place_name: 'Santa Maria de Scalis',
+        italian_place_name: 'Santa Maria delle Scale',
         place_type: 'monastery',
         comune: 'Messina',
         place_category: 'abbey',
@@ -4127,17 +3831,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.281103, 37.069723],
-      },
+      geometry: { type: 'Point', coordinates: [15.281103, 37.069723] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.088_15.279.html',
+          'http://www.geonames.org/2523083/siracusa.html',
         ],
         children: null,
         alternate_location_names: ['Sarakûsa (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: null,
         place_see_also_uris: null,
@@ -4145,7 +3846,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: null,
         earliest_attestation_max_year: null,
-        english_place_name: 'Saint Mary de Monialibus',
+        english_place_name: 'Saint Mary of the Nuns',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 157',
         ],
@@ -4170,17 +3871,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.83369, 37.662844],
-      },
+      geometry: { type: 'Point', coordinates: [14.83369, 37.662844] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.662_14.835.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525769/adrano.html'],
         children: null,
         alternate_location_names: ['Adernò (unknown)'],
-        elevation: 558.0,
+        elevation: 558,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -4215,13 +3911,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.2995746, 37.8135067],
-      },
+      geometry: { type: 'Point', coordinates: [13.2995746, 37.8135067] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.299.html',
+          'http://www.geonames.org/2524928/corleone.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4230,7 +3923,7 @@ const geojson = {
           'Corilionis (unknown)',
           'Coniglione (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: 'Archbishopric of Palermo',
         place_see_also_uris: null,
@@ -4264,13 +3957,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3683437, 38.1131978],
-      },
+      geometry: { type: 'Point', coordinates: [13.3683437, 38.1131978] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4280,7 +3970,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 12.0,
+        elevation: 12,
         rank_at_foundation: 'Abbey',
         parent: 'Santissima Trinità Palermo',
         place_see_also_uris: null,
@@ -4288,8 +3978,7 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: 'c. 1191',
         earliest_attestation_max_year: '1200',
-        english_place_name:
-          'Abbey of the Holy Trinity of the Chancellor in Palermo',
+        english_place_name: 'Holy Trinity of the Chancellor',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 180-181',
         ],
@@ -4315,13 +4004,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3620184, 38.1148252],
-      },
+      geometry: { type: 'Point', coordinates: [13.3620184, 38.1148252] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4331,7 +4017,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 16.0,
+        elevation: 16,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -4369,14 +4055,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.4333844, 37.7208839],
-      },
+      geometry: { type: 'Point', coordinates: [13.4333844, 37.7208839] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.721_13.433.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2523678/prizzi.html'],
         children: 'Abbey of Saint Mary Magdalene, Tripoli, Syria',
         alternate_location_names: [
           'B.r.zzu (unknown)',
@@ -4385,7 +4066,7 @@ const geojson = {
           'Perici (unknown)',
           'Castrum Piricii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Fossanova, Terracina',
         place_see_also_uris: null,
@@ -4419,14 +4100,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.4333844, 37.7208839],
-      },
+      geometry: { type: 'Point', coordinates: [13.4333844, 37.7208839] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.721_13.433.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2523678/prizzi.html'],
         children: null,
         alternate_location_names: [
           'B.r.zzu (unknown)',
@@ -4435,7 +4111,7 @@ const geojson = {
           'Perici (unknown)',
           'Castrum Piricii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Saint Steven of the Forest, Calabria',
         place_see_also_uris: null,
@@ -4468,13 +4144,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.362695, 38.0998181],
-      },
+      geometry: { type: 'Point', coordinates: [13.362695, 38.0998181] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: 'Abbey of Sambucina, Calabria',
         alternate_location_names: [
@@ -4484,7 +4157,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 34.0,
+        elevation: 34,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: null,
@@ -4517,14 +4190,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.343851, 37.608188],
-      },
+      geometry: { type: 'Point', coordinates: [13.343851, 37.608188] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.599_13.29.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525485/burgio.html'],
         children: null,
         alternate_location_names: [
           'Villanova (unknown)',
@@ -4533,7 +4201,7 @@ const geojson = {
           'Burgi de Cristiani (unknown)',
           'Borgetto (unknown)',
         ],
-        elevation: 806.0,
+        elevation: 806,
         rank_at_foundation: 'Abbey',
         parent: 'Bishopric of Agrigento',
         place_see_also_uris: null,
@@ -4567,17 +4235,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.9154348, 37.6571737],
-      },
+      geometry: { type: 'Point', coordinates: [14.9154348, 37.6571737] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.615_14.891.html',
+          'http://www.geonames.org/2523320/santa-maria-di-licodia.html',
         ],
         children: 'Abbey of Saint Agatha of Catania',
         alternate_location_names: [],
-        elevation: 847.0,
+        elevation: 847,
         rank_at_foundation: 'Abbey',
         parent: 'Abbey of Saint Agatha of Catania',
         place_see_also_uris: null,
@@ -4614,13 +4279,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3606459, 38.1168651],
-      },
+      geometry: { type: 'Point', coordinates: [13.3606459, 38.1168651] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4630,7 +4292,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 12.0,
+        elevation: 12,
         rank_at_foundation: 'Abbey',
         parent: 'Archbishopric of Palermo',
         place_see_also_uris: null,
@@ -4648,8 +4310,7 @@ const geojson = {
         place_type: 'monastery',
         comune: 'Palermo',
         place_category: 'abbey',
-        notes:
-          "\"The nunnery contained at least two chapels: That of St. Eustachius, where it had two Latin priests, and that of St. Paul, served by a Greek priest. One is tempted to believe that the monastery was also connected with a preexisting church of St. Mary of the Latins, to which, in April 6673 (1165), ind. 13, the widow Filiberta willed two taris. This would seem to be identical with the 'ecclesia S. Marie de Cancellario' to which on the 16 March 1186, ind. 4, regni 22, Theocritus Mairosini of Chioggia left three taris. A church of Santa Maria del Cancelliere still exists in Palermo, near the Quattro Canti, but if anything of the Norman structure still exists it is completely obscured by baroque 'improvements' of the late sixteenth century.\"   White, Latin Monasticism, pp. 160-61. An uncorroborated postscript is offered by the Italian-language Wikipedia article, \"Chiesa di Santa Maria del Cancelliere,\": \"1943, Nella notte tra il 29 e il 30 giugno è effettuato l'ultimo disastroso bombardamento aereo su Palermo, la chiesa è distrutta insieme al monastero. Restano pochi brandelli dell'antica magnificenza, sull'area occupata dal primitivo aggregato sorge un discutibile edificio scolastico. Grazie alla lungimiranza di monsignore Pottino direttore del Museo diocesano, preventivamente sono salvate molte delle opere, ma la struttura e gli affreschi, sono perduti per sempre.\" [https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_del_Cancelliere, February 5, 2018]  ",
+        notes: `"The nunnery contained at least two chapels: That of St. Eustachius, where it had two Latin priests, and that of St. Paul, served by a Greek priest. One is tempted to believe that the monastery was also connected with a preexisting church of St. Mary of the Latins, to which, in April 6673 (1165), ind. 13, the widow Filiberta willed two taris. This would seem to be identical with the 'ecclesia S. Marie de Cancellario' to which on the 16 March 1186, ind. 4, regni 22, Theocritus Mairosini of Chioggia left three taris. A church of Santa Maria del Cancelliere still exists in Palermo, near the Quattro Canti, but if anything of the Norman structure still exists it is completely obscured by baroque 'improvements' of the late sixteenth century."   White, Latin Monasticism, pp. 160-61. An uncorroborated postscript is offered by the Italian-language Wikipedia article, "Chiesa di Santa Maria del Cancelliere,": "1943, Nella notte tra il 29 e il 30 giugno è effettuato l'ultimo disastroso bombardamento aereo su Palermo, la chiesa è distrutta insieme al monastero. Restano pochi brandelli dell'antica magnificenza, sull'area occupata dal primitivo aggregato sorge un discutibile edificio scolastico. Grazie alla lungimiranza di monsignore Pottino direttore del Museo diocesano, preventivamente sono salvate molte delle opere, ma la struttura e gli affreschi, sono perduti per sempre." [https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_del_Cancelliere, February 5, 2018]  `,
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label:
@@ -4666,13 +4327,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.104299, 37.999851],
-      },
+      geometry: { type: 'Point', coordinates: [15.104299, 37.999851] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.016_15.132.html',
+          'http://www.geonames.org/2523994/novara-di-sicilia.html',
         ],
         children: 'Abbey of Sambucina, Calabria',
         alternate_location_names: [
@@ -4683,7 +4341,7 @@ const geojson = {
           'Nohara (unknown)',
           'Castrum Nucariae (unknown)',
         ],
-        elevation: 533.0,
+        elevation: 533,
         rank_at_foundation: 'Abbey',
         parent: null,
         place_see_also_uris: [
@@ -4720,17 +4378,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.523231, 38.140598],
-      },
+      geometry: { type: 'Point', coordinates: [15.523231, 38.140598] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: 'Abbey of Saint Mary of Novara',
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 27.0,
+        elevation: 27,
         rank_at_foundation: 'Abbey',
         parent: 'Archbishopric of Messina-Troina',
         place_see_also_uris: [
@@ -4765,14 +4420,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.068383, 36.889834],
-      },
+      geometry: { type: 'Point', coordinates: [15.068383, 36.889834] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_36.89_15.069.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2523998/noto.html'],
         children: null,
         alternate_location_names: [
           'Notus (unknown)',
@@ -4780,7 +4430,7 @@ const geojson = {
           'Nutus (unknown)',
           'Nota (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -4814,13 +4464,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3569992, 38.117699],
-      },
+      geometry: { type: 'Point', coordinates: [13.3569992, 38.117699] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4830,7 +4477,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -4839,7 +4486,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1116',
         earliest_attestation_max_year: '1116',
-        english_place_name: 'Saint Peter in Palermo',
+        english_place_name: 'Saint Peter of Palermo',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186',
         ],
@@ -4864,13 +4511,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.116553, 38.045107],
-      },
+      geometry: { type: 'Point', coordinates: [13.116553, 38.045107] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.044_13.12.html',
+          'http://www.geonames.org/2523871/partinico.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4880,7 +4524,7 @@ const geojson = {
           'Partenich (unknown)',
           'Castrum Sale Parthenici (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: 'Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
@@ -4888,7 +4532,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: null,
         earliest_attestation_max_year: null,
-        english_place_name: 'Saint James in Partinico',
+        english_place_name: 'Saint James of Partinico',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 186',
         ],
@@ -4913,13 +4557,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.6017081, 37.679698],
-      },
+      geometry: { type: 'Point', coordinates: [13.6017081, 37.679698] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.679_13.603.html',
+          'http://www.geonames.org/2525074/castronuovo-di-sicilia.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4930,7 +4571,7 @@ const geojson = {
           'Qasr al Jadid (unknown)',
           'Castrum Novum (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -4965,13 +4606,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.602676, 37.678159],
-      },
+      geometry: { type: 'Point', coordinates: [13.602676, 37.678159] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.679_13.603.html',
+          'http://www.geonames.org/2525074/castronuovo-di-sicilia.html',
         ],
         children: null,
         alternate_location_names: [
@@ -4982,7 +4620,7 @@ const geojson = {
           'Qasr al Jadid (unknown)',
           'Castrum Novum (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5017,17 +4655,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5210473, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5210473, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5061,13 +4696,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.2333918, 37.8230309],
-      },
+      geometry: { type: 'Point', coordinates: [15.2333918, 37.8230309] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.821_15.228.html',
+          'http://www.geonames.org/2525459/calatabiano.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5076,7 +4708,7 @@ const geojson = {
           'Calatabien (unknown)',
           'Castrum Calatabiani (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5111,13 +4743,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.996815, 37.288121],
-      },
+      geometry: { type: 'Point', coordinates: [14.996815, 37.288121] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.285_15.html',
+          'http://www.geonames.org/2524410/lentini.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5126,7 +4755,7 @@ const geojson = {
           'Wâdî Lentini (unknown)',
           'Palude Salata (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: 'Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         place_see_also_uris: null,
@@ -5159,14 +4788,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.068268, 36.889968],
-      },
+      geometry: { type: 'Point', coordinates: [15.068268, 36.889968] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_36.89_15.069.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2523998/noto.html'],
         children: null,
         alternate_location_names: [
           'Larbiato (unknown)',
@@ -5178,7 +4802,7 @@ const geojson = {
           'Rahalbiati (unknown)',
           'Ralbiatum (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5212,13 +4836,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.855695, 37.82149],
-      },
+      geometry: { type: 'Point', coordinates: [13.855695, 37.82149] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.822_13.855.html',
+          'http://www.geonames.org/2523185/sclafani-bagni.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5228,7 +4849,7 @@ const geojson = {
           'Cluse (unknown)',
           'Chiuse (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5262,13 +4883,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.2995746, 37.8135067],
-      },
+      geometry: { type: 'Point', coordinates: [13.2995746, 37.8135067] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.299.html',
+          'http://www.geonames.org/2524928/corleone.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5277,7 +4895,7 @@ const geojson = {
           'Corilionis (unknown)',
           'Coniglione (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5311,13 +4929,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.2433448, 38.2183065],
-      },
+      geometry: { type: 'Point', coordinates: [15.2433448, 38.2183065] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.221_15.238.html',
+          'http://www.geonames.org/2524155/milazzo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5325,7 +4940,7 @@ const geojson = {
           'Milatium (unknown)',
           'Castrum Melacii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
@@ -5359,18 +4974,13 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.0233794, 38.0399685],
-      },
+      geometry: { type: 'Point', coordinates: [14.0233794, 38.0399685] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.032_14.01.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525041/cefalu.html'],
         children:
           'Priory of Saint Mary and the Twelve Apostles at Bagnara, Calabria',
         alternate_location_names: ['Gafludi (unknown)', 'Cephaludi (unknown)'],
-        elevation: 47.0,
+        elevation: 47,
         rank_at_foundation: 'Abbey',
         parent: 'Bishop of Messina',
         place_see_also_uris: null,
@@ -5385,7 +4995,7 @@ const geojson = {
         ],
         founders: ['King Roger II (Male)'],
         italian_place_name:
-          'Santissimo Salvatore e Santi Pietro e Paolo Cefalù',
+          'Santissimo Salvatore e Santi Pietro e Paolo a Cefalù',
         place_type: 'monastery',
         comune: 'Cefalù',
         place_category: 'abbey',
@@ -5406,17 +5016,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.281103, 37.069723],
-      },
+      geometry: { type: 'Point', coordinates: [15.281103, 37.069723] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.088_15.279.html',
+          'http://www.geonames.org/2523083/siracusa.html',
         ],
         children: null,
         alternate_location_names: ['Sarakûsa (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Cathedral of Saint Savior and Saints Peter and Paul, Cefalù',
         place_see_also_uris: null,
@@ -5449,17 +5056,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.963844, 37.952862],
-      },
+      geometry: { type: 'Point', coordinates: [13.963844, 37.952862] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.966_13.972.html',
+          'http://www.geonames.org/2524572/gratteri.html',
         ],
         children: null,
         alternate_location_names: ['Q.ratiris (unknown)'],
-        elevation: 665.0,
+        elevation: 665,
         rank_at_foundation: 'Priory',
         parent: 'Cathedral of Saint Savior and Saints Peter and Paul, Cefalù',
         place_see_also_uris: null,
@@ -5472,7 +5076,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 205-206',
         ],
         founders: ['Duke of Apulia Roger (Male)'],
-        italian_place_name: 'San Giorgio a Gratteri',
+        italian_place_name: 'San Giorgio di Gratteri',
         place_type: 'monastery',
         comune: 'Gratteri',
         place_category: 'priory',
@@ -5492,17 +5096,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.3, 38.07],
-      },
+      geometry: { type: 'Point', coordinates: [15.3, 38.07] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.148_15.21.html',
+          'http://www.geonames.org/2525597/barcellona-pozzo-di-gotto.html',
         ],
         children: null,
         alternate_location_names: ['Galath (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Saint Mary in the Valley of Jehosaphat, Palestine',
         place_see_also_uris: null,
@@ -5535,13 +5136,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8946395, 37.5657758],
-      },
+      geometry: { type: 'Point', coordinates: [14.8946395, 37.5657758] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.571_14.903.html',
+          'http://www.geonames.org/2523866/paterno.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5550,7 +5148,7 @@ const geojson = {
           'Paternio (unknown)',
           'Castrum Paternionis (unknown)',
         ],
-        elevation: 256.0,
+        elevation: 256,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of St. Mary in the Valley of Jehosaphat, Palestine',
         place_see_also_uris: null,
@@ -5585,20 +5183,17 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.292174, 38.043722],
-      },
+      geometry: { type: 'Point', coordinates: [15.292174, 38.043722] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: [
           'San Placido di Calonerò (unknown)',
           'Massîni (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary in the Valley of Jehosaphat, Palestine',
         place_see_also_uris: null,
@@ -5612,7 +5207,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 210-213',
         ],
         founders: [],
-        italian_place_name: 'Santa Maria Maddalena Giosafat',
+        italian_place_name: 'Santa Maria Maddalena di Giosafat',
         place_type: 'monastery',
         comune: 'Messina',
         place_category: 'priory',
@@ -5632,13 +5227,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [12.880417, 38.02643],
-      },
+      geometry: { type: 'Point', coordinates: [12.880417, 38.02643] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.019_12.886.html',
+          'http://www.geonames.org/2525095/castellammare-del-golfo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5647,7 +5239,7 @@ const geojson = {
           "Qal'at al hammah (unknown)",
           'Castrum Calatameti (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary in the Valley of Jehosaphat, Palestine',
         place_see_also_uris: null,
@@ -5680,14 +5272,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.5184819, 37.6569322],
-      },
+      geometry: { type: 'Point', coordinates: [14.5184819, 37.6569322] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.656_14.522.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525767/agira.html'],
         children: null,
         alternate_location_names: [
           'Agirò (unknown)',
@@ -5695,7 +5282,7 @@ const geojson = {
           'Mons Argirium (unknown)',
           'Argirione (unknown)',
         ],
-        elevation: 608.0,
+        elevation: 608,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary of the Latins, Jerusalem',
         place_see_also_uris: null,
@@ -5730,13 +5317,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.99922, 37.811967],
-      },
+      geometry: { type: 'Point', coordinates: [13.99922, 37.811967] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.812_14.003.html',
+          'http://www.geonames.org/2523736/polizzi-generosa.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5745,7 +5329,7 @@ const geojson = {
           'Politium (unknown)',
           'Casrum Policii (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary of the Latins, Jerusalem',
         place_see_also_uris: null,
@@ -5753,7 +5337,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1151',
         earliest_attestation_max_year: '1151',
-        english_place_name: 'Saint Mary of the Latins at Polizzi',
+        english_place_name: 'Saint Mary of the Latins of Polizzi',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 224-225',
         ],
@@ -5778,13 +5362,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.47828, 37.848816],
-      },
+      geometry: { type: 'Point', coordinates: [14.47828, 37.848816] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.848_14.478.html',
+          'http://www.geonames.org/2525387/capizzi.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5792,7 +5373,7 @@ const geojson = {
           'Qaysî (unknown)',
           'Capitio (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary of the Latins, Jerusalem',
         place_see_also_uris: null,
@@ -5825,14 +5406,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.524197, 36.828956],
-      },
+      geometry: { type: 'Point', coordinates: [14.524197, 36.828956] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_36.926_14.724.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2523650/ragusa.html'],
         children: null,
         alternate_location_names: [
           'Kamerina (unknown)',
@@ -5842,7 +5418,7 @@ const geojson = {
           'Castrum Ragusiae (unknown)',
           'Racusiam (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary of the Latins, Jerusalem',
         place_see_also_uris: null,
@@ -5859,8 +5435,7 @@ const geojson = {
         place_type: 'monastery',
         comune: 'Ragusa',
         place_category: 'priory',
-        notes:
-          "White, p. 110 n. 2: \"Pirri [Sicilia sacra, 3rd ed., Palermo, 1733], 573 and 688, asserts that a charter [given to the monks of St. Agatha's, Catania, by Count Geoffrey of Ragusa, son of Roger I, on December 16, 1120] united the priory of St. Mary in Ragusa to St. Agatha's. However, since there is no reference in the Norman period to this priory, De Grossis [Catania sacra, Catania, 1654], 66, more conservatively speculates that St. Mary's may ultimately have grown out of [Geoffrey's] donation.",
+        notes: `White, p. 110 n. 2: "Pirri [Sicilia sacra, 3rd ed., Palermo, 1733], 573 and 688, asserts that a charter [given to the monks of St. Agatha's, Catania, by Count Geoffrey of Ragusa, son of Roger I, on December 16, 1120] united the priory of St. Mary in Ragusa to St. Agatha's. However, since there is no reference in the Norman period to this priory, De Grossis [Catania sacra, Catania, 1654], 66, more conservatively speculates that St. Mary's may ultimately have grown out of [Geoffrey's] donation.`,
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label: 'Reign of King Roger II',
@@ -5876,17 +5451,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5210473, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5210473, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Abbey of Saint Mary of the Latins, Jerusalem',
         place_see_also_uris: null,
@@ -5900,7 +5472,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 227-228',
         ],
         founders: [],
-        italian_place_name: 'Santa Maria Latina',
+        italian_place_name: 'Santa Maria dei Latina',
         place_type: 'monastery',
         comune: 'Messina',
         place_category: 'priory',
@@ -5921,13 +5493,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.36291, 37.391941],
-      },
+      geometry: { type: 'Point', coordinates: [14.36291, 37.391941] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.386_14.367.html',
+          'http://www.geonames.org/2523796/piazza-armerina.html',
         ],
         children: null,
         alternate_location_names: [
@@ -5936,7 +5505,7 @@ const geojson = {
           'Platia (unknown)',
           'Castrum Placiae (unknown)',
         ],
-        elevation: 662.0,
+        elevation: 662,
         rank_at_foundation: 'Priory',
         parent: 'Church of the Holy Sepulchre at Jerusalem',
         place_see_also_uris: [
@@ -5946,7 +5515,7 @@ const geojson = {
         location_category: 'representative',
         earliest_attestation_label: '1148',
         earliest_attestation_max_year: '1148',
-        english_place_name: 'Saint Andrew at Piazza Armerina',
+        english_place_name: 'Saint Andrew of Piazza Armerina',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 230',
         ],
@@ -5975,17 +5544,12 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8353867, 37.6639868],
-      },
+      geometry: { type: 'Point', coordinates: [14.8353867, 37.6639868] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.662_14.835.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525769/adrano.html'],
         children: null,
         alternate_location_names: ['Adernò (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Priory',
         parent: 'Church of the Holy Sepulchre, Jerusalem',
         place_see_also_uris: null,
@@ -6020,13 +5584,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.076178, 37.506258],
-      },
+      geometry: { type: 'Point', coordinates: [14.076178, 37.506258] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.49_14.062.html',
+          'http://www.geonames.org/2525448/caltanissetta.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6035,7 +5596,7 @@ const geojson = {
           'Calatanixectum (unknown)',
           'Castello di Nisa (unknown)',
         ],
-        elevation: 572.0,
+        elevation: 572,
         rank_at_foundation: 'Priory',
         parent: 'Our Lady of Mount Sion, Jerusalem',
         place_see_also_uris: null,
@@ -6068,17 +5629,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5210473, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5210473, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: 'Abbey of Our Lady of Mount Sion, Jerusalem',
         place_see_also_uris: null,
@@ -6111,14 +5669,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.469397, 37.474889],
-      },
+      geometry: { type: 'Point', coordinates: [14.469397, 37.474889] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.415_14.445.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525761/aidone.html'],
         children: null,
         alternate_location_names: [
           'Fessina (unknown)',
@@ -6126,7 +5679,7 @@ const geojson = {
           'Fesine (unknown)',
           'Felsinae (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: 'Our Lady of Mount Sion, Jerusalem',
         place_see_also_uris: null,
@@ -6144,7 +5697,7 @@ const geojson = {
         comune: 'Aidone?',
         place_category: null,
         notes:
-          'Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 88 (s.v. "Fessina"), places this near Aidone, near Pietratagliata in Contrada San Bartoloaa',
+          'Luigi Santagati, _Viabilità e topografia della Sicilia antica_, vol. 2 (Caltanissetta, 2013), 88 (s.v. "Fessina"), places this near Aidone, near Pietratagliata in Contrada San Bartolo.',
         attestation_types: 'documentary',
         record_status: 'draft',
         reign_of_earliest_attestation_label: null,
@@ -6160,13 +5713,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8422705, 37.2935824],
-      },
+      geometry: { type: 'Point', coordinates: [14.8422705, 37.2935824] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.298_14.841.html',
+          'http://www.geonames.org/2523180/scordia.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6174,7 +5724,7 @@ const geojson = {
           'Scordia Suitana (unknown)',
           'Scordia Suprana (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Temple',
         parent: 'Order of the Knights Templar',
         place_see_also_uris: null,
@@ -6187,7 +5737,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 234-235',
         ],
         founders: [],
-        italian_place_name: 'null',
+        italian_place_name: 'Sconosciuto',
         place_type: 'monastery',
         comune: 'Scordia',
         place_category: 'temple',
@@ -6207,17 +5757,14 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.5210473, 38.1908266],
-      },
+      geometry: { type: 'Point', coordinates: [15.5210473, 38.1908266] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_38.05_14.867.html',
+          'http://www.geonames.org/2524170/messina.html',
         ],
         children: null,
         alternate_location_names: ['Massîni (unknown)'],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Hospital',
         parent:
           'Order of the Knights of the Hospital of Saint John at Jerusalem',
@@ -6226,7 +5773,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: null,
         earliest_attestation_max_year: null,
-        english_place_name: 'Hospital of Saint John the Baptist of Jerusalem',
+        english_place_name: 'Hospital of Saint John of Jerusalem',
         place_references: [
           "Garufi, Carlo Alberto. I documenti inediti dell'epoca normanna in Sicilia. Palermo: Lo Statuto, 1899. pp.  ",
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 235-239',
@@ -6252,13 +5799,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.3614322, 38.110431],
-      },
+      geometry: { type: 'Point', coordinates: [13.3614322, 38.110431] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.817_13.583.html',
+          'http://www.geonames.org/2523920/palermo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6268,7 +5812,7 @@ const geojson = {
           'Bân.rm (unknown)',
           'Panormus (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: 'Hospital',
         parent:
           'Order of the Knights of the Hospital of Saint John at Jerusalem',
@@ -6277,7 +5821,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1181',
         earliest_attestation_max_year: '1181',
-        english_place_name: 'Hospital of All Saints at Palermo',
+        english_place_name: 'Hospital of All Saints of Palermo',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 239',
         ],
@@ -6302,13 +5846,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [15.039317, 37.260433],
-      },
+      geometry: { type: 'Point', coordinates: [15.039317, 37.260433] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.285_15.html',
+          'http://www.geonames.org/2524410/lentini.html',
         ],
         children: 'Abbey of Sambucina, Calabria',
         alternate_location_names: [
@@ -6317,7 +5858,7 @@ const geojson = {
           'Wâdî Lentini (unknown)',
           'Palude Salata (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: null,
         place_see_also_uris: [
@@ -6353,13 +5894,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [13.941816, 37.941756],
-      },
+      geometry: { type: 'Point', coordinates: [13.941816, 37.941756] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.918_13.936.html',
+          'http://www.geonames.org/2524964/collesano.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6368,7 +5906,7 @@ const geojson = {
           'Gulosam (unknown)',
           'Pedali (unknown)',
         ],
-        elevation: 557.0,
+        elevation: 557,
         rank_at_foundation: 'Abbey?',
         parent: null,
         place_see_also_uris: null,
@@ -6381,7 +5919,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 192, n.7',
         ],
         founders: ['Countess? Adelasia? (Female?)'],
-        italian_place_name: 'Santa Maria del Pedale',
+        italian_place_name: 'Santa Maria di Pedale',
         place_type: 'monastery',
         comune: 'Collesano',
         place_category: 'abbey',
@@ -6402,13 +5940,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.085329, 37.9733477],
-      },
+      geometry: { type: 'Point', coordinates: [14.085329, 37.9733477] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.932_14.089.html',
+          'http://www.geonames.org/2525103/castelbuono.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6417,7 +5952,7 @@ const geojson = {
           'Castri Boni (unknown)',
           'Q.ratiris (unknown)',
         ],
-        elevation: 431.0,
+        elevation: 431,
         rank_at_foundation: 'Abbey',
         parent: 'Holy Trinity and Saint Michael Archangel of Mileto, Calabria',
         place_see_also_uris: null,
@@ -6430,7 +5965,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 191 n.1',
         ],
         founders: ['Count Roger I (Male)'],
-        italian_place_name: 'Santa Maria di Gratteri',
+        italian_place_name: 'Santa Anastasia di Gratteri',
         place_type: 'monastery',
         comune: 'Castelbuono',
         place_category: 'abbey',
@@ -6450,13 +5985,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.1198199, 37.8838052],
-      },
+      geometry: { type: 'Point', coordinates: [14.1198199, 37.8838052] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.86_14.154.html',
+          'http://www.geonames.org/2524641/geraci-siculo.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6467,7 +5999,7 @@ const geojson = {
           'Castrum Giracii (unknown)',
           'Castrum Girachii (unknown)',
         ],
-        elevation: 681.0,
+        elevation: 681,
         rank_at_foundation: 'Priory',
         parent: null,
         place_see_also_uris: null,
@@ -6500,14 +6032,9 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.5073319, 37.8094542],
-      },
+      geometry: { type: 'Point', coordinates: [14.5073319, 37.8094542] },
       properties: {
-        location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.811_14.507.html',
-        ],
+        location_see_also_uris: ['http://www.geonames.org/2525031/cerami.html'],
         children: 'Abbey of Saint Mary of Licodia',
         alternate_location_names: [
           'Cirama (unknown)',
@@ -6517,7 +6044,7 @@ const geojson = {
           'Terami (unknown)',
           'Chinami (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: 'Abbey of Saint Mary of Licodia',
         place_see_also_uris: null,
@@ -6525,7 +6052,7 @@ const geojson = {
         location_category: 'associated_modern',
         earliest_attestation_label: '1143',
         earliest_attestation_max_year: '1143',
-        english_place_name: 'Christ the Savior',
+        english_place_name: 'Christ the Savior of Cerami',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 41, 122',
         ],
@@ -6550,13 +6077,10 @@ const geojson = {
     },
     {
       type: 'Feature',
-      geometry: {
-        type: 'Point',
-        coordinates: [14.8946012, 37.5680045],
-      },
+      geometry: { type: 'Point', coordinates: [14.8946012, 37.5680045] },
       properties: {
         location_see_also_uris: [
-          'http://www.geonames.org/maps/google_37.571_14.903.html',
+          'http://www.geonames.org/2523866/paterno.html',
         ],
         children: null,
         alternate_location_names: [
@@ -6564,7 +6088,7 @@ const geojson = {
           'Paternio (unknown)',
           'Castrum Paternionis (unknown)',
         ],
-        elevation: 0.0,
+        elevation: 0,
         rank_at_foundation: null,
         parent: 'Abbey of Saint Mary of Licodia',
         place_see_also_uris: null,
@@ -6724,7 +6248,7 @@ const geojson = {
         location_category: null,
         earliest_attestation_label: null,
         earliest_attestation_max_year: null,
-        english_place_name: 'Saint Mary de Baratathe',
+        english_place_name: 'Saint Mary of Baratathe',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 232',
         ],
@@ -6801,7 +6325,7 @@ const geojson = {
         location_category: null,
         earliest_attestation_label: '1156',
         earliest_attestation_max_year: '1156',
-        english_place_name: 'Saint Nicholas de Arena',
+        english_place_name: 'Saint Nicholas of Arena',
         place_references: [
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 117-120',
         ],
@@ -6882,7 +6406,7 @@ const geojson = {
           'White, Lynn. Latin Monasticism in Norman Sicily. Cambridge, Mass. :: Mediaeval Academy of America Ann Arbor, Michigan: MPublishing, University of Michigan Library, 1938. http://hdl.handle.net/2027/heb.30929. pp. 42',
         ],
         founders: [],
-        italian_place_name: 'San Nicola Butana',
+        italian_place_name: 'San Nicola di Butana',
         place_type: 'monastery',
         comune: null,
         place_category: 'abbey',
