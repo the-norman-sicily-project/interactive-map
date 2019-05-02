@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Map } from 'react-leaflet';
-import MarkersContainer from '../containers/markers';
 import SearchBarContainer from '../containers/search_bar';
 import LegendContainer from '../containers/legend';
 import config from '../config';
@@ -19,7 +18,6 @@ const InteractiveMap = ({ loading }) => {
         maxZoom={config.maxZoom}
       >
         <MapLayersContainer />
-        <MarkersContainer />
         <SearchBarContainer />
         <LegendContainer />
       </Map>
