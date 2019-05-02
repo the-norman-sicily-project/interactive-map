@@ -1,10 +1,12 @@
 import React from 'react';
 import { TileLayer, LayersControl } from 'react-leaflet';
 import PropTypes from 'prop-types';
+import MarkersContainer from '../containers/markers';
 import config from '../config';
 import apikeys from '../apikeys';
 
-const { BaseLayer } = LayersControl;
+// BaseLayer for Tiles Overlay for Markers
+const { BaseLayer, Overlay } = LayersControl;
 
 const MapLayers = ({ loading }) => {
   if (loading) {
@@ -18,6 +20,9 @@ const MapLayers = ({ loading }) => {
           attribution={config.mapAttribution}
         />
       </BaseLayer>
+      <Overlay checked name="All Monasteries">
+        <MarkersContainer />
+      </Overlay>
     </LayersControl>
   );
 };
