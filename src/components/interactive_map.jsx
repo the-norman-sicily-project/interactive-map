@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Map, TileLayer } from 'react-leaflet';
+import { Map } from 'react-leaflet';
 import MarkersContainer from '../containers/markers';
 import SearchBarContainer from '../containers/search_bar';
 import LegendContainer from '../containers/legend';
 import config from '../config';
-import apikeys from '../apikeys';
+import MapLayersContainer from '../containers/map_layers';
 
 const InteractiveMap = ({ loading }) => {
   if (loading) {
@@ -18,10 +18,7 @@ const InteractiveMap = ({ loading }) => {
         zoom={config.initialZoom}
         maxZoom={config.maxZoom}
       >
-        <TileLayer
-          url={config.tileURL + apikeys.MAPBOX_ACCESS_TOKEN}
-          attribution={config.mapAttribution}
-        />
+        <MapLayersContainer />
         <MarkersContainer />
         <SearchBarContainer />
         <LegendContainer />
