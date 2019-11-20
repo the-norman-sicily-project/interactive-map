@@ -3,34 +3,34 @@ import icons from './icons';
 export const orderLookup = order => {
   switch (order) {
     case 'Augustinian Canons':
-      return { color: '#ba3d36' };
+      return { color: '#969CA1' };
 
     case 'Basilians':
-      return { color: '#ca8345' };
+      return { color: '#6f93ad' };
 
     case 'Benedictines':
-      return { color: '#f9f9f9' };
+      return { color: '#a88ebe' };
 
     case 'Cistercians':
-      return { color: '#cabfb3' };
+      return { color: '#d688aa' };
 
     case 'Cluniacs':
-      return { color: '#ffb404' };
+      return { color: '#e77a68' };
 
     case 'Knights of the Hospital of Saint Lazarus at Jerusalem':
-      return { color: '#837b52' };
+      return { color: '#eda268' };
 
     case 'Knights of the Hospital of Saint John of Jerusalem':
-      return { color: '#617790' };
+      return { color: '#6795fe' };
 
     case 'Knights Templar':
-      return { color: '#8d8594' };
+      return { color: '#c683ea' };
 
     case 'Premonstratensian Canons':
-      return { color: '#423c46' };
+      return { color: '#ff76b8' };
 
     default:
-      return { color: '#fbe5ba' };
+      return { color: '#ff8248' };
   }
 };
 
