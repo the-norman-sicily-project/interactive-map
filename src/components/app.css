@@ -3,6 +3,9 @@
   height: 600px;
   width: 1000px;
   margin: 0 auto;
+  font-size: 90%;
+  line-height: 18px;
+  font-family: Baskerville, 'Goudy Old Style', serif;
 }
 
 #feature-popup {
@@ -35,7 +38,8 @@ tr {
   bottom: 15px;
   z-index: 500;
   border: 1px solid black;
-  background: rgba(223, 223, 220, 0.85);
+  background: #ddd;
+  opacity: 0.85;
 }
 .map-legend .legend-scale ul li {
   font-size: 90%;
