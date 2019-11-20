@@ -9,4 +9,4 @@ rm -rf "$PROJECT_ROOT/build"
 rm -rf "$PROJECT_ROOT/../static-site/resources/public/places/map"
 yarn build
 mkdir -p "$PROJECT_ROOT/../static-site/resources/public/places/map"
-cp -r "$PROJECT_ROOT/build/." "$PROJECT_ROOT/../static-site/resources/public/places/map/."
+cp -pr "$PROJECT_ROOT/build/." "$PROJECT_ROOT/../static-site/resources/public/places/map/."
