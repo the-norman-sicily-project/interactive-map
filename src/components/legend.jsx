@@ -11,14 +11,18 @@ const Legend = ({ sites, loading }) => {
   const orderListMarkup = orderList.map(order => (
     <li key={order}>
       <span
+        className="color-block"
         style={{ background: Object.values(orderLookup(order)).toString() }}
       />
-      {order}
+      <span className="label-text">{order}</span>
     </li>
   ));
   return (
     <Pane>
       <div className="map-legend">
+        <div className="legend-title">
+          Norman Sicily&#39;s Monastic Landscape
+        </div>
         <div className="legend-scale">
           <ul className="legend-labels">{orderListMarkup}</ul>
         </div>

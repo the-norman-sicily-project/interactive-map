@@ -9,6 +9,8 @@ const Icon = ({ color, icon, size, translate, scale }) => {
     },
     path: {
       fill: color,
+      stroke: '#fff',
+      strokeWidth: '25',
     },
   };
 
@@ -20,7 +22,9 @@ const Icon = ({ color, icon, size, translate, scale }) => {
       transform={`translate(${translate}) scale(${scale})`}
       viewBox="0 0 1024 1024"
     >
-      <path style={styles.path} d={icon} />
+      <g style={styles.path}>
+        <path d={icon} />
+      </g>
     </svg>
   );
 };

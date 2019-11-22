@@ -52,12 +52,16 @@ const Markers = ({ sites }) => {
           icon={markerIcon(feature)}
           data={feature} // this.ends up in marker.layer.options.data
         >
-          <Popup minWidth="630" maxWidth="630" className="leaflet_popup">
+          <Popup minWidth="662" maxWidth="662" className="leaflet_popup">
             <div id="feature-popup" />
           </Popup>
           <Tooltip>
             {/* eslint-disable camelcase */}
-            <span>{`${italian_place_name} (${english_place_name})`}</span>
+            <div className="popup-container">
+              <div className="popup-content">
+                {`${italian_place_name} (${english_place_name})`}
+              </div>
+            </div>
             {/* eslint-enable camelcase */}
           </Tooltip>
         </Marker>
