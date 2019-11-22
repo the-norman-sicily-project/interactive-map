@@ -8,8 +8,11 @@ export const orderLookup = order => {
     case 'Basilians':
       return { color: '#6f93ad' };
 
+    case 'Basilians then Cistericans':
+      return { color: '#38e3df' };
+
     case 'Benedictines':
-      return { color: '#a88ebe' };
+      return { color: '#c683ea' };
 
     case 'Cistercians':
       return { color: '#d688aa' };
@@ -24,13 +27,13 @@ export const orderLookup = order => {
       return { color: '#6795fe' };
 
     case 'Knights Templar':
-      return { color: '#c683ea' };
+      return { color: '#ffff00' };
 
     case 'Premonstratensian Canons':
       return { color: '#ff76b8' };
 
     default:
-      return { color: '#ff8248' };
+      return { color: '#fff' };
   }
 };
 
