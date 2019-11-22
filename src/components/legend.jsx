@@ -20,7 +20,9 @@ const Legend = ({ sites, loading }) => {
   return (
     <Pane>
       <div className="map-legend">
-        <div className="legend-title">Norman Sicily's Monastic Landscape</div>
+        <div className="legend-title">
+          Norman Sicily&#39;s Monastic Landscape
+        </div>
         <div className="legend-scale">
           <ul className="legend-labels">{orderListMarkup}</ul>
         </div>
