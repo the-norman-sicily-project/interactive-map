@@ -1,28 +1,31 @@
+const stripDiacritics = s => {
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+};
+
 class SearchProvider {
   constructor(sites) {
-    this.sites = sites;
-  }
-
-  async search({ query }) {
-    const lowerCaseQuery = query.toLowerCase();
-    const matches = this.sites.filter(
-      feature =>
-        feature.geometry &&
-        feature.geometry.coordinates &&
-        feature.geometry.coordinates.length >= 2 &&
-        feature.properties.english_place_name
-          .toLowerCase()
-          .indexOf(lowerCaseQuery) > -1
-    );
-
-    if (matches && matches.length > 0) {
-      return matches.map(feature => ({
+    this.sites = (sites || [])
+      .filter(feature => {
+        return (
+          feature.geometry &&
+          feature.geometry.coordinates &&
+          feature.geometry.coordinates.length >= 2 &&
+          feature.properties &&
+          feature.properties.english_place_name
+        );
+      })
+      .map(feature => ({
         x: feature.geometry.coordinates[1],
         y: feature.geometry.coordinates[0],
         label: feature.properties.english_place_name,
       }));
-    }
-    return [];
+  }
+
+  async search({ query }) {
+    const re = new RegExp(stripDiacritics(query), 'gi');
+    return this.sites.filter(feature => {
+      return re.test(stripDiacritics(feature.label));
+    });
   }
 }
 

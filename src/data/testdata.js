@@ -43,6 +43,16 @@ const testdata = [
   {
     type: 'Feature',
     properties: {
+      english_place_name: "Forza d'Agrò",
+    },
+    geometry: {
+      type: 'Point',
+      coordinates: [15.33409, 37.91539],
+    },
+  },
+  {
+    type: 'Feature',
+    properties: {
       english_place_name: 'Unknown',
     },
   },

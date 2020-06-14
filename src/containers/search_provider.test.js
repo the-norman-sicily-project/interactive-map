@@ -27,6 +27,15 @@ const cataniaResults = testdata
     label: feature.properties.english_place_name,
   }));
 
+const agroResults = testdata
+  .filter(feature => feature.properties.english_place_name === "Forza d'Agrò")
+
+  .map(feature => ({
+    x: feature.geometry.coordinates[1],
+    y: feature.geometry.coordinates[0],
+    label: feature.properties.english_place_name,
+  }));
+
 beforeAll(() => {
   sp = new SearchProvider(testdata);
 });
@@ -47,6 +56,12 @@ test('search is case insensitive', async () => {
   expect.assertions(1);
   const data = await sp.search({ query: 'pAlErMo' });
   expect(JSON.stringify(data)).toEqual(JSON.stringify(palermoResults));
+});
+
+test('search strips diacritics', async () => {
+  expect.assertions(1);
+  const data = await sp.search({ query: 'agro' });
+  expect(JSON.stringify(data)).toEqual(JSON.stringify(agroResults));
 });
 
 test('will not return items that do not have coordinates', async () => {
