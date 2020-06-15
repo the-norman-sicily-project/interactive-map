@@ -10,8 +10,7 @@ import {
 } from '../actions';
 
 export function* fetchSites() {
-  const path =
-    process.env.NODE_ENV === 'production' ? '/places/map/data' : '/data';
+  const path = "map/data";
   const endpoint = `${path}/${config.dataFile}`;
   try {
     yield put(loadSitesBegin());

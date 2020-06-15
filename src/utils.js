@@ -47,7 +47,7 @@ export const placeTypeLookup = placeType => {
   }
 };
 
-export const getListOfOrders = sites => {
+export const getListOfOrders = (sites = []) => {
   const ordersSet = sites.reduce((accumulator, currentValue) => {
     if (
       currentValue.properties.order &&

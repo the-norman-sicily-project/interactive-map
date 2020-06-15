@@ -40,7 +40,7 @@ const handleMarkerClick = async marker => {
   }
 };
 
-const Markers = ({ sites }) => {
+const Markers = ({ sites = [] }) => {
   const markersMarkup = sites.map(feature => {
     const coordinates = _.get(feature, 'geometry.coordinates');
     if (coordinates) {
@@ -51,6 +51,7 @@ const Markers = ({ sites }) => {
           position={coordinates.reverse()} // argh!
           icon={markerIcon(feature)}
           data={feature} // this.ends up in marker.layer.options.data
+          onClick={marker => handleMarkerClick(marker)}
         >
           <Popup minWidth="662" maxWidth="662" className="leaflet_popup">
             <div id="feature-popup" />
@@ -71,7 +72,7 @@ const Markers = ({ sites }) => {
   });
 
   return (
-    <MarkerClusterGroup onClick={marker => handleMarkerClick(marker)}>
+    <MarkerClusterGroup>
       {markersMarkup}
     </MarkerClusterGroup>
   );

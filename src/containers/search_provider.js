@@ -3,8 +3,8 @@ const stripDiacritics = s => {
 };
 
 class SearchProvider {
-  constructor(sites) {
-    this.sites = (sites || [])
+  constructor(sites = []) {
+    this.sites = sites
       .filter(feature => {
         return (
           feature.geometry &&
