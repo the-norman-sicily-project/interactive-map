@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions initMap Dispatches init map action 1`] = `
+Array [
+  Object {
+    "type": "INIT_MAP",
+  },
+]
+`;
+
+exports[`actions loadSitesBegin Dispatches load sites begin action 1`] = `
+Array [
+  Object {
+    "type": "LOAD_SITES_BEGIN",
+  },
+]
+`;
