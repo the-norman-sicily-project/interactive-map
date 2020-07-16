@@ -1,9 +1,10 @@
 import { connect } from 'react-redux';
 import SearchBar from '../components/search_bar';
+import { getSitesState } from '../selectors';
 
 const mapStateToProps = state => {
   return {
-    sites: state.sites,
+    sites: getSitesState(state),
   };
 };
 

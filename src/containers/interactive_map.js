@@ -1,9 +1,10 @@
 import { connect } from 'react-redux';
 import InteractiveMap from '../components/interactive_map';
+import { getLoadingState } from '../selectors';
 
 const mapStateToProps = state => {
   return {
-    loading: state.loading,
+    loading: getLoadingState(state),
   };
 };
 

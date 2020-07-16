@@ -28,7 +28,7 @@ export default function rootReducer(state = initialState, action) {
         set('loading', false),
         set('error', action.error),
         set('sites', [])
-      );
+      )(state);
     default:
       return state;
   }

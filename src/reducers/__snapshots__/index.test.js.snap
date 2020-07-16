@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rootReducer INIT_MAP returns the correct state 1`] = `
+Object {
+  "loading": false,
+  "sites": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`rootReducer LOAD_SITES_BEGIN returns the correct state 1`] = `
+Object {
+  "loading": true,
+  "sites": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`rootReducer LOAD_SITES_FAILURE returns the correct state 1`] = `
+Object {
+  "error": [Error: Some error occurred],
+  "loading": false,
+  "sites": Array [],
+}
+`;
+
+exports[`rootReducer LOAD_SITES_SUCCESS returns the correct state 1`] = `
+Object {
+  "loading": false,
+  "sites": Array [
+    4,
+    5,
+    6,
+  ],
+}
+`;

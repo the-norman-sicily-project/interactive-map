@@ -1,9 +1,11 @@
 import { connect } from 'react-redux';
 import Markers from '../components/markers';
+import { getSitesState } from '../selectors';
 
 const mapStateToProps = state => {
-  const { sites } = state;
-  return { sites };
+  return {
+    sites: getSitesState(state),
+  };
 };
 
 const MarkersContainer = connect(mapStateToProps)(Markers);

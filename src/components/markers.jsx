@@ -31,7 +31,7 @@ const markerIcon = feature => {
 };
 
 const handleMarkerClick = async marker => {
-  const feature = _.get(marker, 'layer.options.data');
+  const feature = _.get(marker, 'target.options.data');
   if (feature) {
     ReactDOM.render(
       <SitePopup feature={feature} />,
@@ -50,7 +50,7 @@ const Markers = ({ sites = [] }) => {
           key={feature.id}
           position={coordinates.reverse()} // argh!
           icon={markerIcon(feature)}
-          data={feature} // this.ends up in marker.layer.options.data
+          data={feature} // this.ends up in marker.target.options.data
           onClick={marker => handleMarkerClick(marker)}
         >
           <Popup minWidth="662" maxWidth="662" className="leaflet_popup">
@@ -71,11 +71,7 @@ const Markers = ({ sites = [] }) => {
     return null;
   });
 
-  return (
-    <MarkerClusterGroup>
-      {markersMarkup}
-    </MarkerClusterGroup>
-  );
+  return <MarkerClusterGroup>{markersMarkup}</MarkerClusterGroup>;
 };
 
 Markers.propTypes = {
