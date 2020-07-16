@@ -18,10 +18,9 @@ describe('actions', () => {
   });
 
   describe('loadSitesBegin', () => {
-    test('Dispatches load sites begin action', () =>{
+    test('Dispatches load sites begin action', () => {
       store.dispatch(actions.loadSitesBegin());
       expect(store.getActions()).toMatchSnapshot();
     });
   });
-  
 });

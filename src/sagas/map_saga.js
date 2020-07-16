@@ -10,7 +10,7 @@ import {
 } from '../actions';
 
 export function* fetchSites() {
-  const path = "data";
+  const path = 'data';
   const endpoint = `${path}/${config.dataFile}`;
   try {
     yield put(loadSitesBegin());
