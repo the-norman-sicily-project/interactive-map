@@ -65,7 +65,7 @@ export const getListOfOrders = (sites = []) => {
 };
 
 // source: http://en.marnoto.com/2014/04/converter-coordenadas-gps.html
-const getDms = val => {
+export const getDms = val => {
   const result = [];
   const v = Math.abs(val);
 
@@ -103,7 +103,7 @@ export const startCaseTerm = t => {
   );
 };
 
-export const startCaseList = (l, d) => {
+export const startCaseList = (l, d = ',') => {
   const words = l.split(d);
   return words
     .map(word => {
