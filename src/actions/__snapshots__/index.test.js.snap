@@ -15,3 +15,31 @@ Array [
   },
 ]
 `;
+
+exports[`actions loadSitesFAILURE Dispatches load sites failure action 1`] = `
+Array [
+  Object {
+    "error": [Error: error occurred],
+    "type": "LOAD_SITES_FAILURE",
+  },
+]
+`;
+
+exports[`actions loadSitesSuccess Dispatches load sites success action 1`] = `
+Array [
+  Object {
+    "sites": Array [
+      Number {
+        "id": "site_1",
+      },
+      Number {
+        "id": "site_2",
+      },
+      Number {
+        "id": "site_3",
+      },
+    ],
+    "type": "LOAD_SITES_SUCCESS",
+  },
+]
+`;

@@ -29,7 +29,6 @@
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.0",
     "react-tabs": "^3.1.1",
-    "react-test-renderer": "16.13.0",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-saga": "^1.1.3",
@@ -49,6 +48,8 @@
     "lint": "eslint --ext .js --ext .jsx src/"
   },
   "devDependencies": {
+    "react-test-renderer": "16.13.0",
+    "jest-fetch-mock": "^3.0.3",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",

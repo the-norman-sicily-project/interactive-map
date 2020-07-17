@@ -8,7 +8,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import App from './components/app';
 import { initMap } from './actions';
-import rootReducers from './reducers';
+import { rootReducer } from './reducers';
 import mapSaga from './sagas/map_saga';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -19,7 +19,7 @@ const composeEnhancers = composeWithDevTools({
 });
 
 const store = createStore(
-  rootReducers,
+  rootReducer,
   composeEnhancers(applyMiddleware(sagaMiddleware))
 );
 

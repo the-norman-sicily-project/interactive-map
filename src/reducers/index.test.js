@@ -1,4 +1,4 @@
-import rootReducer from './index';
+import { rootReducer } from './index';
 import {
   INIT_MAP,
   LOAD_SITES_BEGIN,

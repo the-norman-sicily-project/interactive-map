@@ -6,12 +6,12 @@ import {
   LOAD_SITES_FAILURE,
 } from '../actions';
 
-const initialState = {
+export const initialState = {
   loading: false,
   sites: [],
 };
 
-export default function rootReducer(state = initialState, action) {
+export const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case INIT_MAP:
       return cloneDeep(state);
@@ -32,4 +32,4 @@ export default function rootReducer(state = initialState, action) {
     default:
       return state;
   }
-}
+};

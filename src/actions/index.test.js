@@ -23,4 +23,18 @@ describe('actions', () => {
       expect(store.getActions()).toMatchSnapshot();
     });
   });
+
+  describe('loadSitesSuccess', () => {
+    test('Dispatches load sites success action', () => {
+      store.dispatch(actions.loadSitesSuccess({ features: [1, 2, 3] }));
+      expect(store.getActions()).toMatchSnapshot();
+    });
+  });
+
+  describe('loadSitesFAILURE', () => {
+    test('Dispatches load sites failure action', () => {
+      store.dispatch(actions.loadSitesFailure(new Error('error occurred')));
+      expect(store.getActions()).toMatchSnapshot();
+    });
+  });
 });
