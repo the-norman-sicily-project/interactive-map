@@ -9,7 +9,7 @@ import {
 
 describe('orderColorLookup', () => {
   it('return a color for an unknown order', () => {
-    expect(orderColorLookup('FOO')).toEqual('#fff' );
+    expect(orderColorLookup('FOO')).toEqual('#fff');
   });
 });
 
