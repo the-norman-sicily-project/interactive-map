@@ -1,6 +1,6 @@
 import { withLeaflet, MapControl } from 'react-leaflet';
 import { GeoSearchControl } from 'leaflet-geosearch';
-import SearchProvider from '../containers/search_provider';
+import SearchProvider from '../providers/search';
 
 class Search extends MapControl {
   initProvider(sites) {

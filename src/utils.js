@@ -1,49 +1,37 @@
-import icons from './icons';
-
-export const orderLookup = order => {
+export const orderColorLookup = order => {
   switch (order) {
     case 'Augustinian Canons':
-      return { color: '#969CA1' };
+      return '#969CA1';
 
     case 'Basilians':
-      return { color: '#6f93ad' };
+      return '#6f93ad';
 
     case 'Basilians then Cistericans':
-      return { color: '#38e3df' };
+      return '#38e3df';
 
     case 'Benedictines':
-      return { color: '#c683ea' };
+      return '#c683ea';
 
     case 'Cistercians':
-      return { color: '#d688aa' };
+      return '#d688aa';
 
     case 'Cluniacs':
-      return { color: '#e77a68' };
+      return '#e77a68';
 
     case 'Knights of the Hospital of Saint Lazarus at Jerusalem':
-      return { color: '#eda268' };
+      return '#eda268';
 
     case 'Knights of the Hospital of Saint John of Jerusalem':
-      return { color: '#6795fe' };
+      return '#6795fe';
 
     case 'Knights Templar':
-      return { color: '#ffff00' };
+      return '#ffff00';
 
     case 'Premonstratensian Canons':
-      return { color: '#ff76b8' };
+      return '#ff76b8';
 
     default:
-      return { color: '#fff' };
-  }
-};
-
-export const placeTypeLookup = placeType => {
-  switch (placeType) {
-    case 'monastery':
-      return { icon: icons.MONASTERY, scale: '1,-1', translate: '-6,-41' };
-    default: {
-      return {};
-    }
+      return '#fff';
   }
 };
 
@@ -62,6 +50,24 @@ export const getListOfOrders = (sites = []) => {
     return accumulator;
   }, new Set(['Unknown']));
   return [...ordersSet].sort((a, b) => a.localeCompare(b));
+};
+
+export const getPlaceTypes = (sites = []) => {
+  const placeTypeSet = sites.reduce((accumulator, currentValue) => {
+    if (
+      currentValue.properties.place_type &&
+      currentValue.properties.place_type.length > 0
+    ) {
+      const m = currentValue.properties.place_type;
+      if (!m.endsWith('?') && !accumulator.has(m)) {
+        accumulator.add(m);
+      }
+    }
+
+    return accumulator;
+  }, new Set([]));
+
+  return [...placeTypeSet].sort((a, b) => a.localeCompare(b));
 };
 
 // source: http://en.marnoto.com/2014/04/converter-coordenadas-gps.html

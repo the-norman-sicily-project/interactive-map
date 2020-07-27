@@ -8,8 +8,7 @@ import {
 } from '../actions';
 
 export function* fetchSites() {
-  const path = 'map/data';
-  const endpoint = `${path}/${config.dataFile}`;
+  const endpoint = `${config.dataPath}/${config.dataFile}`;
   try {
     yield put(loadSitesBegin());
     const response = yield call(fetch, endpoint);

@@ -1,0 +1,47 @@
+.map-legend {
+  position: absolute;
+  bottom: 15px;
+  z-index: 500;
+  border: 1px solid black;
+  background: #ddd;
+  opacity: 0.85;
+  width: 250px;
+}
+
+.map-legend .legend-title {
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+
+.map-legend .legend-sublist-title {
+  position: relative;
+  font-weight: bold;
+}
+
+.map-legend .legend-scale ul {
+  position: relative;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.map-legend .legend-scale ul li {
+  list-style: none;
+}
+
+.map-legend .legend-scale ul li > div.legend-item {
+  display: flex;
+}
+
+.map-legend ul.legend-labels li > div.legend-item > div.label-text {
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75%;
+  margin-top: 7px;
+}
+
+.map-legend ul.legend-labels li > div.legend-item > div.label-text:hover {
+  overflow: visible;
+}

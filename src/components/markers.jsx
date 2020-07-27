@@ -6,25 +6,25 @@ import { Marker, Popup, Tooltip } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import L from 'leaflet';
 import _ from 'lodash';
-import Icons from '../icons';
-import Icon from './icon';
-import { placeTypeLookup, orderLookup } from '../utils';
+import Icon from '../icons';
 import SitePopup from './site_popup';
+import { orderColorLookup } from '../utils';
+import './markers.css';
 
 const markerIcon = feature => {
-  const setProps = {
-    ...Icons.defaultProps,
-    ...placeTypeLookup(feature.properties.place_type),
-    ...orderLookup(feature.properties.order),
-  };
+  const size = 30;
+  const order = _.get(feature, 'properties.order') || '';
+  const color = orderColorLookup(order);
+
   return L.divIcon({
+    className: 'place-marker',
     html: ReactDOMServer.renderToString(
       <Icon
-        icon={setProps.icon}
-        color={setProps.color}
-        translate={setProps.translate}
-        scale={setProps.scale}
-        size={setProps.size}
+        placetype={_.get(feature, 'properties.place_type')}
+        order={order}
+        fill={color}
+        width={`${size}px`}
+        height={`${size}px`}
       />
     ),
   });

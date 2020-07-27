@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const stripDiacritics = s => {
   return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 };
@@ -7,11 +9,8 @@ class SearchProvider {
     this.sites = sites
       .filter(feature => {
         return (
-          feature.geometry &&
-          feature.geometry.coordinates &&
-          feature.geometry.coordinates.length >= 2 &&
-          feature.properties &&
-          feature.properties.english_place_name
+          _.get(feature, 'geometry.coordinates', []).length >= 2 &&
+          _.get(feature, 'properties.english_place_name')
         );
       })
       .map(feature => ({

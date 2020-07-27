@@ -7,6 +7,7 @@ const CONFIG = {
   mapAttribution:
     '<a href=&quot;https://www.mapbox.com/about/maps/&quot;>© Mapbox</a> <a href=&quot;http://www.openstreetmap.org/copyright&quot;>© OpenStreetMap</a>',
   dataFile: 'places-20191009.geojson',
+  dataPath: 'map/data',
 };
 
 export default CONFIG;

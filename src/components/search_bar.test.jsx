@@ -2,11 +2,14 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import SearchBar from './search_bar';
 
-it('renders without crashing', () => {
-  shallow(<SearchBar />);
-});
+describe('SearchBar', () => {
+  let wrapper;
 
-it('renders a geo search control', () => {
-  const wrapper = shallow(<SearchBar />);
-  expect(wrapper.find('GeoSearchControl')).toBeDefined();
+  beforeEach(() => {
+    wrapper = shallow(<SearchBar />);
+  });
+
+  it('renders a geo search control', () => {
+    expect(wrapper.find('GeoSearchControl')).toBeDefined();
+  });
 });

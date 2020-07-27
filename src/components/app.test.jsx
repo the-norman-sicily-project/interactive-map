@@ -4,23 +4,24 @@ import configureStore from 'redux-mock-store';
 import { shallow } from 'enzyme';
 import App from './app';
 
-const mockStore = configureStore();
-const initialState = {};
-const store = mockStore(initialState);
+describe('App', () => {
+  let wrapper;
+  let mockStore;
+  let initialState;
+  let store;
 
-it('renders without crashing', () => {
-  shallow(
-    <Provider store={store}>
-      <App />
-    </Provider>
-  );
-});
+  beforeEach(() => {
+    mockStore = configureStore();
+    initialState = {};
+    store = mockStore(initialState);
+    wrapper = shallow(
+      <Provider store={store}>
+        <App />
+      </Provider>
+    );
+  });
 
-it('renders the interactive map', () => {
-  const wrapper = shallow(
-    <Provider store={store}>
-      <App />
-    </Provider>
-  );
-  expect(wrapper.find('InteractiveMap')).toBeDefined();
+  it('renders the interactive map', () => {
+    expect(wrapper.find('InteractiveMap')).toBeDefined();
+  });
 });

@@ -1,30 +1,59 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Pane } from 'react-leaflet';
-import { getListOfOrders, orderLookup } from '../utils';
+import { getPlaceTypes, getListOfOrders, orderColorLookup } from '../utils';
+import Icon from '../icons';
+import './legend.css';
 
 const Legend = ({ sites, loading }) => {
   if (loading) {
     return <div>Loading...</div>;
   }
+  const size = 25;
   const orderList = getListOfOrders(sites);
-  const orderListMarkup = orderList.map(order => (
+  const orderMarkup = orderList.map(order => (
     <li key={order}>
-      <span
-        className="color-block"
-        style={{ background: Object.values(orderLookup(order)).toString() }}
-      />
-      <span className="label-text">{order}</span>
+      <div className="legend-item">
+        <Icon
+          placetype={'monastery'}
+          order={order}
+          fill={orderColorLookup(order)}
+          width={`${size}px`}
+          height={`${size}px`}
+        />
+        <div className="label-text">{order}</div>
+      </div>
+    </li>
+  ));
+
+  const placeTypes = getPlaceTypes(sites);
+  const placeTypeMarkup = placeTypes.map(placeType => (
+    <li key={placeType}>
+      {placeType === 'monastery' ? (
+        <React.Fragment>
+          <div className="legend-sublist-title">Monastic Sites</div>
+          <ul>{orderMarkup}</ul>
+        </React.Fragment>
+      ) : (
+        <div className="legend-item">
+          <Icon
+            placetype={placeType}
+            order={null}
+            fill={'#000'}
+            width={`${size}px`}
+            height={`${size}px`}
+          />
+          <div className="label-text">{placeType}</div>
+        </div>
+      )}
     </li>
   ));
   return (
     <Pane>
       <div className="map-legend">
-        <div className="legend-title">
-          Norman Sicily&#39;s Monastic Landscape
-        </div>
+        <div className="legend-title">The Landscape of Norman Sicily</div>
         <div className="legend-scale">
-          <ul className="legend-labels">{orderListMarkup}</ul>
+          <ul className="legend-labels">{placeTypeMarkup}</ul>
         </div>
       </div>
     </Pane>
