@@ -15,7 +15,7 @@ const Legend = ({ sites, loading }) => {
     <li key={order}>
       <div className="legend-item">
         <Icon
-          placetype={'monastery'}
+          placetype="monastery"
           order={order}
           fill={orderColorLookup(order)}
           width={`${size}px`}
@@ -30,16 +30,16 @@ const Legend = ({ sites, loading }) => {
   const placeTypeMarkup = placeTypes.map(placeType => (
     <li key={placeType}>
       {placeType === 'monastery' ? (
-        <React.Fragment>
+        <>
           <div className="legend-sublist-title">Monastic Sites</div>
           <ul>{orderMarkup}</ul>
-        </React.Fragment>
+        </>
       ) : (
         <div className="legend-item">
           <Icon
             placetype={placeType}
             order={null}
-            fill={'#000'}
+            fill="#000"
             width={`${size}px`}
             height={`${size}px`}
           />

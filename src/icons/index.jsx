@@ -67,10 +67,12 @@ const Icon = props => {
 Icon.propTypes = {
   placetype: PropTypes.string.isRequired,
   order: PropTypes.string,
+  rite: PropTypes.string,
 };
 
 Icon.defaultProps = {
   order: '',
+  rite: '',
 };
 
 export default Icon;

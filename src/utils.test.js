@@ -4,12 +4,12 @@ import {
   startCaseTerm,
   startCaseList,
   getListOfOrders,
-  orderLookup,
+  orderColorLookup,
 } from './utils';
 
-describe('orderLookup', () => {
+describe('orderColorLookup', () => {
   it('return a color for an unknown order', () => {
-    expect(orderLookup('FOO')).toEqual({ color: '#fff' });
+    expect(orderColorLookup('FOO')).toEqual('#fff' );
   });
 });
 
