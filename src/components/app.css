@@ -1,4 +1,5 @@
 /* Map */
+
 div#root {
   background-color: #fff;
 }
@@ -12,28 +13,7 @@ div#root {
   font-family: Baskerville, 'Goudy Old Style', serif;
 }
 
-#feature-popup {
-  min-height: 300px;
+.boldText {
+  font-weight: bold;
 }
 
-.react-tabs__tab-panel > table {
-  width: 100%;
-  align: center;
-}
-
-.leaflet-popup-content-wrapper .leaflet-popup-content tr:nth-child(even) {
-  background-color: #dee8f2;
-}
-.leaflet-popup-content-wrapper .leaflet-popup-content table,
-td,
-tr {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 8px;
-}
-
-.popup-container .popup-content {
-  white-space: normal;
-  min-width: 175px;
-  word-wrap: break-word;
-}

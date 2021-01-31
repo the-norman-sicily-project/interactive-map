@@ -1,25 +1,37 @@
-import { withLeaflet, MapControl } from 'react-leaflet';
+import { useEffect } from 'react';
+import { useMap } from 'react-leaflet';
+import L from 'leaflet';
 import { GeoSearchControl } from 'leaflet-geosearch';
-import SearchProvider from '../providers/search';
+import { useTranslate } from 'react-redux-multilingual';
 
-class Search extends MapControl {
-  initProvider(sites) {
-    this.provider = new SearchProvider(sites);
-  }
+const SearchControl = (props) => {
+  const translate = useTranslate();
+  const map = useMap();
+  const { provider } = props;
 
-  createLeafletElement({ sites }) {
-    this.initProvider(sites);
-
-    return GeoSearchControl({
-      provider: this.provider,
-      showMarker: false,
-      showPopup: true,
-      searchLabel: 'search',
-      autoClose: true,
+  useEffect(() => {
+    const searchControl = new GeoSearchControl({
+      provider,
+      resultFormat: (result) => (result && result.label ? `${result.label}` : ''),
+      searchLabel: translate('searchPrompt'),
+      showMarker: true,
+      showPopup: false,
+      popupFormat: (result) => (result && result.label ? `${result.label}` : ''),
+      maxSuggestions: 10,
       keepResult: true,
+      autoClose: true,
+      updateMap: true,
+      position: 'topright',
+      style: 'bar',
     });
-  }
-}
 
-const SearchBar = withLeaflet(Search);
-export default SearchBar;
+    map.addControl(searchControl);
+    const containerDiv = searchControl.getContainer();
+    L.DomEvent.disableClickPropagation(containerDiv);
+
+    return () => map.removeControl(searchControl);
+  }, [translate, map, provider]);
+
+  return null;
+};
+export default SearchControl;

@@ -1,0 +1,4 @@
+.location-container {
+    display: flex;
+    flex-direction: column;
+}

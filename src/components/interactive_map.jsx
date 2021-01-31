@@ -1,6 +1,7 @@
+/* eslint-disable no-console */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Map, TileLayer } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import MarkersContainer from '../containers/markers';
 import SearchBarContainer from '../containers/search_bar';
 import LegendContainer from '../containers/legend';
@@ -13,25 +14,26 @@ const InteractiveMap = ({ loading }) => {
   }
   return (
     <div>
-      <Map
-        center={config.centerPoint}
-        zoom={config.initialZoom}
-        maxZoom={config.maxZoom}
-      >
-        <TileLayer
-          url={config.tileURL + apikeys.MAPBOX_ACCESS_TOKEN}
-          attribution={config.mapAttribution}
-        />
+      <MapContainer center={config.centerPoint} zoom={config.initialZoom} maxZoom={config.maxZoom}>
+        <TileLayer url={config.tileURL + apikeys.MAPBOX_ACCESS_TOKEN} attribution={config.mapAttribution} />
         <MarkersContainer />
-        <SearchBarContainer />
+        <SearchBarContainer
+          eventHandlers={{
+            'geosearch/showlocation': (e) => console.log(JSON.stringify(e)),
+          }}
+        />
         <LegendContainer />
-      </Map>
+      </MapContainer>
     </div>
   );
 };
 
 InteractiveMap.propTypes = {
-  loading: PropTypes.bool.isRequired,
+  loading: PropTypes.bool,
+};
+
+InteractiveMap.defaultProps = {
+  loading: false,
 };
 
 export default InteractiveMap;

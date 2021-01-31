@@ -1,10 +1,14 @@
 import { connect } from 'react-redux';
 import SearchBar from '../components/search_bar';
-import { getSitesState } from '../selectors';
+import { sitesSelector } from '../selectors';
+import SearchProvider from '../providers/search';
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
+  const sites = sitesSelector(state);
+  const searchProvider = new SearchProvider(sites);
+
   return {
-    sites: getSitesState(state),
+    provider: searchProvider,
   };
 };
 

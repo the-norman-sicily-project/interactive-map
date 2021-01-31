@@ -1,64 +1,66 @@
-export const orderColorLookup = order => {
+export const orderColorLookup = (order) => {
   switch (order) {
-    case 'Augustinian Canons':
+    case 'augustinian_canons':
       return '#969CA1';
 
-    case 'Basilians':
+    case 'basilians':
       return '#6f93ad';
 
-    case 'Basilians then Cistericans':
+    case 'basilians_then_cistercians':
       return '#38e3df';
 
-    case 'Benedictines':
+    case 'benedictines':
       return '#c683ea';
 
-    case 'Cistercians':
+    case 'cistercians':
       return '#d688aa';
 
-    case 'Cluniacs':
+    case 'cluniacs':
       return '#e77a68';
 
-    case 'Knights of the Hospital of Saint Lazarus at Jerusalem':
+    case 'hospital_of_saint_lazarus_of_jerusalem':
+      return '#73b961';
+
+    case 'knights_of_the_hospital_of_saint_lazarus_at_jerusalem':
       return '#eda268';
 
-    case 'Knights of the Hospital of Saint John of Jerusalem':
+    case 'knights_of_the_hospital_of_saint_john_of_jerusalem':
       return '#6795fe';
 
-    case 'Knights Templar':
+    case 'knights_templar':
       return '#ffff00';
 
-    case 'Premonstratensian Canons':
+    case 'premonstratensian_canons':
       return '#ff76b8';
 
     default:
-      return '#fff';
+      return '#000';
   }
 };
 
 export const getListOfOrders = (sites = []) => {
   const ordersSet = sites.reduce((accumulator, currentValue) => {
-    if (
-      currentValue.properties.order &&
-      currentValue.properties.order.length > 0
-    ) {
-      const m = currentValue.properties.order;
+    if (currentValue.properties.nsp_monasticIdentity && currentValue.properties.nsp_monasticIdentity.length > 0) {
+      const m = currentValue.properties.nsp_monasticIdentity;
       if (!m.endsWith('?') && !accumulator.has(m)) {
         accumulator.add(m);
       }
     }
 
     return accumulator;
-  }, new Set(['Unknown']));
+  }, new Set([]));
+
+  if (!ordersSet.has('UNKNOWN')) {
+    ordersSet.add('UNKNOWN');
+  }
+
   return [...ordersSet].sort((a, b) => a.localeCompare(b));
 };
 
 export const getPlaceTypes = (sites = []) => {
   const placeTypeSet = sites.reduce((accumulator, currentValue) => {
-    if (
-      currentValue.properties.place_type &&
-      currentValue.properties.place_type.length > 0
-    ) {
-      const m = currentValue.properties.place_type;
+    if (currentValue.properties.nsp_placeType && currentValue.properties.nsp_placeType.length > 0) {
+      const m = currentValue.properties.nsp_placeType;
       if (!m.endsWith('?') && !accumulator.has(m)) {
         accumulator.add(m);
       }
@@ -71,7 +73,7 @@ export const getPlaceTypes = (sites = []) => {
 };
 
 // source: http://en.marnoto.com/2014/04/converter-coordenadas-gps.html
-export const getDms = val => {
+export const getDms = (val) => {
   const result = [];
   const v = Math.abs(val);
 
@@ -95,25 +97,26 @@ export const ddToDms = ({ lat, lng }) => {
   const lngResult = [];
   lngResult.push(lng >= 0 ? 'E' : 'W');
 
-  return `${lngResult.concat(getDms(lng)).join(' ')} ${latResult
-    .concat(getDms(lat))
-    .join(' ')}`;
+  return `${lngResult.concat(getDms(lng)).join(' ')} ${latResult.concat(getDms(lat)).join(' ')}`;
 };
 
-export const startCaseTerm = t => {
-  return (
-    t
-      .trim()
-      .charAt(0)
-      .toUpperCase() + t.slice(1)
-  );
+export const startCaseTerm = (t = '') => {
+  const trimmedTerm = t.trim();
+  return trimmedTerm.charAt(0).toUpperCase() + trimmedTerm.slice(1);
 };
 
-export const startCaseList = (l, d = ',') => {
-  const words = l.split(d);
-  return words
-    .map(word => {
-      return startCaseTerm(word);
-    })
-    .join(', ');
+export const startCaseList = (l = [], d = ',') => {
+  const words = Array.isArray(l) ? l : l.split(d);
+  return words.map((word) => startCaseTerm(word)).join(', ');
 };
+
+const getQuery = () => {
+  if (typeof window !== 'undefined') {
+    return new URLSearchParams(window.location.search);
+  }
+  return new URLSearchParams();
+};
+
+const getQueryStringValue = (key = null) => getQuery().get(key);
+
+export const getQueryParam = (key, defaultVal) => getQueryStringValue(key) || defaultVal;

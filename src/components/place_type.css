@@ -1,0 +1,4 @@
+.place-type-info-container {
+    display: flex;
+    flex-direction: column;
+}

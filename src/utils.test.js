@@ -1,11 +1,4 @@
-import {
-  ddToDms,
-  getDms,
-  startCaseTerm,
-  startCaseList,
-  getListOfOrders,
-  orderColorLookup,
-} from './utils';
+import { ddToDms, getDms, startCaseTerm, startCaseList, getListOfOrders, orderColorLookup } from './utils';
 
 describe('orderColorLookup', () => {
   it('return a color for an unknown order', () => {
@@ -15,18 +8,11 @@ describe('orderColorLookup', () => {
 
 describe('getListOfOrders', () => {
   it('should return a list of order property values', () => {
-    const list = [
-      { properties: { order: 'foo' } },
-      { properties: { order: 'bar' } },
-    ];
+    const list = [{ properties: { order: 'foo' } }, { properties: { order: 'bar' } }];
     expect(getListOfOrders(list)).toEqual(['bar', 'foo', 'Unknown']);
   });
   it('should ignore items with no order property values', () => {
-    const list = [
-      { properties: { baz: 'quux' } },
-      { properties: { order: 'foo' } },
-      { properties: { order: 'bar' } },
-    ];
+    const list = [{ properties: { baz: 'quux' } }, { properties: { order: 'foo' } }, { properties: { order: 'bar' } }];
     expect(getListOfOrders(list)).toEqual(['bar', 'foo', 'Unknown']);
   });
   it('should sort the list orf orders', () => {
@@ -48,9 +34,7 @@ describe('getDms', () => {
 
 describe('ddToDms', () => {
   it('should return the expected coordinates in degrees, minutes, seconds format', () => {
-    expect(ddToDms({ lng: 36.828956, lat: 14.524197 })).toEqual(
-      'E 36º 49\' 44.242" N 14º 31\' 27.109"'
-    );
+    expect(ddToDms({ lng: 36.828956, lat: 14.524197 })).toEqual('E 36º 49\' 44.242" N 14º 31\' 27.109"');
   });
 });
 
@@ -66,8 +50,6 @@ describe('startCaseTerm', () => {
 describe('startCaseList', () => {
   it('should upper case the first letter of each term in a comma delimited string', () => {
     expect(startCaseList('foo,BAR,Baz,qUuX')).toEqual('Foo, BAR, Baz, QUuX');
-    expect(startCaseList('foo|BAR|Baz|qUuX', '|')).toEqual(
-      'Foo, BAR, Baz, QUuX'
-    );
+    expect(startCaseList('foo|BAR|Baz|qUuX', '|')).toEqual('Foo, BAR, Baz, QUuX');
   });
 });

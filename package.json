@@ -15,51 +15,51 @@
     "Ryan Marshall <RyanMarshall5765@gmail.com> (https://github.com/RyanMarshall5765)"
   ],
   "dependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.2",
     "leaflet": "^1.7.1",
-    "leaflet-geosearch": "^2.7.0",
+    "leaflet-geosearch": "^3.2.1",
     "leaflet.markercluster": "^1.4.1",
     "lodash": "^4.17.20",
     "prop-types": "15.7.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "react-leaflet": "^2.8.0",
-    "react-leaflet-markercluster": "^2.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-leaflet": "3.1.0",
+    "react-leaflet-markercluster": "3.0.0-rc1",
     "react-redux": "^7.2.2",
-    "react-scripts": "3.4.0",
-    "react-tabs": "^3.1.1",
+    "react-redux-multilingual": "^2.0.4",
+    "react-scripts": "4.0.1",
+    "react-tabs": "^3.1.2",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-saga": "^1.1.3",
-    "reselect": "^4.0.0"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
+    "reselect": "^4.0.0",
+    "stardog": "git+https://github.com/stardog-union/stardog.js.git#v2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js --ext .jsx src/"
+    "lint": "eslint ./src --ext .js,.jsx ",
+    "lint:fix": "eslint ./src --ext .js,.jsx --fix",
+    "prettify": "prettier --write **/*.{js,jsx,json}",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
-    "react-test-renderer": "16.13.0",
-    "jest-fetch-mock": "^3.0.3",
+    "eslint": "^7.18.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "6.10.0",
-    "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-lodash-fp": "^2.2.0-a1",
-    "eslint-plugin-prettier": "3.1.2",
-    "eslint-plugin-react": "7.19.0",
-    "husky": "4.2.3",
-    "lint-staged": "10.0.8",
-    "prettier": "1.19.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "husky": "4.3.8",
+    "jest-fetch-mock": "^3.0.3",
+    "lint-staged": "10.5.3",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "17.0.1",
     "redux-mock-store": "^1.5.4"
   },
   "browserslist": [
@@ -72,5 +72,15 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run lint:fix",
+      "git add --force"
+    ],
+    "*.{js,jsx,json}": [
+      "npm run prettify",
+      "git add --force"
+    ]
   }
 }

@@ -19,7 +19,7 @@ import { ReactComponent as Park } from './park.svg';
 import { ReactComponent as Uncertain } from './uncertain.svg';
 import { ReactComponent as WaterStructure } from './water_structure.svg';
 
-const Icon = props => {
+const Icon = (props) => {
   const { placetype, order, rite, ...rest } = props;
 
   switch (placetype) {
@@ -47,7 +47,7 @@ const Icon = props => {
     case 'mill':
       return <Mill {...rest} />;
     case 'monastery':
-      if (order.toLowerCase() === 'basilian') {
+      if (order === 'basilian') {
         return <GreekMonastery {...rest} />;
       }
       return <LatinMonastery {...rest} />;

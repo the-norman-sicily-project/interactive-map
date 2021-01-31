@@ -2,33 +2,33 @@ import SearchProvider from './search';
 import testdata from '../data/testdata';
 
 const allResults = testdata
-  .filter(feature => feature.geometry)
-  .map(feature => ({
+  .filter((feature) => feature.geometry)
+  .map((feature) => ({
     x: feature.geometry.coordinates[1],
     y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,
   }));
 
 const palermoResults = testdata
-  .filter(feature => feature.properties.english_place_name === 'Palermo')
-  .map(feature => ({
+  .filter((feature) => feature.properties.english_place_name === 'Palermo')
+  .map((feature) => ({
     x: feature.geometry.coordinates[1],
     y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,
   }));
 
 const cataniaResults = testdata
-  .filter(feature => feature.properties.english_place_name === 'Catania')
-  .map(feature => ({
+  .filter((feature) => feature.properties.english_place_name === 'Catania')
+  .map((feature) => ({
     x: feature.geometry.coordinates[1],
     y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,
   }));
 
 const agroResults = testdata
-  .filter(feature => feature.properties.english_place_name === "Forza d'Agrò")
+  .filter((feature) => feature.properties.english_place_name === "Forza d'Agrò")
 
-  .map(feature => ({
+  .map((feature) => ({
     x: feature.geometry.coordinates[1],
     y: feature.geometry.coordinates[0],
     label: feature.properties.english_place_name,

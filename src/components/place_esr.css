@@ -1,0 +1,4 @@
+.esr-container {
+    display: flex;
+    flex-direction: column;
+}

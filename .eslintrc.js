@@ -1,31 +1,23 @@
+const fs = require('fs');
+const path = require('path');
+
+const prettierOptions = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.prettierrc'), 'utf8'));
+
 module.exports = {
   env: {
     browser: true,
     jest: true,
-    es6: true,
-    node: true,
   },
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb', 'react-app', 'prettier', 'prettier/react'],
   plugins: ['prettier'],
-  parser: 'babel-eslint',
   rules: {
-    'camelcase': [
+    'prettier/prettier': ['error', prettierOptions],
+    camelcase: [
       'error',
       {
-        ignoreDestructuring: true
-      }
-    ],
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        trailingComma: 'es5',
+        ignoreDestructuring: true,
+        allow: ['^nsp_|^cssi_|^wgs_|^rdfs_|^skos_|^foaf_'],
       },
     ],
-  },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
 };

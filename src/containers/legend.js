@@ -1,11 +1,12 @@
 import { connect } from 'react-redux';
 import Legend from '../components/legend';
-import { getLoadingState, getSitesState } from '../selectors';
+import { legendSelector } from '../selectors';
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
+  const { loading, sites } = legendSelector(state);
   return {
-    loading: getLoadingState(state),
-    sites: getSitesState(state),
+    loading,
+    sites,
   };
 };
 

@@ -17,7 +17,7 @@ describe('App', () => {
     wrapper = shallow(
       <Provider store={store}>
         <App />
-      </Provider>
+      </Provider>,
     );
   });
 

@@ -4,15 +4,11 @@ const TabSchema = [
     fields: [
       {
         displayText: 'English',
-        path: 'properties.english_place_name',
+        path: 'labels.en',
       },
       {
         displayText: 'Italian',
-        path: 'properties.italian_place_name',
-      },
-      {
-        displayText: 'Alternate place names',
-        path: 'properties.alternate_place_names',
+        path: 'labels.it',
       },
     ],
   },
@@ -21,31 +17,19 @@ const TabSchema = [
     fields: [
       {
         displayText: 'Order',
-        path: 'properties.order',
+        path: 'nsp_monasticIdentity',
       },
       {
         displayText: 'Subject of Dedication',
-        path: 'properties.dedication',
+        path: 'nsp_subjectOfDedication',
       },
       {
         displayText: 'Gender',
-        path: 'properties.gender',
+        path: 'nsp_probableGender',
       },
       {
         displayText: 'Rank at Foundation',
-        path: 'properties.rank_at_foundation',
-      },
-      {
-        displayText: 'Mother House To',
-        path: 'properties.children',
-      },
-      {
-        displayText: 'Subject Of',
-        path: 'properties.parent',
-      },
-      {
-        displayText: 'Founder(s)',
-        path: 'properties.founders',
+        path: 'nsp_probableStatus',
       },
     ],
   },
@@ -53,36 +37,20 @@ const TabSchema = [
     displayText: 'Location',
     fields: [
       {
-        displayText: 'Longitude and Latitude',
-        path: 'geometry.coordinates',
+        displayText: 'Latitude',
+        path: 'wgs_lat',
       },
       {
-        displayText: 'Are These Coordinates Fairly Precise',
-        path: 'properties.positional_accuracy_assesment',
+        displayText: 'Longitude',
+        path: 'wgs_long',
+      },
+      {
+        displayText: 'Altitude',
+        path: 'wgs_alt',
       },
       {
         displayText: 'Historical Region',
-        path: 'properties.historical_province',
-      },
-      {
-        displayText: 'Modern Province',
-        path: 'properties.province',
-      },
-      {
-        displayText: 'Modern Comune',
-        path: 'properties.comune',
-      },
-      {
-        displayText: 'Location Name Variations',
-        path: 'properties.alternate_location_names',
-      },
-      {
-        displayText: 'Geonames URI ',
-        path: 'properties.location_see_also_uris',
-      },
-      {
-        displayText: 'Approximate Elevation in Meters',
-        path: 'properties.elevation',
+        path: 'nsp_historicalProvince',
       },
     ],
   },
@@ -91,36 +59,7 @@ const TabSchema = [
     fields: [
       {
         displayText: 'Date(s) Visited',
-        path: 'properties.dates_visited',
-      },
-      {
-        displayText: 'Does A Structure (Norman or Later) Exist Today?',
-        path: 'properties.archaeological_remains',
-      },
-      {
-        displayText:
-          'Seismic Classification According to the Dipartimento della Protezione Civile (2015)\n(on a scale of 1 - 4, with 1 representing the greatest risk for strong seismic activity)',
-        path: 'properties.seismic_class_id',
-      },
-      {
-        displayText: 'Cultural Stone Stability Index for Observation One',
-        path: 'properties.cultural_stone_stability_index_for_observation_one',
-      },
-      {
-        displayText: 'Cultural Stone Stability Index for Observation Two',
-        path: 'properties.cultural_stone_stability_index_for_observation_two',
-      },
-      {
-        displayText: 'Cultural Stone Stability Index for Observation Three',
-        path: 'properties.cultural_stone_stability_index_for_observation_three',
-      },
-      {
-        displayText: 'Greatest Stone Stability Concerns ',
-        path: 'properties.stone_stability_concerns',
-      },
-      {
-        displayText: 'Greatest External Threats',
-        path: 'properties.stone_external_threats',
+        path: 'nsp_field_visit',
       },
     ],
   },
@@ -129,23 +68,7 @@ const TabSchema = [
     fields: [
       {
         displayText: 'Types',
-        path: 'properties.attestation_types',
-      },
-      {
-        displayText: 'Earliest Surviving Record (Minimum Year) ',
-        path: 'properties.earliest_attestation_min_year',
-      },
-      {
-        displayText: 'Earliest Surviving Record (Maximum Year) ',
-        path: 'properties.earliest_attestation_max_year',
-      },
-      {
-        displayText: 'Earliest Surviving Record Notes',
-        path: '',
-      },
-      {
-        displayText: 'Period of First Attestation',
-        path: 'properties.reign_of_earliest_attestation_label',
+        path: 'nsp_attestationType',
       },
     ],
   },
@@ -153,12 +76,8 @@ const TabSchema = [
     displayText: 'Selected Sources\nand Notes',
     fields: [
       {
-        displayText: 'Sources',
-        path: 'properties.place_references',
-      },
-      {
         displayText: 'Notes',
-        path: 'properties.notes',
+        path: 'nsp_notes',
       },
     ],
   },
@@ -167,23 +86,23 @@ const TabSchema = [
     fields: [
       {
         displayText: 'Record Status',
-        path: 'properties.record_status',
+        path: 'nsp_recordStatus',
       },
       {
         displayText: 'Creation Date',
-        path: 'properties.created_at',
+        path: 'nsp_createdOn',
       },
       {
         displayText: 'Creation By',
-        path: 'properties.created_by',
+        path: 'nsp_createdBy',
       },
       {
         displayText: 'Last Updated on',
-        path: 'properties.updated_at',
+        path: 'nsp_updatedOn',
       },
       {
         displayText: 'Updated By',
-        path: 'properties.updated_by',
+        path: 'nsp_updatedBy',
       },
     ],
   },

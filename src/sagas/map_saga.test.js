@@ -23,19 +23,16 @@ describe('fetchSites', () => {
 
     const task = runSaga(
       {
-        dispatch: action => dispatched.push(action),
+        dispatch: (action) => dispatched.push(action),
         getState: () => ({ loading: false, sites: [] }),
       },
-      fetchSites
+      fetchSites,
     );
 
     await task.toPromise();
 
     expect(fetch.mock.calls.length).toEqual(1);
-    expect(dispatched).toEqual([
-      loadSitesBegin(),
-      loadSitesSuccess(expectedSites),
-    ]);
+    expect(dispatched).toEqual([loadSitesBegin(), loadSitesSuccess(expectedSites)]);
   });
 
   it('should call fetch and dispatch failure action', async () => {
@@ -45,18 +42,15 @@ describe('fetchSites', () => {
 
     const task = runSaga(
       {
-        dispatch: action => dispatched.push(action),
+        dispatch: (action) => dispatched.push(action),
         getState: () => ({ loading: false, sites: [] }),
       },
-      fetchSites
+      fetchSites,
     );
 
     await task.toPromise();
 
     expect(fetch.mock.calls.length).toEqual(1);
-    expect(dispatched).toEqual([
-      loadSitesBegin(),
-      loadSitesFailure(expectedResult),
-    ]);
+    expect(dispatched).toEqual([loadSitesBegin(), loadSitesFailure(expectedResult)]);
   });
 });
