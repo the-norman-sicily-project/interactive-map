@@ -82,10 +82,6 @@ query getPlace($placeId: String!, $placeType: String!) {
             nsp_monasticIdentity
         }
         
-        nsp_hasReference {
-          ... ReferenceFragment
-        }   
-    
         nsp_hasLocation {
             nsp_Location @type {
                 rdfs_seeAlso 
@@ -118,6 +114,10 @@ query getPlace($placeId: String!, $placeType: String!) {
         skos_altLabel @optional      
         nsp_fieldVisit @optional
 
+        nsp_hasReference @optional {
+            ... ReferenceFragment
+        }   
+      
         nsp_uncorroboratedInformation @optional {
             nsp_UncorroboratedInformation @type {
                 nsp_content
