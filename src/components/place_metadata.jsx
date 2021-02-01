@@ -36,9 +36,12 @@ const MetadataComponent = (props) => {
         {nsp_updatedBy.foaf_familyName}{' '}
         {nsp_updatedBy.foaf_mbox && <a href={nsp_updatedBy.foaf_mbox}>{translate('emailFieldPostfix')}</a>}
       </div>
-      <div>
-        <span className="boldText">{translate('metaRecordStatusFieldTitle')}</span> {nsp_recordStatus}
-      </div>
+      {nsp_recordStatus && (
+        <div>
+          <span className="boldText">{translate('metaRecordStatusFieldTitle')}</span>{' '}
+          {translate(nsp_recordStatus.trim())}
+        </div>
+      )}
     </div>
   );
 };

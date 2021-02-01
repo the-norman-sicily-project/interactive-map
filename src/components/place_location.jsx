@@ -76,9 +76,12 @@ const LocationComponent = (props) => {
           <span className="boldText">{translate('locationElevationFieldTitle')}</span> {wgs_alt}
         </div>
       )}
-      <div>
-        <span className="boldText">{translate('locationCoordinateSourceFieldTitle')}</span> {nsp_coordinateSource}
-      </div>
+      {nsp_coordinateSource && (
+        <div>
+          <span className="boldText">{translate('locationCoordinateSourceFieldTitle')}</span>{' '}
+          {translate(nsp_coordinateSource.trim())}
+        </div>
+      )}
       {nsp_seismicCode && (
         <div>
           <span className="boldText">{translate('locationSiesmicCodeFieldTitle')}</span>:{nsp_seismicCode}

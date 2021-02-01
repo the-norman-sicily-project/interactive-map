@@ -14,9 +14,9 @@ const ReferencesComponent = (props) => {
   let attestationTypeString;
 
   if (Array.isArray(nsp_attestationType)) {
-    attestationTypeString = startCaseList(nsp_attestationType);
+    attestationTypeString = startCaseList(nsp_attestationType.map((at) => translate(at.trim())));
   } else {
-    attestationTypeString = nsp_attestationType ? startCaseTerm(nsp_attestationType) : undefined;
+    attestationTypeString = nsp_attestationType ? startCaseTerm(translate(nsp_attestationType.trim())) : undefined;
   }
 
   const references = Array.isArray(nsp_hasReference) ? nsp_hasReference : [nsp_hasReference];
