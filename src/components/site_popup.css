@@ -87,3 +87,7 @@ li.react-tabs__tab {
   color: #004b8c;
   font-weight: bold;
 }
+
+div.mediaViewerParent {
+  position: relative;
+}

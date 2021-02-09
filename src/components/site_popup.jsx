@@ -13,6 +13,7 @@ import UCIComponent from './place_uci';
 import ReferencesComponent from './place_references';
 import PlaceTypeInfoComponent from './place_type';
 import LinksComponent from './place_links';
+import MediaComponent from './place_media';
 
 import './site_popup.css';
 
@@ -88,8 +89,8 @@ const SitePopup = (props) => {
               </div>
             </TabPanel>
             <TabPanel>
-              <div className="scrollableContent">
-                <div className="boldText">{translate('noDataMessage')}</div>
+              <div className="scrollableContent mediaViewerParent">
+                <MediaComponent {...currentPlace} />
               </div>
             </TabPanel>
           </Tabs>
