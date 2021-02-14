@@ -5,22 +5,22 @@ import './place_name.css';
 import { useTranslate } from 'react-redux-multilingual';
 import { shouldPolyfill } from '@formatjs/intl-displaynames/should-polyfill';
 
-const NameComponent = async (props) => {
+const NameComponent =  (props) => {
   const translate = useTranslate();
   const { currentLocale, labels, skos_altLabel } = props;
 
   if (shouldPolyfill()) {
     // Load the polyfill 1st BEFORE loading data
-    await import('@formatjs/intl-displaynames/polyfill');
+    import('@formatjs/intl-displaynames/polyfill');
   }
 
   if (Intl.DisplayNames.polyfilled) {
     switch (currentLocale) {
       default:
-        await import('@formatjs/intl-displaynames/locale-data/en');
+        import('@formatjs/intl-displaynames/locale-data/en');
         break;
       case 'it':
-        await import('@formatjs/intl-displaynames/locale-data/it');
+        import('@formatjs/intl-displaynames/locale-data/it');
         break;
     }
   }
