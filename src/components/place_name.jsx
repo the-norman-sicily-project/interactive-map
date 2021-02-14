@@ -3,6 +3,24 @@ import PropTypes from 'prop-types';
 import _ from 'lodash';
 import './place_name.css';
 import { useTranslate } from 'react-redux-multilingual';
+import {shouldPolyfill} from '@formatjs/intl-displaynames/should-polyfill'
+async function polyfill(locale) {
+  if (shouldPolyfill()) {
+    // Load the polyfill 1st BEFORE loading data
+    await import('@formatjs/intl-displaynames/polyfill')
+  }
+
+  if (Intl.DisplayNames.polyfilled) {
+    switch (locale) {
+      default:
+        await import('@formatjs/intl-displaynames/locale-data/en')
+        break
+      case 'it':
+        await import('@formatjs/intl-displaynames/locale-data/it')
+        break
+    }
+  }
+}
 
 const NameComponent = (props) => {
   const translate = useTranslate();
