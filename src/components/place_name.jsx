@@ -5,7 +5,7 @@ import './place_name.css';
 import { useTranslate } from 'react-redux-multilingual';
 import { shouldPolyfill } from '@formatjs/intl-displaynames/should-polyfill';
 
-const NameComponent =  (props) => {
+const NameComponent = (props) => {
   const translate = useTranslate();
   const { currentLocale, labels, skos_altLabel } = props;
 
