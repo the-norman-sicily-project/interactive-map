@@ -6,16 +6,18 @@ import MarkersContainer from '../containers/markers';
 import SearchBarContainer from '../containers/search_bar';
 import LegendContainer from '../containers/legend';
 import config from '../config';
-import apikeys from '../apikeys';
 
 const InteractiveMap = ({ loading }) => {
   if (loading) {
     return <div>Loading...</div>;
   }
+
+  const tileUrl = `http://${config.apiHost}:${config.apiPort}/mapproxy/{z}/{x}/{y}`;
+
   return (
     <div>
       <MapContainer center={config.centerPoint} zoom={config.initialZoom} maxZoom={config.maxZoom}>
-        <TileLayer url={config.tileURL + apikeys.MAPBOX_ACCESS_TOKEN} attribution={config.mapAttribution} />
+        <TileLayer url={tileUrl} attribution={config.mapAttribution} />
         <MarkersContainer />
         <SearchBarContainer
           eventHandlers={{
