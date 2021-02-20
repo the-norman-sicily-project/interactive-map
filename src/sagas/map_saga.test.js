@@ -1,11 +1,11 @@
 import { enableFetchMocks } from 'jest-fetch-mock';
 import { runSaga } from 'redux-saga';
-import { fetchSites } from './map_saga';
+import { getAllPlacesSaga } from './map_saga';
 import { loadSitesBegin, loadSitesSuccess, loadSitesFailure } from '../actions';
 
 enableFetchMocks();
 
-describe('fetchSites', () => {
+describe('getAllPlaces', () => {
   beforeEach(() => {
     fetch.resetMocks();
   });
@@ -26,7 +26,7 @@ describe('fetchSites', () => {
         dispatch: (action) => dispatched.push(action),
         getState: () => ({ loading: false, sites: [] }),
       },
-      fetchSites,
+      getAllPlacesSaga,
     );
 
     await task.toPromise();
@@ -45,7 +45,7 @@ describe('fetchSites', () => {
         dispatch: (action) => dispatched.push(action),
         getState: () => ({ loading: false, sites: [] }),
       },
-      fetchSites,
+      getAllPlacesSaga,
     );
 
     await task.toPromise();

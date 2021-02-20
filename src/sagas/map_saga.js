@@ -1,6 +1,8 @@
 import { all, call, put, select, takeEvery, takeLatest } from 'redux-saga/effects';
 import isEqual from 'lodash/isEqual';
-import { fetchPlaces, fetchPlace } from '../stardog';
+import isEmpty from 'lodash/isEmpty';
+import { getAllPlaces, getPlace } from '../api';
+
 import {
   INIT_MAP,
   loadSitesBegin,
@@ -13,34 +15,38 @@ import {
 } from '../actions';
 import { currentPlaceSelector } from '../selectors';
 
-export function* fetchSites() {
+export function* getAllPlacesSaga() {
   try {
     yield put(loadSitesBegin());
-    const response = yield call(fetchPlaces);
-    yield put(loadSitesSuccess(response));
+    const response = yield call(getAllPlaces);
+    const { data } = response;
+    yield put(loadSitesSuccess(data));
   } catch (e) {
     yield put(loadSitesFailure(e));
   }
 }
 
-export function* fetchSite(action) {
+export function* getPlaceSaga(action) {
   try {
     const currentPlace = yield select(currentPlaceSelector, {
       key: 'currentPlace',
     });
-    if (!isEqual(currentPlace.iri, action.place.placeIri)) {
+    const { place = {} } = action;
+    const { placeIri } = place;
+    if (!isEmpty(placeIri) && !isEqual(currentPlace.iri, placeIri)) {
       yield put(fetchPlaceBegin());
-      const response = yield call(fetchPlace, action);
-      yield put(fetchPlaceSuccess(response));
+      const response = yield call(getPlace, place);
+      const { data } = response;
+      yield put(fetchPlaceSuccess(data));
     }
   } catch (e) {
     yield put(fetchPlaceFailure(e));
   }
 }
 
-const initMapSaga = [takeEvery(INIT_MAP, fetchSites)];
+const initMapSaga = [takeEvery(INIT_MAP, getAllPlacesSaga)];
 
-const fetchPlaceSaga = [takeLatest(SET_SELECTED_PLACE, fetchSite)];
+const fetchPlaceSaga = [takeLatest(SET_SELECTED_PLACE, getPlaceSaga)];
 
 export default function* rootSaga() {
   yield all([...initMapSaga, ...fetchPlaceSaga]);
