@@ -10,19 +10,19 @@ const monasteryMarkup = (translate, props) => {
       {nsp_probableGender && (
         <div>
           <span className="boldText">{translate('monasteryGenderFieldTitle')}</span>{' '}
-          {translate(nsp_probableGender.trim())}
+          {translate(nsp_probableGender.trim().toLowerCase().replace(/ /g, '_'))}
         </div>
       )}
       {nsp_probableStatus && (
         <div>
           <span className="boldText">{translate('monasteryStatusFieldTitle')}</span>{' '}
-          {translate(nsp_probableStatus.trim())}
+          {translate(nsp_probableStatus.trim().toLowerCase().replace(/ /g, '_'))}
         </div>
       )}
       {nsp_monasticIdentity && (
         <div>
           <span className="boldText">{translate('monasteryOrderFieldTitle')}</span>{' '}
-          {translate(nsp_monasticIdentity.trim())}
+          {translate(nsp_monasticIdentity.trim().toLowerCase().replace(/ /g, '_'))}
         </div>
       )}
       {nsp_subjectOfDedication && (
