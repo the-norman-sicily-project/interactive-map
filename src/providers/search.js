@@ -1,37 +1,36 @@
-const stripDiacritics = (s) => {
-  if (s) {
-    return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  }
-  return s;
-};
+/* eslint class-methods-use-this: ["error", { "exceptMethods": ["parse"] }] */
+import { JsonProvider } from 'leaflet-geosearch';
+import config from '../config';
 
-class SearchProvider {
-  constructor(sites = []) {
-    this.sites = sites
-      .filter((feature) => {
-        const {
-          labels: { en: enLabel },
-          position,
-        } = feature.properties;
-        return position && enLabel;
-      })
-      .map((feature) => {
-        const {
-          labels: { en: enLabel, it: itLabel },
-          position,
-        } = feature.properties;
-        return {
-          x: position[1],
-          y: position[0],
-          label: `${enLabel}${itLabel ? ` (${itLabel})` : ''}`,
-          raw: feature,
-        };
-      });
+class SearchProvider extends JsonProvider {
+  endpoint({ query, type }) {
+    return this.getUrl(`http://${config.apiHost}:${config.apiPort}/names`, {
+      q: query,
+      f: 'json',
+    });
   }
 
-  async search({ query }) {
-    const re = new RegExp(stripDiacritics(query), 'gi');
-    return this.sites.filter((site) => re.test(stripDiacritics(site.label)));
+  parse({ data }) {
+    return data.reduce((accumulator, value) => {
+      const { rdfs_label, wgs_long, wgs_lat } = value;
+
+      if (Array.isArray(rdfs_label)) {
+        for (const label of rdfs_label) {
+          accumulator.push({
+            x: wgs_long,
+            y: wgs_lat,
+            label,
+          });
+        }
+      } else {
+        accumulator.push({
+          x: wgs_long,
+          y: wgs_lat,
+          label: rdfs_label,
+        });
+      }
+      return accumulator;
+    }, []);
   }
 }
 

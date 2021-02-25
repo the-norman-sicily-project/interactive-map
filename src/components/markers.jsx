@@ -8,6 +8,8 @@ import _ from 'lodash';
 import Icon from '../icons';
 import SitePopup from '../containers/site_popup';
 import { orderColorLookup } from '../utils';
+
+import 'react-leaflet-markercluster/dist/styles.min.css';
 import './markers.css';
 
 const markerIcon = (feature) => {
