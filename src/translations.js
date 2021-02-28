@@ -82,7 +82,7 @@ module.exports = {
       archaeological: 'Archaeological',
       uncorroborated: 'Uncorroborated',
       cssiIntro:
-        'For information on how Cultural Stone Stability Index (CSSI) data are generated and how to interpret scores, see the video on the CSSI under Resources/Learn/Videos',
+        'For information on how Cultural Stone Stability Index (CSSI) data are generated and how to interpret scores, see the video on the CSSI under Resources/Learn/Videos.',
     },
   },
   it: {
