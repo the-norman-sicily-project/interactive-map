@@ -1,3 +1,4 @@
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import { useEffect, useCallback } from 'react';
 import { useMap } from 'react-leaflet';
 import { useEventHandlers } from '@react-leaflet/core';
@@ -13,21 +14,22 @@ const SearchControl = (props) => {
   const map = useMap();
   const { provider } = props;
 
-  const findMarker = (latlng, layer) => {
-    if (layer.getLatLng) {
-      if (latlng.equals(layer.getLatLng(), 1.0e-5) && layer.options.data.id !== undefined) {
-        return layer;
+  const findMarker = useCallback((latlng, layer) => {
+    let marker;
+    if (layer.getLayers) {
+      const childLayers = layer.getLayers();
+      for (let i = 0; i < childLayers.length; i++) {
+        marker = findMarker(latlng, childLayers[i]);
+        if (marker) break;
       }
     }
-    if (layer.getAllChildMarkers) {
-      for (const marker of layer.getAllChildMarkers()) {
-        if (latlng.equals(marker.getLatLng(), 1.0e-5) && marker.options.data.id !== undefined) {
-          return marker;
-        }
+    if (layer.getLatLng && layer.options && layer.options.data && layer.options.data.id) {
+      if (latlng.equals(layer.getLatLng())) {
+        marker = layer;
       }
     }
-    return null;
-  };
+    return marker;
+  }, []);
 
   const onShowLocation = useCallback(
     (e) => {
@@ -36,7 +38,7 @@ const SearchControl = (props) => {
       let marker;
       let foundMarker = false;
       map.eachLayer((layer) => {
-        if (!foundMarker) {
+        if ((layer instanceof L.MarkerClusterGroup || layer instanceof L.Marker) && !foundMarker) {
           marker = findMarker(latlng, layer);
           if (marker) foundMarker = true;
         }
@@ -64,7 +66,7 @@ const SearchControl = (props) => {
         map.setView(latlng, config.searchZoom);
       }
     },
-    [map],
+    [map, findMarker],
   );
 
   useEventHandlers({ instance: map }, { 'geosearch/showlocation': onShowLocation });
