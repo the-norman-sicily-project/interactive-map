@@ -81,6 +81,8 @@ module.exports = {
       documentary: 'Documentary',
       archaeological: 'Archaeological',
       uncorroborated: 'Uncorroborated',
+      cssiIntro:
+        'For information on Cultural Stone Stability Index (CSSI) data are generated and how to interpreet scores, see the video on the CSSI under Resources/Learn/Videos',
     },
   },
   it: {
@@ -163,6 +165,7 @@ module.exports = {
       documentary: 'Documentario',
       archaeological: 'Archeologico',
       uncorroborated: 'Non avvalorato',
+      cssiIntro: `Per informazioni su come vengono generati i dati dell'indice di stabilità della pietra culturale (CSSI) e su come interpretare i punteggi, vedere il video sul CSSI in Risorse / Scopri di Più / Video.`,
     },
   },
 };
