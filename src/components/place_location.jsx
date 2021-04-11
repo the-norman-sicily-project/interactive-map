@@ -29,8 +29,9 @@ const LocationComponent = (props) => {
       nsp_seismicCode,
       nsp_modernComune,
       nsp_modernProvince,
+      nsp_historicalProvince,
+      nsp_locationHighLoc,
     },
-    nsp_historicalProvince,
   } = props;
 
   return (
@@ -76,6 +77,12 @@ const LocationComponent = (props) => {
           <span className="boldText">{translate('locationElevationFieldTitle')}</span> {wgs_alt}
         </div>
       )}
+      {nsp_locationHighLoc && (
+        <div>
+          <span className="boldText">{translate('locationHighLocFieldTitle')}</span>{' '}
+          {translate(nsp_locationHighLoc.toLowerCase())}
+        </div>
+      )}
       {nsp_coordinateSource && (
         <div>
           <span className="boldText">{translate('locationCoordinateSourceFieldTitle')}</span>{' '}
@@ -92,7 +99,6 @@ const LocationComponent = (props) => {
 };
 
 LocationComponent.propTypes = {
-  nsp_historicalProvince: PropTypes.string,
   nsp_hasLocation: PropTypes.shape({
     skos_altLabel: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
     rdfs_seeAlso: PropTypes.arrayOf(PropTypes.string),
@@ -103,11 +109,12 @@ LocationComponent.propTypes = {
     nsp_seismicCode: PropTypes.string,
     nsp_modernComune: PropTypes.string,
     nsp_modernProvince: PropTypes.string,
+    nsp_historicalProvince: PropTypes.string,
+    nsp_locationHighLoc: PropTypes.string,
   }),
 };
 
 LocationComponent.defaultProps = {
-  nsp_historicalProvince: null,
   nsp_hasLocation: {
     skos_altLabel: null,
     rdfs_seeAlso: null,
@@ -118,6 +125,8 @@ LocationComponent.defaultProps = {
     nsp_seismicCode: null,
     nsp_modernComune: null,
     nsp_modernProvince: null,
+    nsp_historicalProvince: null,
+    nsp_locationHighLoc: null,
   },
 };
 

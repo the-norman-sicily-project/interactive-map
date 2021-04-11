@@ -42,6 +42,7 @@ module.exports = {
       locationElevationFieldTitle: 'APPROXIMATE ELEVATION IN METERS:',
       locationCoordinateSourceFieldTitle: `COORDINATES' SOURCE:`,
       locationSiesmicCodeFieldTitle: 'SEISMIC CODE:',
+      locationHighLocFieldTitle: 'HIGH LOC IN LOCATION:',
       fieldVisitsFieldTitle: 'FIELD VISIT(S):',
       metaCreatedOnFieldTitle: 'RECORD CREATED ON',
       metaUpdatedOnFieldTitle: 'RECORD LAST UPDATED ON',
@@ -83,6 +84,8 @@ module.exports = {
       uncorroborated: 'Uncorroborated',
       cssiIntro:
         'For information on how Cultural Stone Stability Index (CSSI) data are generated and how to interpret scores, see the video on the CSSI under Resources/Learn/Videos.',
+      yes: 'Yes',
+      no: 'No',
     },
   },
   it: {
@@ -126,6 +129,7 @@ module.exports = {
       locationElevationFieldTitle: 'ALTEZZA APPROSSIMATIVA IN METRI:',
       locationCoordinateSourceFieldTitle: `FONTI COORDINATE:`,
       locationSiesmicCodeFieldTitle: 'NORMATIVA SISMICA:',
+      locationHighLocFieldTitle: 'HIGH LOC IN LOCATION:',
       fieldVisitsFieldTitle: 'VISITA IN LOCO:',
       metaCreatedOnFieldTitle: 'REGISTRO CREATO IL',
       metaUpdatedOnFieldTitle: 'REGISTRO AGGIORNATO IL',
@@ -166,6 +170,8 @@ module.exports = {
       archaeological: 'Archeologico',
       uncorroborated: 'Non avvalorato',
       cssiIntro: `Per informazioni su come vengono generati i dati dell'indice di stabilità della pietra culturale (CSSI) e su come interpretare i punteggi, vedere il video sul CSSI in Risorse / Scopri di Più / Video.`,
+      yes: 'Si',
+      no: 'No',
     },
   },
 };
