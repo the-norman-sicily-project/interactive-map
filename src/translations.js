@@ -4,8 +4,8 @@ module.exports = {
   en: {
     locale: 'en',
     messages: {
-      legendTitle: 'The Landscape of Norman Sicily',
-      legendSublistTitleMonastic: 'Monastic Sites',
+      legendTitle: 'The Monastic Landscape of Norman Sicily and its Greater Network',
+      legendSublistTitleMonastic: 'Communities',
       loading: 'Loading...',
       augustinian_canons: 'Augustinian Canons',
       basilians: 'Basilians',
@@ -91,8 +91,8 @@ module.exports = {
   it: {
     locale: 'it',
     messages: {
-      legendTitle: 'Il territorio della Sicilia Normanna',
-      legendSublistTitleMonastic: 'Siti monastici',
+      legendTitle: 'Il territorio monastico della Sicilia normanna e la sua rete più grande',
+      legendSublistTitleMonastic: 'Le Communità',
       loading: 'Attendi...',
       augustinian_canons: 'Canonici Agostiniani',
       basilians: 'Basiliani',
