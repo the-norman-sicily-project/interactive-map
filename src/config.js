@@ -8,7 +8,7 @@ const CONFIG = {
   apiHost: process.env.REACT_APP_API_SERVER_HOST || 'localhost',
   apiPort: process.env.REACT_APP_API_SERVER_PORT || '4000',
   media: {
-    catalogUrl: 'http://media.normansicily.org/data/catalog.js',
+    catalogUrl: 'https://media.normansicily.org/data/catalog.js',
   },
 };
 

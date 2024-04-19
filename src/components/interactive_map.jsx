@@ -17,7 +17,7 @@ const InteractiveMap = ({ loading }) => {
     return <div>{translate('loading')}</div>;
   }
 
-  const tileUrl = `http://${config.apiHost}:${config.apiPort}/mapproxy/{z}/{x}/{y}`;
+  const tileUrl = `https://${config.apiHost}:${config.apiPort}/mapproxy/{z}/{x}/{y}`;
 
   return (
     <div>
