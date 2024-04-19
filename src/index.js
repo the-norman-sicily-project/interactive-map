@@ -12,7 +12,7 @@ import AppContainer from './containers/app';
 import { initMap } from './actions';
 import { mapReducer } from './reducers';
 import rootSaga from './sagas/map_saga';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 import { getQueryParam } from './utils';
 
 const sagaMiddleware = createSagaMiddleware();
@@ -45,4 +45,4 @@ render(
 
 store.dispatch(initMap());
 
-registerServiceWorker();
+// registerServiceWorker();
