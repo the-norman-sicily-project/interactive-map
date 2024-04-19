@@ -3,6 +3,9 @@
 #secrets
 apikeys.js
 
+# envdir
+.env
+
 # dependencies
 /node_modules
 
