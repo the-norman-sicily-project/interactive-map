@@ -4,7 +4,7 @@ import config from '../config';
 
 class SearchProvider extends JsonProvider {
   endpoint({ query, type }) {
-    return this.getUrl(`http://${config.apiHost}:${config.apiPort}/names`, {
+    return this.getUrl(`https://${config.apiHost}:${config.apiPort}/names`, {
       q: query,
       f: 'json',
     });
