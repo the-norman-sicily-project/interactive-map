@@ -5,6 +5,7 @@ const CONFIG = {
   searchZoom: 13,
   mapAttribution:
     '<a href=&quot;https://www.mapbox.com/about/maps/&quot;>© Mapbox</a> <a href=&quot;http://www.openstreetmap.org/copyright&quot;>© OpenStreetMap</a>',
+  apiProtocol: process.env.REACT_APP_API_SERVER_PROTOCOL || 'http',
   apiHost: process.env.REACT_APP_API_SERVER_HOST || 'localhost',
   apiPort: process.env.REACT_APP_API_SERVER_PORT || '4000',
   media: {
