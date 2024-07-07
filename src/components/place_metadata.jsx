@@ -39,7 +39,7 @@ const MetadataComponent = (props) => {
       {nsp_recordStatus && (
         <div>
           <span className="boldText">{translate('metaRecordStatusFieldTitle')}</span>{' '}
-          {translate(nsp_recordStatus.trim())}
+          {translate(nsp_recordStatus.toLowerCase().trim())}
         </div>
       )}
     </div>

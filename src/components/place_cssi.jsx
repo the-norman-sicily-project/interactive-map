@@ -76,7 +76,17 @@ const CSSIComponent = (props) => {
                   </div>
                 )}
 
-                <div className="boldText">SCORES (lower is better):</div>
+                {[
+                  cssi_siteSettingScore,
+                  cssi_weaknessScore,
+                  cssi_largeErosionScore,
+                  cssi_smallErosionScore,
+                  cssi_rockCoatingsScore,
+                  cssi_totalAssessmentScore,
+                  cssi_otherConcernsScore,
+                  cssi_grandTotalAssessmentScore,
+                ].some((item) => item >= 0) && <div className="boldText">SCORES (lower is better):</div>}
+
                 {cssi_siteSettingScore >= 0 && (
                   <div>
                     <span className="boldText">SITE SETTING:</span> {cssi_siteSettingScore}
@@ -118,11 +128,14 @@ const CSSIComponent = (props) => {
                   </div>
                 )}
 
-                <div>
-                  <span className="boldText">ASSESSED ON</span> {new Date(cssi_assessmentDate).toLocaleDateString()} by{' '}
-                  {cssi_assessedBy.foaf_givenName} {cssi_assessedBy.foaf_familyName}{' '}
-                  {cssi_assessedBy.foaf_mbox && <a href={cssi_assessedBy.foaf_mbox}>(email)</a>}
-                </div>
+                {cssi_assessmentDate && (
+                  <div>
+                    <span className="boldText">ASSESSED ON</span> {new Date(cssi_assessmentDate).toLocaleDateString()}
+                    by
+                    {cssi_assessedBy.foaf_givenName} {cssi_assessedBy.foaf_familyName}{' '}
+                    {cssi_assessedBy.foaf_mbox && <a href={cssi_assessedBy.foaf_mbox}>(email)</a>}
+                  </div>
+                )}
                 <hr />
               </div>
             );
