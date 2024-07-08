@@ -82,6 +82,7 @@ const SearchControl = (props) => {
       autoClose: true,
       position: 'topright',
       style: 'bar',
+      maxSuggestions: 25,
     });
 
     map.addControl(searchControl);
