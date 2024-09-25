@@ -10,6 +10,13 @@ class SearchProvider extends JsonProvider {
     });
   }
 
+  search = (query) => {
+    if ('data' in query) {
+      return Promise.resolve([query.data]);
+    }
+    return super.search(query);
+  };
+
   parse({ data }) {
     return data.reduce((accumulator, value) => {
       const { rdfs_label, wgs_long, wgs_lat } = value;
