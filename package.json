@@ -21,7 +21,7 @@
     "axios": "^0.21.1",
     "enzyme": "3.11.0",
     "leaflet": "^1.7.1",
-    "leaflet-geosearch": "^3.2.1",
+    "leaflet-geosearch": "^4.0.0",
     "leaflet.markercluster": "^1.4.1",
     "lodash": "^4.17.20",
     "mirador": "^3.0.0",
