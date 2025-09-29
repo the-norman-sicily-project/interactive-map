@@ -101,7 +101,10 @@ const SitePopup = (props) => {
 };
 
 SitePopup.propTypes = {
-  currentPlace: PropTypes.shape(PropTypes.any),
+  currentPlace: PropTypes.shape({
+    labels: PropTypes.arrayOf(PropTypes.shape({})), // eslint-disable-line react/forbid-prop-types
+    skos_altLabel: PropTypes.arrayOf(PropTypes.shape({})), // eslint-disable-line react/forbid-prop-types
+  }),
   loadingCurrentPlace: PropTypes.bool,
   currentLocale: PropTypes.string,
 };

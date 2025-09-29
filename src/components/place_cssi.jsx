@@ -174,7 +174,7 @@ CSSIComponent.propTypes = {
       cssi_totalAssessmentScore: PropTypes.number,
       cssi_otherConcernsScore: PropTypes.number,
       cssi_grandTotalAssessmentScore: PropTypes.number,
-      cssi_hasRockCoatingNotation: PropTypes.arrayOf(PropTypes.object),
+      cssi_hasRockCoatingNotation: PropTypes.arrayOf(PropTypes.shape({})), // eslint-disable-line react/forbid-prop-types
     }),
   ),
 };

@@ -69,7 +69,7 @@ const Legend = ({ sites, loading }) => {
 
 Legend.propTypes = {
   loading: PropTypes.bool,
-  sites: PropTypes.arrayOf(PropTypes.object),
+  sites: PropTypes.arrayOf(PropTypes.shape({})), // eslint-disable-line react/forbid-prop-types
 };
 
 Legend.defaultProps = {

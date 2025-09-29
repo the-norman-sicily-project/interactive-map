@@ -83,7 +83,7 @@ const Markers = ({ handleMouseOver, handleMouseOut, sites, place }) => {
 };
 
 Markers.propTypes = {
-  sites: PropTypes.arrayOf(PropTypes.object),
+  sites: PropTypes.arrayOf(PropTypes.shape({})), // eslint-disable-line react/forbid-prop-types
   handleMouseOut: PropTypes.func.isRequired,
   handleMouseOver: PropTypes.func.isRequired,
   place: PropTypes.shape({}),
