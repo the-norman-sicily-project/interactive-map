@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-The Norman Sicily Project Interactive Map is a React application that displays historical places and sites in Norman Sicily using Leaflet maps. The application uses Redux for state management, Redux-Saga for side effects, and connects to an external API server for geographical and historical data.
+The Norman Sicily Project Interactive Map is a standalone React application that displays historical places and sites in Norman Sicily using Leaflet maps. The application uses Redux for state management, Redux-Saga for side effects, and loads all data from local JSON files. No backend server is required.
 
 ## Development Commands
 
@@ -28,26 +28,35 @@ The Norman Sicily Project Interactive Map is a React application that displays h
 - **Container Components**: Located in `src/containers/` - connect Redux state to presentational components
 - **Icons**: SVG icons for different place types stored in `src/icons/`
 
-### API Integration
-- **Configuration**: `src/config.js` contains API endpoints and map settings
-- **API Client**: `src/api.js` handles HTTP requests to the backend
-- **Environment Variables**: API server settings configurable via `.env` directory:
-  - `REACT_APP_API_SERVER_PROTOCOL` (default: http)
-  - `REACT_APP_API_SERVER_HOST` (default: localhost)
-  - `REACT_APP_API_SERVER_PORT` (default: 4000)
+### Data Integration
+- **Configuration**: `src/config.js` contains map settings and tile configuration
+- **API Client**: `src/api.js` loads data from local JSON files
+- **Local Data**: All place data stored in `src/data/places.json` and `src/data/place-details/`
+- **Environment Variables**: Optional Mapbox configuration:
+  - `REACT_APP_MAPBOX_ACCESS_TOKEN` - Mapbox public access token
+  - `REACT_APP_MAPBOX_USERNAME` - Mapbox username (default: mapbox)
+  - `REACT_APP_MAPBOX_STYLE_ID` - Mapbox style ID (default: streets-v11)
 
 ### Data Flow
 1. Map initializes via `initMap()` action
-2. Saga fetches sites from API and transforms Stardog RDF data to GeoJSON
+2. Saga loads sites from local `src/data/places.json` file
 3. Sites are displayed as clustered markers on Leaflet map
-4. User interactions (search, marker clicks) trigger place detail fetches
+4. User interactions (search, marker clicks) trigger place detail loads from `src/data/place-details/`
 5. Place details are displayed in popups with historical data, images, and references
+6. Map tiles served directly from Mapbox API (if configured) or OpenStreetMap fallback
+
+### Serverless Architecture
+- **No Backend Required**: Application runs completely client-side
+- **Local Data Storage**: All place data bundled in `src/data/` directory
+- **External Tile Services**: Map tiles served from Mapbox or OpenStreetMap
+- **Static Hosting Ready**: Can be deployed to any static hosting service
 
 ### Key Features
 - **Multilingual Support**: Uses `react-redux-multilingual` for i18n
 - **Search**: Leaflet GeoSearch integration for place searching
 - **Map Clustering**: Uses `react-leaflet-markercluster` for marker grouping
 - **Media Integration**: Connects to Mirador viewer for historical images
+- **Flexible Tile Sources**: Supports Mapbox (with token) or OpenStreetMap fallback
 
 ### Testing
 - Uses Jest and Enzyme for component testing
