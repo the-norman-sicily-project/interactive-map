@@ -17,12 +17,18 @@ const InteractiveMap = ({ loading }) => {
     return <div>{translate('loading')}</div>;
   }
 
-  const tileUrl = `${config.apiProtocol}://${config.apiHost}:${config.apiPort}/mapproxy/{z}/{x}/{y}`;
+  // Use Mapbox tiles if access token is provided, otherwise fallback to OpenStreetMap
+  const hasMapboxToken = config.mapbox.accessToken;
+  const tileUrl = hasMapboxToken
+    ? `https://api.mapbox.com/styles/v1/${config.mapbox.username}/${config.mapbox.styleId}/tiles/256/{z}/{x}/{y}@2x?access_token=${config.mapbox.accessToken}`
+    : config.fallbackTileUrl;
+
+  const attribution = hasMapboxToken ? config.mapAttribution : config.fallbackAttribution;
 
   return (
     <div>
       <MapContainer center={config.centerPoint} zoom={config.initialZoom} maxZoom={config.maxZoom}>
-        <TileLayer url={tileUrl} attribution={config.mapAttribution} />
+        <TileLayer url={tileUrl} attribution={attribution} />
         <MarkersContainer />
         <SearchBarContainer />
         <LegendContainer />

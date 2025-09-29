@@ -1,5 +1,6 @@
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 import { useEffect, useCallback } from 'react';
+import PropTypes from 'prop-types';
 import { useMap } from 'react-leaflet';
 import { useEventHandlers } from '@react-leaflet/core';
 import { GeoSearchControl } from 'leaflet-geosearch';
@@ -92,4 +93,9 @@ const SearchControl = (props) => {
 
   return null;
 };
+
+SearchControl.propTypes = {
+  provider: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+};
+
 export default SearchControl;

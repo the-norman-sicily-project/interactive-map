@@ -59,7 +59,7 @@ const MediaComponent = (props) => {
       const miradorInstance = mirador.viewer(config, [...miradorImageToolsPlugin]);
       miradorRef.current = miradorInstance;
     } catch (e) {
-      console.log(`An error occurred when mounting ${viewerId}: ${e.message}`);
+      // Error mounting Mirador viewer
     }
 
     return () => {
@@ -68,7 +68,7 @@ const MediaComponent = (props) => {
           miradorRef.current.unmount();
         }
       } catch (e) {
-        console.log(`An error occurred when dismounting ${viewerId}: ${e.message}`);
+        // Error dismounting Mirador viewer
       }
     };
   }, [viewerId, manifestId]);
