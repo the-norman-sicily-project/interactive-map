@@ -11,16 +11,49 @@ import('@formatjs/intl-displaynames/locale-data/it');
 const NameComponent = (props) => {
   const translate = useTranslate();
   const { currentLocale, labels, skos_altLabel } = props;
-  const languageNames = new Intl.DisplayNames([currentLocale], { type: 'language' });
+
+  // Create DisplayNames with fallback for unsupported locales
+  let languageNames;
+  try {
+    languageNames = new Intl.DisplayNames([currentLocale, 'en'], { type: 'language' });
+  } catch (error) {
+    // Fallback to English if currentLocale is not supported
+    languageNames = new Intl.DisplayNames(['en'], { type: 'language' });
+  }
+
+  // Helper function to get language name with fallback
+  const getLanguageName = (langCode) => {
+    if (!langCode || langCode.trim() === '') {
+      return 'UNKNOWN';
+    }
+
+    try {
+      const name = languageNames.of(langCode);
+      return name ? name.toUpperCase() : langCode.toUpperCase();
+    } catch (error) {
+      // If the language code is not recognized, just return the code itself
+      return langCode.toUpperCase();
+    }
+  };
 
   return (
     <div className="name-container">
       {labels.map((l) => {
+        if (!l || typeof l !== 'string') {
+          return null;
+        }
+
         const [lc, value] = l.split(',');
+
+        // Skip if we don't have both language code and value
+        if (!lc || !value) {
+          return null;
+        }
+
         return (
           <div key={_.uniqueId('name-')}>
-            <span className="boldText">{`${languageNames.of(lc).toUpperCase()} ${translate('nameFieldTitle')}`}</span>{' '}
-            {value}
+            <span className="boldText">{`${getLanguageName(lc.trim())} ${translate('nameFieldTitle')}`}</span>{' '}
+            {value.trim()}
           </div>
         );
       })}
