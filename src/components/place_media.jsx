@@ -1,16 +1,32 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useTranslate } from 'react-redux-multilingual';
 import mirador from 'mirador';
 import miradorImageToolsPlugin from 'mirador-image-tools/es/plugins/miradorImageToolsPlugin';
-import { catalog } from '../data/catalog';
 
 const MediaComponent = (props) => {
   const miradorRef = useRef();
+  const [catalog, setCatalog] = useState([]);
   const { nsp_id, nsp_placeType } = props;
   const locationId = `${nsp_placeType}${nsp_id}`;
   const viewerId = `viewer-${locationId}`;
   const { manifestId } = catalog.find((item) => item.locationId === locationId) || {};
+
+  // Load catalog data from public directory
+  useEffect(() => {
+    const loadCatalog = async () => {
+      try {
+        const response = await fetch(`${process.env.PUBLIC_URL}/data/catalog.json`);
+        if (response.ok) {
+          const catalogData = await response.json();
+          setCatalog(catalogData);
+        }
+      } catch (error) {
+        // Catalog loading failed, component will show no data message
+      }
+    };
+    loadCatalog();
+  }, []);
 
   useEffect(() => {
     const config = {

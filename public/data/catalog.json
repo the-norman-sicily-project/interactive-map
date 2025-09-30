@@ -1,4 +1,4 @@
-export const catalog=[
+[
   { manifestId: "https://norman-sicily.s3.amazonaws.com/Adrano/Castello_di_Adrano/manifest", locationId: "fortification2" },
   { manifestId: "https://norman-sicily.s3.amazonaws.com/Adrano/Santa_Lucia_di_Aderno/manifest", locationId: "monastery92" },
   { manifestId: "https://norman-sicily.s3.amazonaws.com/Agira/San_Filippo_d_Agira/manifest", locationId: "monastery125" },
@@ -152,4 +152,4 @@ export const catalog=[
   { manifestId: "https://norman-sicily.s3.amazonaws.com/Torrenova/San_Pietro_di_Deca/manifest", locationId: "church61" },
   { manifestId: "https://norman-sicily.s3.amazonaws.com/Troina/San_Michele_di_Troina/manifest", locationId: "monastery49" },
   { manifestId: "https://norman-sicily.s3.amazonaws.com/Troina/Sant_Elia_d_Embula/manifest", locationId: "monastery20" }
-];
+]
