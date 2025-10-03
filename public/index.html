@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <title>Interactive Map</title>
+  <script>
+    // Polyfill for process.env to prevent "process is not defined" errors
+    window.process = window.process || { env: {} };
+  </script>
 </head>
 
 <body>

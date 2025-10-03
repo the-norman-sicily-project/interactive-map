@@ -10,7 +10,18 @@ const CSSIComponent = (props) => {
 
   const { cssi_hasAssessment } = props;
 
-  const assessments = Array.isArray(cssi_hasAssessment) ? cssi_hasAssessment : [cssi_hasAssessment];
+  // Handle both array and single object, and filter out null/undefined values
+  const getAssessments = () => {
+    if (Array.isArray(cssi_hasAssessment)) {
+      return cssi_hasAssessment.filter((assessment) => assessment != null);
+    }
+    if (cssi_hasAssessment != null) {
+      return [cssi_hasAssessment];
+    }
+    return [];
+  };
+
+  const assessments = getAssessments();
 
   const content =
     assessments.length === 0 ? (
@@ -153,30 +164,12 @@ const CSSIComponent = (props) => {
 };
 
 CSSIComponent.propTypes = {
-  cssi_hasAssessment: PropTypes.arrayOf(
-    PropTypes.shape({
-      iri: PropTypes.string,
-      cssi_description: PropTypes.string,
-      cssi_rockType: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
-      cssi_assessedBy: PropTypes.shape({
-        foaf_givenName: PropTypes.string,
-        foaf_familyName: PropTypes.string,
-        foaf_mbox: PropTypes.string,
-      }),
-      cssi_assessmentDate: PropTypes.string,
-      cssi_rockCoatingNotationNotes: PropTypes.string,
-      cssi_naturalProcessType: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
-      cssi_siteSettingScore: PropTypes.number,
-      cssi_weaknessScore: PropTypes.number,
-      cssi_largeErosionScore: PropTypes.number,
-      cssi_smallErosionScore: PropTypes.number,
-      cssi_rockCoatingsScore: PropTypes.number,
-      cssi_totalAssessmentScore: PropTypes.number,
-      cssi_otherConcernsScore: PropTypes.number,
-      cssi_grandTotalAssessmentScore: PropTypes.number,
-      cssi_hasRockCoatingNotation: PropTypes.arrayOf(PropTypes.shape({})), // eslint-disable-line react/forbid-prop-types
-    }),
-  ),
+  cssi_hasAssessment: PropTypes.oneOfType([
+    PropTypes.array, // Allow any array
+    PropTypes.object, // Allow any object
+    PropTypes.string, // Allow strings
+    PropTypes.oneOf([null, undefined]), // Allow null/undefined
+  ]),
 };
 
 CSSIComponent.defaultProps = {

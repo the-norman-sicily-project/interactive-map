@@ -4,41 +4,64 @@ import _ from 'lodash';
 import './place_name.css';
 import { useTranslate } from 'react-redux-multilingual';
 
-import('@formatjs/intl-displaynames/polyfill');
-import('@formatjs/intl-displaynames/locale-data/en');
-import('@formatjs/intl-displaynames/locale-data/it');
+// Removed dynamic imports to avoid process.env issues
+// import('@formatjs/intl-displaynames/polyfill');
+// import('@formatjs/intl-displaynames/locale-data/en');
+// import('@formatjs/intl-displaynames/locale-data/it');
 
 const NameComponent = (props) => {
   const translate = useTranslate();
   const { currentLocale, labels, skos_altLabel } = props;
 
-  // Create DisplayNames with fallback for unsupported locales
-  let languageNames;
-  try {
-    languageNames = new Intl.DisplayNames([currentLocale, 'en'], { type: 'language' });
-  } catch (error) {
-    // Fallback to English if currentLocale is not supported
-    languageNames = new Intl.DisplayNames(['en'], { type: 'language' });
-  }
+  // Simple language name mapping to avoid Intl.DisplayNames issues
+  const getLanguageDisplayName = (code) => {
+    const languageMap = {
+      en: 'ENGLISH',
+      it: 'ITALIAN',
+      fr: 'FRENCH',
+      de: 'GERMAN',
+      es: 'SPANISH',
+      pt: 'PORTUGUESE',
+      la: 'LATIN',
+      ar: 'ARABIC',
+      gr: 'GREEK',
+      he: 'HEBREW',
+    };
+    return languageMap[code?.toLowerCase()] || code?.toUpperCase() || 'UNKNOWN';
+  };
 
   // Helper function to get language name with fallback
   const getLanguageName = (langCode) => {
-    if (!langCode || langCode.trim() === '') {
+    if (!langCode || typeof langCode !== 'string' || langCode.trim() === '') {
       return 'UNKNOWN';
     }
-
-    try {
-      const name = languageNames.of(langCode);
-      return name ? name.toUpperCase() : langCode.toUpperCase();
-    } catch (error) {
-      // If the language code is not recognized, just return the code itself
-      return langCode.toUpperCase();
-    }
+    return getLanguageDisplayName(langCode.trim());
   };
 
-  return (
-    <div className="name-container">
-      {labels.map((l) => {
+  // Render labels based on format
+  const renderLabels = () => {
+    if (!labels) {
+      return null;
+    }
+
+    // Handle object format {en: "Name", it: "Nome"}
+    if (typeof labels === 'object' && !Array.isArray(labels)) {
+      return Object.entries(labels).map(([lc, value]) => {
+        if (!lc || !value) {
+          return null;
+        }
+        return (
+          <div key={_.uniqueId('name-')}>
+            <span className="boldText">{`${getLanguageName(lc.trim())} ${translate('nameFieldTitle')}`}</span>{' '}
+            {value.trim()}
+          </div>
+        );
+      });
+    }
+
+    // Handle array format ["en,Name", "it,Nome"]
+    if (Array.isArray(labels)) {
+      return labels.map((l) => {
         if (!l || typeof l !== 'string') {
           return null;
         }
@@ -56,7 +79,15 @@ const NameComponent = (props) => {
             {value.trim()}
           </div>
         );
-      })}
+      });
+    }
+
+    return null;
+  };
+
+  return (
+    <div className="name-container">
+      {renderLabels()}
 
       {skos_altLabel && (
         <div>
@@ -69,7 +100,10 @@ const NameComponent = (props) => {
 };
 
 NameComponent.propTypes = {
-  labels: PropTypes.arrayOf(PropTypes.string),
+  labels: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.string), // Array format: ["en,Name", "it,Nome"]
+    PropTypes.objectOf(PropTypes.string), // Object format: {en: "Name", it: "Nome"}
+  ]),
   skos_altLabel: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
   currentLocale: PropTypes.string,
 };
