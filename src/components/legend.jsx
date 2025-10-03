@@ -1,4 +1,4 @@
-import React, { useMemo, memo } from 'react';
+import React, { useMemo, memo, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useTranslate } from 'react-redux-multilingual';
 import { getPlaceTypes, getListOfOrders, orderColorLookup } from '../utils';
@@ -7,6 +7,7 @@ import './legend.css';
 
 const Legend = memo(({ sites, loading }) => {
   const translate = useTranslate();
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   // Memoize legend data computation to prevent unnecessary recalculation
   const legendData = useMemo(() => {
@@ -61,14 +62,30 @@ const Legend = memo(({ sites, loading }) => {
   if (loading) {
     return <div>{translate('loading')}</div>;
   }
+  const toggleLegend = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   return (
     <div className="leaflet-control-container">
       <div className="leaflet-bottom leaflet-left">
         <div className="map-legend leaflet-control">
-          <div className="legend-title">{translate('legendTitle')}</div>
-          <div className="legend-scale">
-            <ul className="legend-labels">{legendData?.placeTypeMarkup}</ul>
+          <div className="legend-header">
+            <div className="legend-title">{translate('legendTitle')}</div>
+            <button
+              type="button"
+              className="legend-toggle"
+              onClick={toggleLegend}
+              aria-label={isCollapsed ? 'Show legend' : 'Hide legend'}
+              title={isCollapsed ? 'Show legend' : 'Hide legend'}>
+              {isCollapsed ? '▲' : '▼'}
+            </button>
           </div>
+          {!isCollapsed && (
+            <div className="legend-scale">
+              <ul className="legend-labels">{legendData?.placeTypeMarkup}</ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
