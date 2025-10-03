@@ -11,7 +11,7 @@ import { useTranslate } from 'react-redux-multilingual';
 
 const NameComponent = (props) => {
   const translate = useTranslate();
-  const { currentLocale, labels, skos_altLabel } = props;
+  const { labels, skos_altLabel } = props;
 
   // Simple language name mapping to avoid Intl.DisplayNames issues
   const getLanguageDisplayName = (code) => {
@@ -105,13 +105,11 @@ NameComponent.propTypes = {
     PropTypes.objectOf(PropTypes.string), // Object format: {en: "Name", it: "Nome"}
   ]),
   skos_altLabel: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
-  currentLocale: PropTypes.string,
 };
 
 NameComponent.defaultProps = {
   labels: [],
   skos_altLabel: null,
-  currentLocale: 'en',
 };
 
 export default NameComponent;

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React from 'react';
+import React, { useMemo, memo } from 'react';
 import PropTypes from 'prop-types';
 import { Popup } from 'react-leaflet';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -19,13 +19,14 @@ import './site_popup.css';
 
 import 'react-tabs/style/react-tabs.css';
 
-const SitePopup = (props) => {
+const SitePopup = memo((props) => {
   const translate = useTranslate();
 
   const { currentPlace, loadingCurrentPlace, currentLocale } = props;
   const { labels, skos_altLabel } = currentPlace;
 
-  const nameProps = { currentLocale, labels, skos_altLabel };
+  // Memoize props to prevent unnecessary re-renders
+  const nameProps = useMemo(() => ({ currentLocale, labels, skos_altLabel }), [currentLocale, labels, skos_altLabel]);
 
   return (
     <Popup minWidth={550} maxWidth={550} minHeight={250}>
@@ -98,7 +99,9 @@ const SitePopup = (props) => {
       )}
     </Popup>
   );
-};
+});
+
+SitePopup.displayName = 'SitePopup';
 
 SitePopup.propTypes = {
   currentPlace: PropTypes.shape({
