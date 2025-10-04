@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useTranslate } from 'react-redux-multilingual';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import MarkersContainer from '../containers/markers';
-import SearchBarContainer from '../containers/search_bar';
+import SearchToggleControlContainer from '../containers/search_toggle_control';
 import LegendContainer from '../containers/legend';
 import ErrorBoundary from './ErrorBoundary';
 import config from '../config';
@@ -42,7 +42,7 @@ const InteractiveMap = memo(({ loading }) => {
         </ErrorBoundary>
 
         <ErrorBoundary title="Search Error" message="Search functionality is temporarily unavailable." showRetry>
-          <SearchBarContainer />
+          <SearchToggleControlContainer />
         </ErrorBoundary>
 
         <ErrorBoundary title="Legend Error" message="Map legend is temporarily unavailable." showRetry={false}>
