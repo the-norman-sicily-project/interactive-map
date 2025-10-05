@@ -93,7 +93,7 @@ const main = () => {
   // Find all JSON files in data directory
   const jsonFiles = glob.sync('**/*.json', {
     cwd: dataDir,
-    absolute: true
+    absolute: true,
   });
 
   console.log(`Found ${jsonFiles.length} JSON files to process\n`);
@@ -101,7 +101,7 @@ const main = () => {
   let successCount = 0;
   let failCount = 0;
 
-  jsonFiles.forEach(filePath => {
+  jsonFiles.forEach((filePath) => {
     if (processFile(filePath)) {
       successCount++;
     } else {

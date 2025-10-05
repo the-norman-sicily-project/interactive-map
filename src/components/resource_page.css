@@ -1,0 +1,181 @@
+.resource-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.resource-header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.resource-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.resource-iri {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-left: 3px solid #4a90e2;
+  font-size: 0.9rem;
+}
+
+.resource-iri code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #4a90e2;
+  word-break: break-all;
+}
+
+.resource-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.collapsible-section {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.collapsible-section:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collapsible-header {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.collapsible-header:hover {
+  background-color: #e9ecef;
+}
+
+.collapsible-header.active {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.collapsible-header:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: -2px;
+}
+
+.collapsible-title {
+  flex: 1;
+}
+
+.collapsible-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+.collapsible-content {
+  padding: 20px;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  text-align: center;
+}
+
+.loading-container .loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #4a90e2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.error-container h2 {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.error-container p {
+  color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .resource-page {
+    padding: 10px;
+  }
+
+  .resource-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .collapsible-header {
+    padding: 12px 15px;
+    font-size: 1rem;
+  }
+
+  .collapsible-content {
+    padding: 15px;
+  }
+}
+
+/* Ensure child components display properly */
+.collapsible-content > * {
+  margin-bottom: 15px;
+}
+
+.collapsible-content > *:last-child {
+  margin-bottom: 0;
+}
