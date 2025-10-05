@@ -19,5 +19,12 @@ module.exports = {
         allow: ['^nsp_|^cssi_|^wgs_|^rdfs_|^skos_|^foaf_'],
       },
     ],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true,
+        packageDir: './',
+      },
+    ],
   },
 };

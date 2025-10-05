@@ -1,5 +1,6 @@
 /* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, memo } from 'react';
+import PropTypes from 'prop-types';
 import { useMap } from 'react-leaflet';
 import { useEventHandlers } from '@react-leaflet/core';
 import { GeoSearchControl } from 'leaflet-geosearch';
@@ -9,7 +10,7 @@ import config from '../config';
 
 import 'leaflet-geosearch/dist/geosearch.css';
 
-const SearchControl = (props) => {
+const SearchControl = memo((props) => {
   const translate = useTranslate();
   const map = useMap();
   const { provider } = props;
@@ -23,7 +24,7 @@ const SearchControl = (props) => {
         if (marker) break;
       }
     }
-    if (layer.getLatLng && layer.options && layer.options.data && layer.options.data.id) {
+    if (layer.getLatLng) {
       if (latlng.equals(layer.getLatLng())) {
         marker = layer;
       }
@@ -40,7 +41,9 @@ const SearchControl = (props) => {
       map.eachLayer((layer) => {
         if ((layer instanceof L.MarkerClusterGroup || layer instanceof L.Marker) && !foundMarker) {
           marker = findMarker(latlng, layer);
-          if (marker) foundMarker = true;
+          if (marker) {
+            foundMarker = true;
+          }
         }
       });
 
@@ -83,7 +86,21 @@ const SearchControl = (props) => {
       position: 'topright',
       style: 'bar',
       maxSuggestions: 25,
+      keepResult: false,
+      clearSearchOnBlur: true,
+      animateZoom: false,
     });
+
+    // Override the search control's showResult method to prevent marker management
+    searchControl.showResult = (result, params) => {
+      // Don't call the original showResult to avoid marker management issues
+      // Just trigger our custom event
+      map.fireEvent('geosearch/showlocation', {
+        location: result,
+        ...params,
+      });
+      return searchControl;
+    };
 
     map.addControl(searchControl);
 
@@ -91,5 +108,12 @@ const SearchControl = (props) => {
   }, [translate, map, provider]);
 
   return null;
+});
+
+SearchControl.displayName = 'SearchControl';
+
+SearchControl.propTypes = {
+  provider: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
 };
+
 export default SearchControl;

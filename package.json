@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "Interactive map application for the Norman Sicily Project",
   "private": true,
-  "homepage": "https://www.normansicily.org/places/map/",
+  "homepage": "https://www.normansicily.org/places/interactive-map/",
   "repository": {
     "type": "git",
     "url": "https://github.com/the-norman-sicily-project/interactive-map.git"
@@ -18,7 +18,7 @@
     "@formatjs/intl-displaynames": "^4.0.5",
     "@react-leaflet/core": "^1.0.2",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
-    "axios": "^0.21.1",
+    "axios": "^0.27.2",
     "enzyme": "3.11.0",
     "leaflet": "^1.7.1",
     "leaflet-geosearch": "^4.0.0",
@@ -33,6 +33,7 @@
     "react-leaflet-markercluster": "3.0.0-rc1",
     "react-redux": "^7.2.2",
     "react-redux-multilingual": "^2.0.4",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "4.0.1",
     "react-tabs": "^3.1.2",
     "redux": "^4.0.5",
@@ -86,5 +87,9 @@
       "npm run prettify",
       "git add --force"
     ]
+  },
+  "resolutions": {
+    "cheerio": "1.0.0-rc.12",
+    "minimatch": "7.4.6"
   }
 }

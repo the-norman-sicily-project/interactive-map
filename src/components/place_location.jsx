@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
-import './place_location.css';
-
 import { useTranslate } from 'react-redux-multilingual';
+import PlaceMap from './PlaceMap';
+import './place_location.css';
 
 const getSeeAlsoSource = (translate, link) => {
   if (link.includes('geonames.org')) {
@@ -19,6 +19,8 @@ const LocationComponent = (props) => {
   const translate = useTranslate();
 
   const {
+    nsp_placeType,
+    nsp_monasticIdentity,
     nsp_hasLocation: {
       skos_altLabel,
       rdfs_seeAlso,
@@ -36,6 +38,12 @@ const LocationComponent = (props) => {
 
   return (
     <div className="location-container">
+      <PlaceMap
+        latitude={wgs_lat}
+        longitude={wgs_long}
+        placeType={nsp_placeType}
+        monasticIdentity={nsp_monasticIdentity}
+      />
       {skos_altLabel && (
         <div>
           <span className="boldText">{translate('locationAltNamesFieldTitle')}</span>{' '}
@@ -99,6 +107,8 @@ const LocationComponent = (props) => {
 };
 
 LocationComponent.propTypes = {
+  nsp_placeType: PropTypes.string,
+  nsp_monasticIdentity: PropTypes.string,
   nsp_hasLocation: PropTypes.shape({
     skos_altLabel: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
     rdfs_seeAlso: PropTypes.arrayOf(PropTypes.string),
@@ -115,6 +125,8 @@ LocationComponent.propTypes = {
 };
 
 LocationComponent.defaultProps = {
+  nsp_placeType: null,
+  nsp_monasticIdentity: null,
   nsp_hasLocation: {
     skos_altLabel: null,
     rdfs_seeAlso: null,

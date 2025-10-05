@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import uniqueId from 'lodash/uniqueId';
 import './place_links.css';
 import { useTranslate } from 'react-redux-multilingual';
 
@@ -19,20 +18,30 @@ const LinksComponent = (props) => {
             <span className="boldText">{translate('linksFieldTitle')}</span>
           </div>
           <ul>
-            {links.map(({ nsp_role, nsp_hasSource, nsp_hasTarget, nsp_hasReference = [] } = {}) => {
+            {/* eslint-disable-next-line react/no-array-index-key */}
+            {links.map(({ nsp_role, nsp_hasSource, nsp_hasTarget, nsp_hasReference = [] } = {}, linkIdx) => {
               const references = Array.isArray(nsp_hasReference) ? nsp_hasReference : [nsp_hasReference];
+              const sourceIri = nsp_hasSource && nsp_hasSource.iri ? nsp_hasSource.iri : 'unknown';
+              const targetIri = nsp_hasTarget && nsp_hasTarget.iri ? nsp_hasTarget.iri : 'unknown';
+              const linkKey = `${sourceIri}-${targetIri}-${linkIdx}`;
 
               return (
-                <li key={uniqueId('links-')}>
+                <li key={linkKey}>
                   <div>
                     <div className="linksTitle">
-                      <span title={nsp_hasSource.iri}>{nsp_hasSource.skos_prefLabel}</span> {nsp_role}{' '}
-                      <span title={nsp_hasTarget.iri}>{nsp_hasTarget.skos_prefLabel}</span>
+                      <span title={nsp_hasSource && nsp_hasSource.iri}>
+                        {nsp_hasSource && nsp_hasSource.skos_prefLabel}
+                      </span>{' '}
+                      {nsp_role}{' '}
+                      <span title={nsp_hasTarget && nsp_hasTarget.iri}>
+                        {nsp_hasTarget && nsp_hasTarget.skos_prefLabel}
+                      </span>
                     </div>
-                    {references.map(({ nsp_zoteroIri, nsp_pages, nsp_notes }) => {
+                    {/* eslint-disable react/no-array-index-key */}
+                    {references.map(({ nsp_zoteroIri, nsp_pages, nsp_notes }, refIdx) => {
                       if (nsp_zoteroIri) {
                         return (
-                          <div key={uniqueId('reference-')}>
+                          <div key={`${linkKey}-ref-${refIdx}`}>
                             (Reference:{' '}
                             <a target="_blank" rel="noopener noreferrer" href={nsp_zoteroIri}>
                               {nsp_zoteroIri}
@@ -55,6 +64,7 @@ const LinksComponent = (props) => {
                       }
                       return null;
                     })}
+                    {/* eslint-enable react/no-array-index-key */}
                   </div>
                 </li>
               );
