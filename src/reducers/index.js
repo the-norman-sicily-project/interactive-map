@@ -53,13 +53,11 @@ const sparqljson2geojson = (places) => {
       type: GEOJSON_FEATURE_TYPE,
       geometry: {
         type: GEOJSON_POINT_TYPE,
-        coordinates: wgs_alt != null
-          ? [wgs_long, wgs_lat, wgs_alt]
-          : [wgs_long, wgs_lat]
+        coordinates: wgs_alt != null ? [wgs_long, wgs_lat, wgs_alt] : [wgs_long, wgs_lat],
       },
       properties: {
         ...makeProperties(rest),
-        position: [wgs_lat, wgs_long] // Leaflet expects [lat, lng] not GeoJSON [lng, lat]
+        position: [wgs_lat, wgs_long], // Leaflet expects [lat, lng] not GeoJSON [lng, lat]
       },
     }));
 };
