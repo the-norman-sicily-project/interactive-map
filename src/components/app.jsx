@@ -18,7 +18,8 @@ const App = () => (
         <Route path="/">
           <ErrorBoundary
             title="Map Loading Error"
-            message="There was a problem loading the interactive map. Please check your internet connection and try again.">
+            message="There was a problem loading the interactive map. Please check your internet connection and try again."
+          >
             <InteractiveMapContainer />
           </ErrorBoundary>
         </Route>

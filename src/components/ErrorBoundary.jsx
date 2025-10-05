@@ -59,7 +59,8 @@ class ErrorBoundary extends React.Component {
             borderRadius: '4px',
             backgroundColor: '#ffe0e0',
             margin: '10px',
-          }}>
+          }}
+        >
           <h2 style={{ color: '#d63031', marginTop: 0 }}>{title || 'Something went wrong'}</h2>
           <p style={{ color: '#636e72' }}>
             {message || 'An unexpected error occurred. Please try refreshing the page.'}
@@ -77,7 +78,8 @@ class ErrorBoundary extends React.Component {
                 borderRadius: '4px',
                 cursor: 'pointer',
                 marginRight: '10px',
-              }}>
+              }}
+            >
               Try Again
             </button>
           )}
@@ -92,7 +94,8 @@ class ErrorBoundary extends React.Component {
               padding: '8px 16px',
               borderRadius: '4px',
               cursor: 'pointer',
-            }}>
+            }}
+          >
             Refresh Page
           </button>
 
@@ -107,7 +110,8 @@ class ErrorBoundary extends React.Component {
                   overflow: 'auto',
                   fontSize: '12px',
                   marginTop: '10px',
-                }}>
+                }}
+              >
                 {error.toString()}
                 {'\n\n'}
                 {errorInfo.componentStack}

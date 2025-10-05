@@ -37,7 +37,8 @@ const InteractiveMap = memo(({ loading }) => {
         <ErrorBoundary
           title="Map Markers Error"
           message="Unable to display map markers. Some places may not be visible."
-          showRetry>
+          showRetry
+        >
           <MarkersContainer />
         </ErrorBoundary>
 

@@ -77,7 +77,8 @@ const Legend = memo(({ sites, loading }) => {
               className="legend-toggle"
               onClick={toggleLegend}
               aria-label={isCollapsed ? 'Show legend' : 'Hide legend'}
-              title={isCollapsed ? 'Show legend' : 'Hide legend'}>
+              title={isCollapsed ? 'Show legend' : 'Hide legend'}
+            >
               {isCollapsed ? '▲' : '▼'}
             </button>
           </div>

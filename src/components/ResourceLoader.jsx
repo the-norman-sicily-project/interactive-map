@@ -36,7 +36,8 @@ const ResourceLoader = ({ dispatchSetSelectedPlace, dispatchSetLocale, currentLo
   return (
     <ErrorBoundary
       title="Resource Loading Error"
-      message="There was a problem loading the resource. Please check the URL and try again.">
+      message="There was a problem loading the resource. Please check the URL and try again."
+    >
       <ResourcePage />
     </ErrorBoundary>
   );

@@ -92,7 +92,8 @@ const Markers = memo(({ handleMouseOver, handleMouseOut, sites, place }) => {
               position={position}
               icon={icon}
               data={{ iri, id: nsp_id, type: nsp_placeType }}
-              eventHandlers={eventHandlers}>
+              eventHandlers={eventHandlers}
+            >
               {place && <SitePopup />}
               <Tooltip>
                 <div className="popup-container">

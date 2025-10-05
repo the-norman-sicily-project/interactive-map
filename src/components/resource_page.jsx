@@ -23,7 +23,8 @@ const CollapsibleSection = ({ title, isOpen, onToggle, children }) => (
       type="button"
       className={`collapsible-header ${isOpen ? 'active' : ''}`}
       onClick={onToggle}
-      aria-expanded={isOpen}>
+      aria-expanded={isOpen}
+    >
       <span className="collapsible-title">{title}</span>
       <span className="collapsible-icon">{isOpen ? '−' : '+'}</span>
     </button>
@@ -103,7 +104,8 @@ const ResourcePage = memo((props) => {
         <CollapsibleSection
           title={translate('tabLabelNames')}
           isOpen={openSections.names}
-          onToggle={() => toggleSection('names')}>
+          onToggle={() => toggleSection('names')}
+        >
           <NameComponent {...nameProps} />
           <ESRComponent {...currentPlace} />
         </CollapsibleSection>
@@ -111,21 +113,24 @@ const ResourcePage = memo((props) => {
         <CollapsibleSection
           title={translate('tabLabelLocation')}
           isOpen={openSections.location}
-          onToggle={() => toggleSection('location')}>
+          onToggle={() => toggleSection('location')}
+        >
           <LocationComponent {...currentPlace} />
         </CollapsibleSection>
 
         <CollapsibleSection
           title={translate('tabLabelCssi')}
           isOpen={openSections.cssi}
-          onToggle={() => toggleSection('cssi')}>
+          onToggle={() => toggleSection('cssi')}
+        >
           <CSSIComponent {...currentPlace} />
         </CollapsibleSection>
 
         <CollapsibleSection
           title={translate('tabLabelNetwork')}
           isOpen={openSections.network}
-          onToggle={() => toggleSection('network')}>
+          onToggle={() => toggleSection('network')}
+        >
           <PlaceTypeInfoComponent {...currentPlace} />
           <LinksComponent {...currentPlace} />
         </CollapsibleSection>
@@ -133,28 +138,32 @@ const ResourcePage = memo((props) => {
         <CollapsibleSection
           title={translate('tabLabelReferences')}
           isOpen={openSections.references}
-          onToggle={() => toggleSection('references')}>
+          onToggle={() => toggleSection('references')}
+        >
           <ReferencesComponent {...currentPlace} />
         </CollapsibleSection>
 
         <CollapsibleSection
           title={translate('tabLabelNotes')}
           isOpen={openSections.notes}
-          onToggle={() => toggleSection('notes')}>
+          onToggle={() => toggleSection('notes')}
+        >
           <UCIComponent {...currentPlace} />
         </CollapsibleSection>
 
         <CollapsibleSection
           title={translate('tabLabelMetadata')}
           isOpen={openSections.metadata}
-          onToggle={() => toggleSection('metadata')}>
+          onToggle={() => toggleSection('metadata')}
+        >
           <MetadataComponent {...currentPlace} />
         </CollapsibleSection>
 
         <CollapsibleSection
           title={translate('tabLabelMedia')}
           isOpen={openSections.media}
-          onToggle={() => toggleSection('media')}>
+          onToggle={() => toggleSection('media')}
+        >
           <MediaComponent {...currentPlace} />
         </CollapsibleSection>
       </div>

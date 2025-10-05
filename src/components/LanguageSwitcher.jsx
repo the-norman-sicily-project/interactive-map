@@ -21,7 +21,8 @@ const LanguageSwitcher = ({ currentLocale, onLocaleChange }) => {
         type="button"
         className={`lang-button ${currentLocale === 'en' ? 'active' : ''}`}
         onClick={() => changeLocale('en')}
-        aria-label="Switch to English">
+        aria-label="Switch to English"
+      >
         EN
       </button>
       <span className="lang-separator">|</span>
@@ -29,7 +30,8 @@ const LanguageSwitcher = ({ currentLocale, onLocaleChange }) => {
         type="button"
         className={`lang-button ${currentLocale === 'it' ? 'active' : ''}`}
         onClick={() => changeLocale('it')}
-        aria-label="Switch to Italian">
+        aria-label="Switch to Italian"
+      >
         IT
       </button>
     </div>
