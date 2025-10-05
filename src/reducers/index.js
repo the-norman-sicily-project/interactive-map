@@ -1,5 +1,4 @@
 import { cloneDeep, getOr, set, unset, compose, isEqual } from 'lodash/fp';
-import _ from 'lodash';
 import {
   INIT_MAP,
   LOAD_SITES_BEGIN,
