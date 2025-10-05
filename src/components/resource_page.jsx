@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React, { useState, useMemo, memo } from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import { useTranslate } from 'react-redux-multilingual';
 import NameComponent from './place_name';
 import MetadataComponent from './place_metadata';
@@ -12,6 +13,7 @@ import ReferencesComponent from './place_references';
 import PlaceTypeInfoComponent from './place_type';
 import LinksComponent from './place_links';
 import MediaComponent from './place_media';
+import LanguageSwitcher from './LanguageSwitcher';
 
 import './resource_page.css';
 
@@ -38,7 +40,7 @@ CollapsibleSection.propTypes = {
 
 const ResourcePage = memo((props) => {
   const translate = useTranslate();
-  const { currentPlace, loadingCurrentPlace, currentLocale } = props;
+  const { currentPlace, loadingCurrentPlace, currentLocale, dispatchSetLocale } = props;
   const { labels, skos_altLabel } = currentPlace || {};
 
   // State for managing which sections are open (default: first section open)
@@ -87,6 +89,7 @@ const ResourcePage = memo((props) => {
 
   return (
     <div className="resource-page">
+      <LanguageSwitcher currentLocale={currentLocale} onLocaleChange={dispatchSetLocale} />
       <div className="resource-header">
         <h1>{currentPlace.skos_prefLabel || 'Unnamed Resource'}</h1>
         {currentPlace.iri && (
@@ -173,6 +176,7 @@ ResourcePage.propTypes = {
   }),
   loadingCurrentPlace: PropTypes.bool,
   currentLocale: PropTypes.string,
+  dispatchSetLocale: PropTypes.func.isRequired,
 };
 
 ResourcePage.defaultProps = {
@@ -181,4 +185,14 @@ ResourcePage.defaultProps = {
   currentLocale: 'en',
 };
 
-export default ResourcePage;
+const mapStateToProps = (state) => ({
+  currentPlace: state.map.currentPlace,
+  loadingCurrentPlace: state.map.loadingCurrentPlace,
+  currentLocale: state.Intl.locale,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  dispatchSetLocale: (locale) => dispatch({ type: 'SET_LOCALE', locale }),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(ResourcePage);

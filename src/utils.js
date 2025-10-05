@@ -110,13 +110,16 @@ export const startCaseList = (l = [], d = ',') => {
   return words.map((word) => startCaseTerm(word)).join(', ');
 };
 
-const getQuery = () => {
+const getQuery = (search) => {
+  if (search) {
+    return new URLSearchParams(search);
+  }
   if (typeof window !== 'undefined') {
     return new URLSearchParams(window.location.search);
   }
   return new URLSearchParams();
 };
 
-const getQueryStringValue = (key = null) => getQuery().get(key);
+const getQueryStringValue = (key = null, search = null) => getQuery(search).get(key);
 
-export const getQueryParam = (key, defaultVal) => getQueryStringValue(key) || defaultVal;
+export const getQueryParam = (key, defaultVal, search = null) => getQueryStringValue(key, search) || defaultVal;
