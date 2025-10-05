@@ -1,9 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import uniqueId from 'lodash/uniqueId';
 import './place_cssi.css';
 import { useTranslate } from 'react-redux-multilingual';
 import { startCaseTerm, startCaseList } from '../utils';
+
+// Helper to render rock coating notation list items
+// Using index in keys is acceptable here as the data is static and won't reorder
+/* eslint-disable react/no-array-index-key */
+const renderRockCoatingNotations = (rockCoatingNotations, iri) =>
+  rockCoatingNotations.flatMap((n, notationIdx) =>
+    Object.entries(n).map(([k, v], entryIdx) => {
+      const key = `${iri}-notation-${notationIdx}-entry-${entryIdx}`;
+      return (
+        <li key={key}>
+          {startCaseTerm(k)}: {v}
+        </li>
+      );
+    }),
+  );
+/* eslint-enable react/no-array-index-key */
 
 const CSSIComponent = (props) => {
   const translate = useTranslate();
@@ -28,32 +43,42 @@ const CSSIComponent = (props) => {
       <div className="boldText">{translate('noDataMessage')}</div>
     ) : (
       <div className="cssi-container">
+        {/* eslint-disable-next-line react/no-array-index-key */}
         {assessments.map(
-          ({
-            iri,
-            cssi_description,
-            cssi_rockType,
-            cssi_assessedBy,
-            cssi_assessmentDate,
-            cssi_rockCoatingNotationNotes,
-            cssi_naturalProcessType,
-            cssi_siteSettingScore,
-            cssi_weaknessScore,
-            cssi_largeErosionScore,
-            cssi_smallErosionScore,
-            cssi_rockCoatingsScore,
-            cssi_totalAssessmentScore,
-            cssi_otherConcernsScore,
-            cssi_grandTotalAssessmentScore,
-            cssi_hasRockCoatingNotation,
-          }) => {
-            const rockCoatingNotations = Array.isArray(cssi_hasRockCoatingNotation)
-              ? cssi_hasRockCoatingNotation
-              : [cssi_hasRockCoatingNotation];
+          (
+            {
+              iri,
+              cssi_description,
+              cssi_rockType,
+              cssi_assessedBy,
+              cssi_assessmentDate,
+              cssi_rockCoatingNotationNotes,
+              cssi_naturalProcessType,
+              cssi_siteSettingScore,
+              cssi_weaknessScore,
+              cssi_largeErosionScore,
+              cssi_smallErosionScore,
+              cssi_rockCoatingsScore,
+              cssi_totalAssessmentScore,
+              cssi_otherConcernsScore,
+              cssi_grandTotalAssessmentScore,
+              cssi_hasRockCoatingNotation,
+            },
+            assessmentIdx,
+          ) => {
+            let rockCoatingNotations = [];
+            if (Array.isArray(cssi_hasRockCoatingNotation)) {
+              rockCoatingNotations = cssi_hasRockCoatingNotation.filter(
+                (notation) => notation && Object.keys(notation).length > 0,
+              );
+            } else if (cssi_hasRockCoatingNotation && Object.keys(cssi_hasRockCoatingNotation).length > 0) {
+              rockCoatingNotations = [cssi_hasRockCoatingNotation];
+            }
             const rockTypes = Array.isArray(cssi_rockType) ? cssi_rockType : [cssi_rockType];
+            const assessmentKey = iri || `assessment-${assessmentIdx}`;
 
             return (
-              <div key={iri} className="assessment-container">
+              <div key={assessmentKey} className="assessment-container">
                 {cssi_description && (
                   <div>
                     <span className="boldText">{translate('descriptionFieldTitle')}</span> {cssi_description}
@@ -69,17 +94,8 @@ const CSSIComponent = (props) => {
                     <span className="boldText">ROCK COATING NOTES:</span> {cssi_rockCoatingNotationNotes}
                   </div>
                 )}
-                {rockCoatingNotations && (
-                  <ul>
-                    {' '}
-                    {rockCoatingNotations.map((n) =>
-                      Object.entries(n).map(([k, v]) => (
-                        <li key={uniqueId('notation')}>
-                          {startCaseTerm(k)}: {v}
-                        </li>
-                      )),
-                    )}
-                  </ul>
+                {rockCoatingNotations.length > 0 && (
+                  <ul>{renderRockCoatingNotations(rockCoatingNotations, assessmentKey)}</ul>
                 )}
                 {cssi_naturalProcessType && (
                   <div>
