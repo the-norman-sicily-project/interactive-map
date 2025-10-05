@@ -22,6 +22,22 @@ The Norman Sicily Project Interactive Map is a standalone React application that
 
 ## Architecture
 
+### Data Format and IRIs
+
+The project uses **Linked Open Data (LOD)** principles with slash-based IRIs for all entities:
+
+**IRI Pattern**: `http://www.normansicily.org/{namespace}/{class}/{type}/{id}`
+
+**Examples**:
+- Places: `http://www.normansicily.org/nsp/place/monastery/164`
+- Assessments: `http://www.normansicily.org/cssi/assessment/26`
+- People: `http://www.example.com/genealogy.owl#51370564` (external)
+
+This pattern supports:
+- Content negotiation for different RDF formats (Turtle, RDF/XML, JSON-LD)
+- Dereferenceable URIs following W3C best practices
+- Proper 303 redirects from resource to document
+
 ### State Management (Redux)
 - **Store**: Configured in `src/index.js` with Redux DevTools integration
 - **Reducers**: Main reducer in `src/reducers/index.js` handles map state (sites, currentPlace, loading states)
