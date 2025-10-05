@@ -25,7 +25,7 @@ The Norman Sicily Project Interactive Map is a standalone React application that
 ### State Management (Redux)
 - **Store**: Configured in `src/index.js` with Redux DevTools integration
 - **Reducers**: Main reducer in `src/reducers/index.js` handles map state (sites, currentPlace, loading states)
-  - Transforms data from legacy Stardog format to GeoJSON via `stardog2geojson()`
+  - Transforms data from SPARQL JSON format to GeoJSON via `sparqljson2geojson()`
   - Handles multilingual labels (array format or simple strings)
 - **Actions**: Located in `src/actions/index.js` for map initialization, site loading, and place fetching
 - **Sagas**: `src/sagas/map_saga.js` handles asynchronous operations like loading data from JSON files
