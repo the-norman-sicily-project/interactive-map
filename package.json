@@ -23,7 +23,7 @@
     "leaflet": "^1.7.1",
     "leaflet-geosearch": "^4.0.0",
     "leaflet.markercluster": "^1.4.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.23",
     "mirador": "^3.0.0",
     "mirador-image-tools": "^0.10.0",
     "prop-types": "15.7.2",
